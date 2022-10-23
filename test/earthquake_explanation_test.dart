@@ -7,21 +7,22 @@ import 'package:test/test.dart';
 
 void main() {
   void earthquakeExplanationTest(String fileName) {
-    final file = File('test_resources/json/schema/earthquake-explanation/$fileName');
+    final file =
+        File('test_resources/json/schema/earthquake-explanation/$fileName');
     final json = jsonDecode(file.readAsStringSync()) as Map<String, dynamic>;
     final telegram = TelegramJsonMain.fromJson(json);
     EarthquakeExplanation.fromJson(telegram.body);
   }
 
-///  vxse56_rjtd_20191111170053.json
-///  vxse56_rjtd_20200512162033.json
-///  vxse56_rjtd_20200512162433.json
-///  vxse56_rjtd_20200512162632.json
-///  vxse56_rjtd_20200512162834.json
-///  vxse56_rjtd_20200512163826.json
-///  vxse56_rjtd_20200512164025.json
-///  vxse56_rjtd_20200512164228.json
-///  vxse56_rjtd_20200512164452.json
+  ///  vxse56_rjtd_20191111170053.json
+  ///  vxse56_rjtd_20200512162033.json
+  ///  vxse56_rjtd_20200512162433.json
+  ///  vxse56_rjtd_20200512162632.json
+  ///  vxse56_rjtd_20200512162834.json
+  ///  vxse56_rjtd_20200512163826.json
+  ///  vxse56_rjtd_20200512164025.json
+  ///  vxse56_rjtd_20200512164228.json
+  ///  vxse56_rjtd_20200512164452.json
   group('earthquake-explanation', () {
     test(
       'vxse56_rjtd_20191111170053.json',

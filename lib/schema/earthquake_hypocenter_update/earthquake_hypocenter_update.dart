@@ -13,7 +13,7 @@ class EarthquakeHypocenterUpdate {
     this.text,
     this.comments,
   });
-  
+
   factory EarthquakeHypocenterUpdate.fromJson(Map<String, dynamic> json) =>
       _$EarthquakeHypocenterUpdateFromJson(json);
 

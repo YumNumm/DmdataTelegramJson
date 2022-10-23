@@ -18,7 +18,7 @@ class TsunamiInformation {
     this.comments,
   });
 
-  factory TsunamiInformation.fromJson(Map<String,dynamic> json) =>
+  factory TsunamiInformation.fromJson(Map<String, dynamic> json) =>
       _$TsunamiInformationFromJson(json);
 
   /// 津波情報
@@ -48,7 +48,8 @@ class Tsunami {
     this.estimations,
   });
 
-  factory Tsunami.fromJson(Map<String,dynamic> json) => _$TsunamiFromJson(json);
+  factory Tsunami.fromJson(Map<String, dynamic> json) =>
+      _$TsunamiFromJson(json);
 
   /// 津波の予測情報を配列で格納する
   /// VTSE41, VTSE51の時に出現
