@@ -30,6 +30,4 @@ migrate_working_dir/
 build/
 
 
-*.g.dart
-*.freezed.dart
 .fvm/flutter_sdk
