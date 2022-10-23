@@ -8,6 +8,15 @@ part 'earthquake_hypocenter_update.g.dart';
 
 @JsonSerializable(explicitToJson: true)
 class EarthquakeHypocenterUpdate {
+  EarthquakeHypocenterUpdate({
+    this.earthquake,
+    this.text,
+    this.comments,
+  });
+  
+  factory EarthquakeHypocenterUpdate.fromJson(Map<String, dynamic> json) =>
+      _$EarthquakeHypocenterUpdateFromJson(json);
+
   /// Earthquake component を参照、空間座標は度分単位で示す
   /// 取消時には出現しない
   final EarthquakeComponent? earthquake;
@@ -19,15 +28,6 @@ class EarthquakeHypocenterUpdate {
   /// 付加的な情報を文章形式で提供する
   /// 取消時や付加的な情報がない場合は出現しない
   final EarthquakeHypocenterUpdateComments? comments;
-
-  EarthquakeHypocenterUpdate({
-    this.earthquake,
-    this.text,
-    this.comments,
-  });
-
-  factory EarthquakeHypocenterUpdate.fromJson(Map<String, dynamic> json) =>
-      _$EarthquakeHypocenterUpdateFromJson(json);
 
   Map<String, dynamic> toJson() => _$EarthquakeHypocenterUpdateToJson(this);
 }

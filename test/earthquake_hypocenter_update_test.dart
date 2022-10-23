@@ -8,7 +8,8 @@ import 'package:test/test.dart';
 void main() {
   void earthquakeHypocenterUpdateTest(String fileName) {
     final file = File(
-        'test_resources/json/schema/earthquake-hypocenter-update/$fileName');
+      'test_resources/json/schema/earthquake-hypocenter-update/$fileName',
+    );
     final json = jsonDecode(file.readAsStringSync()) as Map<String, dynamic>;
     final telegram = TelegramJsonMain.fromJson(json);
     EarthquakeHypocenterUpdate.fromJson(telegram.body);
