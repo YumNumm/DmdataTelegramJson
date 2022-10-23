@@ -2,7 +2,6 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:dmdata_telegram_json/dmdata_telegram_json.dart';
-import 'package:dmdata_telegram_json/schema/earthquake_information/earthquake_information.dart';
 import 'package:test/test.dart';
 
 void main() {
