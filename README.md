@@ -2,9 +2,9 @@
 
 [Project DM-D.S.S](https://dmdata.jp/)のJSON型定義ライブラリ
 
-## Features
+## Status
 
-|||||
+||||||
 |---|---|---|---|---|
 |✅|緊急地震（予報・警報）|eew-information|VXSEii (ii = 42-45)|1.0.0|
 |✅|地震・津波関連|earthquake-information|VXSE51, VXSE52, VXSE53, VXSE62, VZSE40|1.1.0|
