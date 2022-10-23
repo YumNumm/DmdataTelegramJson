@@ -1,12 +1,13 @@
-import 'package:dmdata_telegram_json/utils/type.dart';
 import 'package:json_annotation/json_annotation.dart';
+
+import '../../utils/type.dart';
 
 part 'earthquake_component.g.dart';
 
 @JsonSerializable(explicitToJson: true)
 class EarthquakeComponent {
   EarthquakeComponent({
-    required this.arraivalTime,
+    required this.arrivalTime,
     required this.hypocenter,
     required this.magnitude,
     required this.originTime,
@@ -19,7 +20,7 @@ class EarthquakeComponent {
   final DateTime originTime;
 
   /// 地震検知時刻を分単位で、ISO8601の日本時間で記載する
-  final DateTime arraivalTime;
+  final DateTime? arrivalTime;
 
   /// 震源要素
   final EarthquakeComponentHypocenter hypocenter;
@@ -51,6 +52,7 @@ class EarthquakeComponentHypocenter {
 
   /// 震央地名コード
   /// コードは、気象庁防災情報XMLフォーマット コード表 地震火山関連コード表 による
+  @JsonKey(fromJson: stringToInt, toJson: stringFromInt)
   final int code;
 
   /// 震源地の空間座標
@@ -205,6 +207,7 @@ class EarthquakeComponentDepth {
   final String unit;
 
   /// 震源の深さ。不明時は Null とする
+  @JsonKey(fromJson: stringToIntNullable, toJson: stringFromIntNullable)
   final int? value;
 
   /// 深さの例外的表現。取りうる値は ごく浅い、７００ｋｍ以上、 不明
@@ -235,6 +238,7 @@ class EarthquakeComponentDetailed {
       _$EarthquakeComponentDetailedFromJson(json);
 
   /// 震央地名を補足する詳細震央地コード
+  @JsonKey(fromJson: stringToInt, toJson: stringFromInt)
   final int code;
 
   /// 震央地名を補足する詳細震央地名
@@ -263,6 +267,7 @@ class EarthquakeComponentAuxiliary {
 
   /// 震源位置の捕捉位置を表現する代表地域コード
   /// コードは、気象庁防災情報XMLフォーマット コード表 地震火山関連コード表 による
+  @JsonKey(fromJson: stringToInt, toJson: stringFromInt)
   final int code;
 
   /// 震源位置の捕捉位置を表現する代表地域名
@@ -294,6 +299,7 @@ class EarthquakeComponentAuxiliaryDistance {
   final String unit;
 
   /// 代表地域と震源の距離
+  @JsonKey(fromJson: stringToInt, toJson: stringFromInt)
   final int value;
 
   Map<String, dynamic> toJson() =>
@@ -320,6 +326,7 @@ class EarthquakeComponentMagnitude {
   final String unit;
 
   /// マグニチュードの数値。不明時またはM8以上の巨大地震と推測される場合は Null とする
+  @JsonKey(fromJson: stringToDoubleNullable, toJson: stringFromDoubleNullable)
   final double? value;
 
   /// マグニチュードの数値が求まらない事項を記載。Ｍ不明 又は Ｍ８を超える巨大地震 が入る

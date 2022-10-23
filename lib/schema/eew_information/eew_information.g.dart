@@ -234,6 +234,7 @@ const _$JmaintensityEnumMap = {
   Jmaintensity.int2: '2',
   Jmaintensity.int3: '3',
   Jmaintensity.int4: '4',
+  Jmaintensity.notRecievedYet: '!5-',
   Jmaintensity.int5Lower: '5-',
   Jmaintensity.int5Upper: '5+',
   Jmaintensity.int6Lower: '6-',

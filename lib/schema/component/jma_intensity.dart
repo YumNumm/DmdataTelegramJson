@@ -30,6 +30,10 @@ enum Jmaintensity {
   @JsonValue('4')
   int4('4', '震度4'),
 
+  /// 震度5弱以上未入電
+  @JsonValue('!5-')
+  notRecievedYet('!5-', '震度5弱以上未入電'),
+
   /// 震度5弱
   @JsonValue('5-')
   int5Lower('5-', '震度5弱'),

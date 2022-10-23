@@ -9,6 +9,12 @@ import 'package:json_annotation/json_annotation.dart';
 
 part 'eew_information.g.dart';
 
+/// # eew-information v1.0.0
+/// ## 対象とするXML電文
+/// 緊急地震速報（警報） (VXSE43)
+/// 緊急地震速報（予報） (VXSE44)
+/// 緊急地震速報（地震動予報） (VXSE45)
+/// 緊急地震速報テスト (VXSE42)
 @JsonSerializable(explicitToJson: true)
 class EewInformation {
   EewInformation({

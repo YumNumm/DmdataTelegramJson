@@ -10,7 +10,9 @@ part of 'earthquake_component.dart';
 
 EarthquakeComponent _$EarthquakeComponentFromJson(Map json) =>
     EarthquakeComponent(
-      arraivalTime: DateTime.parse(json['arraivalTime'] as String),
+      arrivalTime: json['arrivalTime'] == null
+          ? null
+          : DateTime.parse(json['arrivalTime'] as String),
       hypocenter: EarthquakeComponentHypocenter.fromJson(
           Map<String, dynamic>.from(json['hypocenter'] as Map)),
       magnitude: EarthquakeComponentMagnitude.fromJson(
@@ -22,7 +24,7 @@ Map<String, dynamic> _$EarthquakeComponentToJson(
         EarthquakeComponent instance) =>
     <String, dynamic>{
       'originTime': instance.originTime.toIso8601String(),
-      'arraivalTime': instance.arraivalTime.toIso8601String(),
+      'arrivalTime': instance.arrivalTime?.toIso8601String(),
       'hypocenter': instance.hypocenter.toJson(),
       'magnitude': instance.magnitude.toJson(),
     };
@@ -31,7 +33,7 @@ EarthquakeComponentHypocenter _$EarthquakeComponentHypocenterFromJson(
         Map json) =>
     EarthquakeComponentHypocenter(
       name: json['name'] as String,
-      code: json['code'] as int,
+      code: stringToInt(json['code'] as String),
       coordinate: EarthquakeComponentCoordinate.fromJson(
           Map<String, dynamic>.from(json['coordinate'] as Map)),
       depth: EarthquakeComponentDepth.fromJson(
@@ -52,7 +54,7 @@ Map<String, dynamic> _$EarthquakeComponentHypocenterToJson(
         EarthquakeComponentHypocenter instance) =>
     <String, dynamic>{
       'name': instance.name,
-      'code': instance.code,
+      'code': stringFromInt(instance.code),
       'coordinate': instance.coordinate.toJson(),
       'depth': instance.depth.toJson(),
       'detailed': instance.detailed?.toJson(),
@@ -137,7 +139,7 @@ EarthquakeComponentDepth _$EarthquakeComponentDepthFromJson(Map json) =>
     EarthquakeComponentDepth(
       type: json['type'] as String,
       unit: json['unit'] as String,
-      value: json['value'] as int?,
+      value: stringToIntNullable(json['value'] as String?),
       condition: $enumDecodeNullable(
           _$EarthquakeComponentDepthConditionEnumMap, json['condition']),
     );
@@ -147,7 +149,7 @@ Map<String, dynamic> _$EarthquakeComponentDepthToJson(
     <String, dynamic>{
       'type': instance.type,
       'unit': instance.unit,
-      'value': instance.value,
+      'value': stringFromIntNullable(instance.value),
       'condition':
           _$EarthquakeComponentDepthConditionEnumMap[instance.condition],
     };
@@ -160,21 +162,21 @@ const _$EarthquakeComponentDepthConditionEnumMap = {
 
 EarthquakeComponentDetailed _$EarthquakeComponentDetailedFromJson(Map json) =>
     EarthquakeComponentDetailed(
-      code: json['code'] as int,
+      code: stringToInt(json['code'] as String),
       name: json['name'] as String,
     );
 
 Map<String, dynamic> _$EarthquakeComponentDetailedToJson(
         EarthquakeComponentDetailed instance) =>
     <String, dynamic>{
-      'code': instance.code,
+      'code': stringFromInt(instance.code),
       'name': instance.name,
     };
 
 EarthquakeComponentAuxiliary _$EarthquakeComponentAuxiliaryFromJson(Map json) =>
     EarthquakeComponentAuxiliary(
       text: json['text'] as String,
-      code: json['code'] as int,
+      code: stringToInt(json['code'] as String),
       name: json['name'] as String,
       direction: json['direction'] as String,
       distance: EarthquakeComponentAuxiliaryDistance.fromJson(
@@ -185,7 +187,7 @@ Map<String, dynamic> _$EarthquakeComponentAuxiliaryToJson(
         EarthquakeComponentAuxiliary instance) =>
     <String, dynamic>{
       'text': instance.text,
-      'code': instance.code,
+      'code': stringFromInt(instance.code),
       'name': instance.name,
       'direction': instance.direction,
       'distance': instance.distance.toJson(),
@@ -195,21 +197,21 @@ EarthquakeComponentAuxiliaryDistance
     _$EarthquakeComponentAuxiliaryDistanceFromJson(Map json) =>
         EarthquakeComponentAuxiliaryDistance(
           unit: json['unit'] as String,
-          value: json['value'] as int,
+          value: stringToInt(json['value'] as String),
         );
 
 Map<String, dynamic> _$EarthquakeComponentAuxiliaryDistanceToJson(
         EarthquakeComponentAuxiliaryDistance instance) =>
     <String, dynamic>{
       'unit': instance.unit,
-      'value': instance.value,
+      'value': stringFromInt(instance.value),
     };
 
 EarthquakeComponentMagnitude _$EarthquakeComponentMagnitudeFromJson(Map json) =>
     EarthquakeComponentMagnitude(
       type: json['type'] as String,
       unit: json['unit'] as String,
-      value: (json['value'] as num?)?.toDouble(),
+      value: stringToDoubleNullable(json['value'] as String?),
       condition: $enumDecodeNullable(
           _$EarthquakeComponentMagnitudeConditionEnumMap, json['condition']),
     );
@@ -219,7 +221,7 @@ Map<String, dynamic> _$EarthquakeComponentMagnitudeToJson(
     <String, dynamic>{
       'type': instance.type,
       'unit': instance.unit,
-      'value': instance.value,
+      'value': stringFromDoubleNullable(instance.value),
       'condition':
           _$EarthquakeComponentMagnitudeConditionEnumMap[instance.condition],
     };
