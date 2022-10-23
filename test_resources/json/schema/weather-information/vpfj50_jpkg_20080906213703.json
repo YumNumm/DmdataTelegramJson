@@ -1,0 +1,27 @@
+{
+    "_originalId": "TELEGRAM_ID",
+    "_schema": {
+        "type": "weather-information",
+        "version": "1.0.0"
+    },
+    "type": "府県気象情報",
+    "title": "大雨に関する鹿児島県（奄美地方を除く）気象情報",
+    "status": "通常",
+    "infoType": "発表",
+    "editorialOffice": "鹿児島地方気象台",
+    "publishingOffice": [
+        "鹿児島地方気象台"
+    ],
+    "pressDateTime": "2008-09-06T12:37:03Z",
+    "reportDateTime": "2008-09-06T21:37:00+09:00",
+    "targetDateTime": "2008-09-06T21:37:00+09:00",
+    "eventId": "JPKG080046",
+    "serialNo": "3",
+    "infoKind": "同一現象用平文情報",
+    "infoKindVersion": "1.0_0",
+    "headline": "鹿児島・日置、出水・伊佐、川薩・姶良、大隅地方では、大雨のおそれはなくなりました。",
+    "body": {
+        "notice": null,
+        "comment": "　６日２１時の気象レーダー観測によると、発達\nした雨雲は鹿児島・日置、出水・伊佐、川薩・姶良、大隅地方から遠ざかっ\nています。\n\n　このため大雨のおそれはなくなりましたので、大雨・洪水注意報を解除し\nました。\n\n　これで「大雨に関する鹿児島県（奄美地方を除く）気象情報」は、終了し\nます。"
+    }
+}

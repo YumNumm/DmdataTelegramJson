@@ -59,32 +59,32 @@ Map<String, dynamic> _$EewAreaToJson(EewArea instance) => <String, dynamic>{
     };
 
 EewAreaKind _$EewAreaKindFromJson(Map json) => EewAreaKind(
-      code: json['code'] as int,
+      code: json['code'] as String,
       name: json['name'] as String,
-      last: EewAreaKindLast.fromJson(
-          Map<String, dynamic>.from(json['last'] as Map)),
+      lastKind: EewAreaKindLast.fromJson(
+          Map<String, dynamic>.from(json['lastKind'] as Map)),
     );
 
 Map<String, dynamic> _$EewAreaKindToJson(EewAreaKind instance) =>
     <String, dynamic>{
       'code': instance.code,
       'name': instance.name,
-      'last': instance.last.toJson(),
+      'lastKind': instance.lastKind.toJson(),
     };
 
 EewAreaKindLast _$EewAreaKindLastFromJson(Map json) => EewAreaKindLast(
-      code: json['code'] as int,
+      code: stringToInt(json['code'] as String),
       name: json['name'] as String,
     );
 
 Map<String, dynamic> _$EewAreaKindLastToJson(EewAreaKindLast instance) =>
     <String, dynamic>{
-      'code': instance.code,
+      'code': stringFromInt(instance.code),
       'name': instance.name,
     };
 
 EewEarthquake _$EewEarthquakeFromJson(Map json) => EewEarthquake(
-      arraivalTime: DateTime.parse(json['arraivalTime'] as String),
+      arrivalTime: DateTime.parse(json['arrivalTime'] as String),
       hypocenter: EewHypocenter.fromJson(
           Map<String, dynamic>.from(json['hypocenter'] as Map)),
       magnitude: EewMagnitude.fromJson(
@@ -98,14 +98,14 @@ EewEarthquake _$EewEarthquakeFromJson(Map json) => EewEarthquake(
 Map<String, dynamic> _$EewEarthquakeToJson(EewEarthquake instance) =>
     <String, dynamic>{
       'originTime': instance.originTime?.toIso8601String(),
-      'arraivalTime': instance.arraivalTime.toIso8601String(),
+      'arrivalTime': instance.arrivalTime.toIso8601String(),
       'condition': instance.condition,
       'hypocenter': instance.hypocenter.toJson(),
       'magnitude': instance.magnitude.toJson(),
     };
 
 EewHypocenter _$EewHypocenterFromJson(Map json) => EewHypocenter(
-      code: json['code'] as int,
+      code: stringToInt(json['code'] as String),
       name: json['name'] as String,
       coordinate: EarthquakeComponentCoordinate.fromJson(
           Map<String, dynamic>.from(json['coordinate'] as Map)),
@@ -119,7 +119,7 @@ EewHypocenter _$EewHypocenterFromJson(Map json) => EewHypocenter(
 
 Map<String, dynamic> _$EewHypocenterToJson(EewHypocenter instance) =>
     <String, dynamic>{
-      'code': instance.code,
+      'code': stringFromInt(instance.code),
       'name': instance.name,
       'coordinate': instance.coordinate.toJson(),
       'depth': instance.depth.toJson(),
@@ -131,15 +131,16 @@ Map<String, dynamic> _$EewHypocenterToJson(EewHypocenter instance) =>
 EewDepth _$EewDepthFromJson(Map json) => EewDepth(
       type: json['type'] as String,
       unit: json['unit'] as String,
-      value: json['value'] as int?,
-      condition: $enumDecode(_$EewDepthConditionEnumMap, json['condition']),
+      value: stringToIntNullable(json['value'] as String?),
+      condition:
+          $enumDecodeNullable(_$EewDepthConditionEnumMap, json['condition']),
     );
 
 Map<String, dynamic> _$EewDepthToJson(EewDepth instance) => <String, dynamic>{
       'type': instance.type,
       'unit': instance.unit,
-      'value': instance.value,
-      'condition': _$EewDepthConditionEnumMap[instance.condition]!,
+      'value': stringFromIntNullable(instance.value),
+      'condition': _$EewDepthConditionEnumMap[instance.condition],
     };
 
 const _$EewDepthConditionEnumMap = {
@@ -149,35 +150,36 @@ const _$EewDepthConditionEnumMap = {
 };
 
 EewReduce _$EewReduceFromJson(Map json) => EewReduce(
-      code: json['code'] as int,
+      code: stringToInt(json['code'] as String),
       name: json['name'] as String,
     );
 
 Map<String, dynamic> _$EewReduceToJson(EewReduce instance) => <String, dynamic>{
-      'code': instance.code,
+      'code': stringFromInt(instance.code),
       'name': instance.name,
     };
 
 EewAccuracy _$EewAccuracyFromJson(Map json) => EewAccuracy(
-      epicenters:
-          (json['epicenters'] as List<dynamic>).map((e) => e as int).toList(),
-      depth: json['depth'] as int,
-      magnitudeCalculation: json['magnitudeCalculation'] as int,
-      numberOfMagnitudeCalculation: json['numberOfMagnitudeCalculation'] as int,
+      epicenters: dynamicListToIntList(json['epicenters'] as List),
+      depth: stringToInt(json['depth'] as String),
+      magnitudeCalculation: stringToInt(json['magnitudeCalculation'] as String),
+      numberOfMagnitudeCalculation:
+          stringToInt(json['numberOfMagnitudeCalculation'] as String),
     );
 
 Map<String, dynamic> _$EewAccuracyToJson(EewAccuracy instance) =>
     <String, dynamic>{
-      'epicenters': instance.epicenters,
-      'depth': instance.depth,
-      'magnitudeCalculation': instance.magnitudeCalculation,
-      'numberOfMagnitudeCalculation': instance.numberOfMagnitudeCalculation,
+      'epicenters': dynamicListFromIntList(instance.epicenters),
+      'depth': stringFromInt(instance.depth),
+      'magnitudeCalculation': stringFromInt(instance.magnitudeCalculation),
+      'numberOfMagnitudeCalculation':
+          stringFromInt(instance.numberOfMagnitudeCalculation),
     };
 
 EewMagnitude _$EewMagnitudeFromJson(Map json) => EewMagnitude(
       type: json['type'] as String,
       unit: json['unit'] as String,
-      value: (json['value'] as num?)?.toDouble(),
+      value: stringToDoubleNullable(json['value'] as String?),
       condition: json['condition'] as String?,
     );
 
@@ -185,15 +187,17 @@ Map<String, dynamic> _$EewMagnitudeToJson(EewMagnitude instance) =>
     <String, dynamic>{
       'type': instance.type,
       'unit': instance.unit,
-      'value': instance.value,
+      'value': stringFromDoubleNullable(instance.value),
       'condition': instance.condition,
     };
 
 EewIntensity _$EewIntensityFromJson(Map json) => EewIntensity(
       forecastMaxInt: EewIntensityForecastMaxInt.fromJson(
           Map<String, dynamic>.from(json['forecastMaxInt'] as Map)),
-      forecastMaxLgInt: EewIntensityForecastMaxLgInt.fromJson(
-          Map<String, dynamic>.from(json['forecastMaxLgInt'] as Map)),
+      forecastMaxLgInt: json['forecastMaxLgInt'] == null
+          ? null
+          : EewIntensityForecastMaxLgInt.fromJson(
+              Map<String, dynamic>.from(json['forecastMaxLgInt'] as Map)),
       appendix: EewIntensityAppendix.fromJson(
           Map<String, dynamic>.from(json['appendix'] as Map)),
       regions: (json['regions'] as List<dynamic>)
@@ -205,7 +209,7 @@ EewIntensity _$EewIntensityFromJson(Map json) => EewIntensity(
 Map<String, dynamic> _$EewIntensityToJson(EewIntensity instance) =>
     <String, dynamic>{
       'forecastMaxInt': instance.forecastMaxInt.toJson(),
-      'forecastMaxLgInt': instance.forecastMaxLgInt.toJson(),
+      'forecastMaxLgInt': instance.forecastMaxLgInt?.toJson(),
       'appendix': instance.appendix.toJson(),
       'regions': instance.regions.map((e) => e.toJson()).toList(),
     };
@@ -267,8 +271,8 @@ EewIntensityAppendix _$EewIntensityAppendixFromJson(Map json) =>
           $enumDecode(_$EewIntensityMaxIntChangeEnumMap, json['maxIntChange']),
       maxLgIntChange: $enumDecodeNullable(
           _$EewIntensityMaxLgIntChangeEnumMap, json['maxLgIntChange']),
-      maxChangeReason: $enumDecode(
-          _$EewIntensityMaxIntChangeReasonEnumMap, json['maxChangeReason']),
+      maxIntChangeReason: $enumDecode(
+          _$EewIntensityMaxIntChangeReasonEnumMap, json['maxIntChangeReason']),
     );
 
 Map<String, dynamic> _$EewIntensityAppendixToJson(
@@ -277,33 +281,33 @@ Map<String, dynamic> _$EewIntensityAppendixToJson(
       'maxIntChange': _$EewIntensityMaxIntChangeEnumMap[instance.maxIntChange]!,
       'maxLgIntChange':
           _$EewIntensityMaxLgIntChangeEnumMap[instance.maxLgIntChange],
-      'maxChangeReason':
-          _$EewIntensityMaxIntChangeReasonEnumMap[instance.maxChangeReason]!,
+      'maxIntChangeReason':
+          _$EewIntensityMaxIntChangeReasonEnumMap[instance.maxIntChangeReason]!,
     };
 
 const _$EewIntensityMaxIntChangeEnumMap = {
-  EewIntensityMaxIntChange.noChange: 0,
-  EewIntensityMaxIntChange.increase: 1,
-  EewIntensityMaxIntChange.decrease: 2,
+  EewIntensityMaxIntChange.noChange: '0',
+  EewIntensityMaxIntChange.increase: '1',
+  EewIntensityMaxIntChange.decrease: '2',
 };
 
 const _$EewIntensityMaxLgIntChangeEnumMap = {
-  EewIntensityMaxLgIntChange.noChange: 0,
-  EewIntensityMaxLgIntChange.increase: 1,
-  EewIntensityMaxLgIntChange.decrease: 2,
+  EewIntensityMaxLgIntChange.noChange: '0',
+  EewIntensityMaxLgIntChange.increase: '1',
+  EewIntensityMaxLgIntChange.decrease: '2',
 };
 
 const _$EewIntensityMaxIntChangeReasonEnumMap = {
-  EewIntensityMaxIntChangeReason.noChange: 0,
-  EewIntensityMaxIntChangeReason.mChange: 1,
-  EewIntensityMaxIntChangeReason.epicenterChange: 2,
-  EewIntensityMaxIntChangeReason.mAndEpicenterChange: 3,
-  EewIntensityMaxIntChangeReason.depthChange: 4,
-  EewIntensityMaxIntChangeReason.byPlumAssume: 9,
+  EewIntensityMaxIntChangeReason.noChange: '0',
+  EewIntensityMaxIntChangeReason.mChange: '1',
+  EewIntensityMaxIntChangeReason.epicenterChange: '2',
+  EewIntensityMaxIntChangeReason.mAndEpicenterChange: '3',
+  EewIntensityMaxIntChangeReason.depthChange: '4',
+  EewIntensityMaxIntChangeReason.byPlumAssume: '9',
 };
 
 EewIntensityRegion _$EewIntensityRegionFromJson(Map json) => EewIntensityRegion(
-      code: json['code'] as int,
+      code: stringToInt(json['code'] as String),
       name: json['name'] as String,
       isPlum: json['isPlum'] as bool,
       isWarning: json['isWarning'] as bool,
@@ -323,7 +327,7 @@ EewIntensityRegion _$EewIntensityRegionFromJson(Map json) => EewIntensityRegion(
 
 Map<String, dynamic> _$EewIntensityRegionToJson(EewIntensityRegion instance) =>
     <String, dynamic>{
-      'code': instance.code,
+      'code': stringFromInt(instance.code),
       'name': instance.name,
       'isPlum': instance.isPlum,
       'isWarning': instance.isWarning,

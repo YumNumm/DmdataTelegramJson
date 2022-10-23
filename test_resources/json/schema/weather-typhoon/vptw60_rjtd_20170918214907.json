@@ -1,0 +1,77 @@
+{
+    "_originalId": "TELEGRAM_ID",
+    "_schema": {
+        "type": "weather-typhoon",
+        "version": "1.0.0"
+    },
+    "type": "台風解析・予報情報（５日予報）（Ｈ３０）",
+    "title": "台風解析・予報情報",
+    "status": "通常",
+    "infoType": "発表",
+    "editorialOffice": "気象庁本庁",
+    "publishingOffice": [
+        "気象庁予報部"
+    ],
+    "pressDateTime": "2017-09-18T12:49:07Z",
+    "reportDateTime": "2017-09-18T21:50:00+09:00",
+    "targetDateTime": "2017-09-18T21:00:00+09:00",
+    "targetDuration": "PT120H",
+    "eventId": "TC1725",
+    "serialNo": "143",
+    "infoKind": "台風解析・予報情報（５日予報）",
+    "infoKindVersion": "1.0_1",
+    "headline": null,
+    "body": {
+        "typhoon": {
+            "tcNumber": "TC201725",
+            "name": {
+                "text": "TALIM",
+                "kana": "タリム",
+                "number": "201718"
+            },
+            "remark": "台風消滅（温帯低気圧化）"
+        },
+        "forecasts": [
+            {
+                "type": "実況",
+                "elapsedTime": "PT0H",
+                "dateTime": "2017-09-18T21:00:00+09:00",
+                "classification": {
+                    "category": "LOW",
+                    "name": "温帯低気圧",
+                    "area": null,
+                    "intensity": null
+                },
+                "center": {
+                    "location": "サハリン",
+                    "coordinate": {
+                        "latitude": {
+                            "text": "47˚00'N",
+                            "value": "47.0000"
+                        },
+                        "longitude": {
+                            "text": "143˚00'E",
+                            "value": "143.0000"
+                        }
+                    },
+                    "direction": {
+                        "type": "移動方向",
+                        "unit": "１６方位漢字",
+                        "value": "北",
+                        "azimuth": "0"
+                    },
+                    "speed": {
+                        "type": "移動速度",
+                        "unit": "km/h",
+                        "value": "45"
+                    },
+                    "pressure": {
+                        "type": "中心気圧",
+                        "unit": "hPa",
+                        "value": "976"
+                    }
+                }
+            }
+        ]
+    }
+}

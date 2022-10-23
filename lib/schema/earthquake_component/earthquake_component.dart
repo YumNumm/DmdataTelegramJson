@@ -1,3 +1,4 @@
+import 'package:dmdata_telegram_json/utils/type.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'earthquake_component.g.dart';
@@ -10,7 +11,7 @@ class EarthquakeComponent {
     required this.magnitude,
     required this.originTime,
   });
-  
+
   factory EarthquakeComponent.fromJson(Map<String, dynamic> json) =>
       _$EarthquakeComponentFromJson(json);
 
@@ -127,6 +128,7 @@ class Latitude {
   final String text;
 
   /// 緯度を10進数法、単位度で表現する
+  @JsonKey(fromJson: stringToDouble, toJson: stringFromDouble)
   final double value;
 
   Map<String, dynamic> toJson() => _$LatitudeToJson(this);
@@ -147,6 +149,7 @@ class Longitude {
   final String text;
 
   /// 経度を10進数法、単位度で表現する
+  @JsonKey(fromJson: stringToDouble, toJson: stringFromDouble)
   final double value;
 
   Map<String, dynamic> toJson() => _$LongitudeToJson(this);
@@ -170,6 +173,7 @@ class Height {
   final String unit;
 
   /// 高さを10進数法、単位kmで表現する
+  @JsonKey(fromJson: stringToDouble, toJson: stringFromDouble)
   final double value;
 
   Map<String, dynamic> toJson() => _$HeightToJson(this);
@@ -235,6 +239,8 @@ class EarthquakeComponentDetailed {
 
   /// 震央地名を補足する詳細震央地名
   final String name;
+
+  Map<String, dynamic> toJson() => _$EarthquakeComponentDetailedToJson(this);
 }
 
 /// 震源位置の補足情報。

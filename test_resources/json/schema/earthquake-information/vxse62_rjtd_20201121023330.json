@@ -1,0 +1,834 @@
+{
+    "_originalId": "TELEGRAM_ID",
+    "_schema": {
+        "type": "earthquake-information",
+        "version": "1.1.0"
+    },
+    "type": "長周期地震動に関する観測情報",
+    "title": "長周期地震動に関する観測情報",
+    "status": "通常",
+    "infoType": "発表",
+    "editorialOffice": "気象庁本庁",
+    "publishingOffice": [
+        "気象庁"
+    ],
+    "pressDateTime": "2020-11-20T17:33:30Z",
+    "reportDateTime": "2020-11-21T02:33:10+09:00",
+    "targetDateTime": "2020-11-21T02:33:10+09:00",
+    "eventId": "20201121023300",
+    "serialNo": "1",
+    "infoKind": "長周期地震動に関する観測情報",
+    "infoKindVersion": "1.3_0",
+    "headline": "２１日０２時２３分ころの地震により、長周期地震動階級３を観測した地域があります。以下の地域では、最大震度は４以下でしたが、大きな長周期地震動階級（階級３以上）を観測しています。高層ビル高層階では非常に大きな揺れとなっていた可能性があります。宮城県北部",
+    "body": {
+        "earthquake": {
+            "originTime": "2020-11-21T02:23:00+09:00",
+            "arrivalTime": "2020-11-21T02:23:10+09:00",
+            "hypocenter": {
+                "code": "286",
+                "name": "岩手県沖",
+                "coordinate": {
+                    "latitude": {
+                        "text": "39.6˚N",
+                        "value": "39.6000"
+                    },
+                    "longitude": {
+                        "text": "142.7˚E",
+                        "value": "142.7000"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "-30000"
+                    },
+                    "geodeticSystem": "日本測地系"
+                },
+                "depth": {
+                    "type": "深さ",
+                    "unit": "km",
+                    "value": "30"
+                }
+            },
+            "magnitude": {
+                "type": "マグニチュード",
+                "value": "6.3",
+                "unit": "Mj"
+            }
+        },
+        "intensity": {
+            "maxInt": "5-",
+            "maxLgInt": "3",
+            "lgCategory": "4",
+            "prefectures": [
+                {
+                    "code": "02",
+                    "name": "青森県",
+                    "maxInt": "4",
+                    "maxLgInt": "1"
+                },
+                {
+                    "code": "03",
+                    "name": "岩手県",
+                    "maxInt": "5-",
+                    "maxLgInt": "1"
+                },
+                {
+                    "code": "04",
+                    "name": "宮城県",
+                    "maxInt": "4",
+                    "maxLgInt": "3"
+                }
+            ],
+            "regions": [
+                {
+                    "code": "200",
+                    "name": "青森県津軽北部",
+                    "maxInt": "3",
+                    "maxLgInt": "1"
+                },
+                {
+                    "code": "202",
+                    "name": "青森県三八上北",
+                    "maxInt": "4",
+                    "maxLgInt": "1"
+                },
+                {
+                    "code": "212",
+                    "name": "岩手県内陸北部",
+                    "maxInt": "5-",
+                    "maxLgInt": "1"
+                },
+                {
+                    "code": "213",
+                    "name": "岩手県内陸南部",
+                    "maxInt": "3",
+                    "maxLgInt": "1"
+                },
+                {
+                    "code": "220",
+                    "name": "宮城県北部",
+                    "maxInt": "4",
+                    "maxLgInt": "3"
+                }
+            ],
+            "stations": [
+                {
+                    "code": "0421200",
+                    "name": "登米市中田町",
+                    "int": "4",
+                    "lgInt": "3",
+                    "sva": {
+                        "unit": "cm/s",
+                        "value": "20.5"
+                    },
+                    "prePeriods": [
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "1"
+                            },
+                            "lgInt": "2",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "20.5"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "2"
+                            },
+                            "lgInt": "3",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "50.3"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "3"
+                            },
+                            "lgInt": "2",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "21.7"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "4"
+                            },
+                            "lgInt": "1",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "6.9"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "5"
+                            },
+                            "lgInt": "0",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "0.5"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "6"
+                            },
+                            "lgInt": "0",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "0.3"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "7"
+                            },
+                            "lgInt": "0",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "0.2"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "0220100",
+                    "name": "青森市花園",
+                    "int": "3",
+                    "lgInt": "1",
+                    "sva": {
+                        "unit": "cm/s",
+                        "value": "8.9"
+                    },
+                    "prePeriods": [
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "1"
+                            },
+                            "lgInt": "1",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "8.9"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "2"
+                            },
+                            "lgInt": "1",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "5.4"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "3"
+                            },
+                            "lgInt": "0",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "4.1"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "4"
+                            },
+                            "lgInt": "0",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "1.1"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "5"
+                            },
+                            "lgInt": "0",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "0.7"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "6"
+                            },
+                            "lgInt": "0",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "0.5"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "7"
+                            },
+                            "lgInt": "0",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "0.3"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "0220500",
+                    "name": "五所川原市栄町",
+                    "int": "3",
+                    "lgInt": "1",
+                    "sva": {
+                        "unit": "cm/s",
+                        "value": "5.4"
+                    },
+                    "prePeriods": [
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "1"
+                            },
+                            "lgInt": "0",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "4.5"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "2"
+                            },
+                            "lgInt": "1",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "5.3"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "3"
+                            },
+                            "lgInt": "1",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "6.0"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "4"
+                            },
+                            "lgInt": "0",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "3.4"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "5"
+                            },
+                            "lgInt": "0",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "1.3"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "6"
+                            },
+                            "lgInt": "0",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "0.7"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "7"
+                            },
+                            "lgInt": "0",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "0.5"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "0244200",
+                    "name": "五戸町古舘",
+                    "int": "4",
+                    "lgInt": "1",
+                    "sva": {
+                        "unit": "cm/s",
+                        "value": "7.9"
+                    },
+                    "prePeriods": [
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "1"
+                            },
+                            "lgInt": "1",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "5.5"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "2"
+                            },
+                            "lgInt": "1",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "6.5"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "3"
+                            },
+                            "lgInt": "1",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "7.9"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "4"
+                            },
+                            "lgInt": "1",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "5.0"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "5"
+                            },
+                            "lgInt": "0",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "3.3"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "6"
+                            },
+                            "lgInt": "0",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "0.5"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "7"
+                            },
+                            "lgInt": "0",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "0.3"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "0321500",
+                    "name": "奥州市水沢大鐘町",
+                    "int": "3",
+                    "lgInt": "1",
+                    "sva": {
+                        "unit": "cm/s",
+                        "value": "7.9"
+                    },
+                    "prePeriods": [
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "1"
+                            },
+                            "lgInt": "1",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "6.8"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "2"
+                            },
+                            "lgInt": "1",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "7.8"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "3"
+                            },
+                            "lgInt": "1",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "5.8"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "4"
+                            },
+                            "lgInt": "0",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "3.1"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "5"
+                            },
+                            "lgInt": "0",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "1.4"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "6"
+                            },
+                            "lgInt": "0",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "0.7"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "7"
+                            },
+                            "lgInt": "0",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "0.4"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "0330102",
+                    "name": "雫石町西根上駒木野",
+                    "int": "3",
+                    "lgInt": "1",
+                    "sva": {
+                        "unit": "cm/s",
+                        "value": "5.0"
+                    },
+                    "prePeriods": [
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "1"
+                            },
+                            "lgInt": "0",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "4.4"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "2"
+                            },
+                            "lgInt": "1",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "5.0"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "3"
+                            },
+                            "lgInt": "0",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "2.5"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "4"
+                            },
+                            "lgInt": "0",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "2.2"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "5"
+                            },
+                            "lgInt": "0",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "1.1"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "6"
+                            },
+                            "lgInt": "0",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "0.6"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "7"
+                            },
+                            "lgInt": "0",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "0.3"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "0421501",
+                    "name": "大崎市古川大崎",
+                    "int": "2",
+                    "lgInt": "1",
+                    "sva": {
+                        "unit": "cm/s",
+                        "value": "5.4"
+                    },
+                    "prePeriods": [
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "1"
+                            },
+                            "lgInt": "0",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "4.2"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "2"
+                            },
+                            "lgInt": "1",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "5.4"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "3"
+                            },
+                            "lgInt": "0",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "2.8"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "4"
+                            },
+                            "lgInt": "0",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "2.3"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "5"
+                            },
+                            "lgInt": "0",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "1.0"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "6"
+                            },
+                            "lgInt": "0",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "0.5"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "7"
+                            },
+                            "lgInt": "0",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "0.3"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "0450100",
+                    "name": "涌谷町新町裏",
+                    "int": "3",
+                    "lgInt": "1",
+                    "sva": {
+                        "unit": "cm/s",
+                        "value": "10.1"
+                    },
+                    "prePeriods": [
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "1"
+                            },
+                            "lgInt": "1",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "10.1"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "2"
+                            },
+                            "lgInt": "0",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "4.9"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "3"
+                            },
+                            "lgInt": "0",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "1.8"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "4"
+                            },
+                            "lgInt": "0",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "0.7"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "5"
+                            },
+                            "lgInt": "0",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "0.4"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "6"
+                            },
+                            "lgInt": "0",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "0.2"
+                            }
+                        },
+                        {
+                            "periodicBand": {
+                                "unit": "秒台",
+                                "value": "7"
+                            },
+                            "lgInt": "0",
+                            "sva": {
+                                "unit": "cm/s",
+                                "value": "0.2"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "comments": {
+            "free": "\n各長周期地震動階級に対する簡易な現象表現\n 階級１やや大きな揺れ\n 階級２大きな揺れ\n 階級３非常に大きな揺れ\n 階級４極めて大きな揺れ\n波形、スペクトル等、本地震の長周期地震動に関する詳細な情報は気象庁の長周期地震動に関する観測情報のウェブサイト　(　https://www.data.jma.go.jp/eew/data/ltpgm/20201121100000/index.html　) もあわせてご活用ください。\n    ",
+            "uri": "https://www.data.jma.go.jp/eew/data/ltpgm/202011211100000/index.html"
+        }
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "_originalId": "TELEGRAM_ID",
+    "_schema": {
+        "type": "volcano-information",
+        "version": "1.0.0"
+    },
+    "type": "噴火に関する火山観測報",
+    "title": "火山名　有珠山　噴火に関する火山観測報",
+    "status": "通常",
+    "infoType": "発表",
+    "editorialOffice": "札幌管区気象台",
+    "publishingOffice": [
+        "札幌管区気象台"
+    ],
+    "pressDateTime": "2000-03-31T04:12:00Z",
+    "reportDateTime": "2000-03-31T13:12:00+09:00",
+    "targetDateTime": "2000-03-31T13:10:00+09:00",
+    "eventId": "20000331131200_112",
+    "serialNo": "1",
+    "infoKind": "噴火に関する火山観測報",
+    "infoKindVersion": "1.0_0",
+    "headline": "火　　山：有珠山\n日　　時：2000年03月31日13時10分（310410UTC）\n現　　象：噴火",
+    "body": {
+        "target": {
+            "code": "112",
+            "name": "有珠山",
+            "coordinate": {
+                "latitude": {
+                    "text": "42˚32.63'N",
+                    "value": "42.5438"
+                },
+                "longitude": {
+                    "text": "140˚50.35'E",
+                    "value": "140.8392"
+                },
+                "height": {
+                    "type": "高さ",
+                    "unit": "m",
+                    "value": "733"
+                }
+            },
+            "kind": {
+                "code": "52",
+                "name": "噴火"
+            }
+        },
+        "eruption": {
+            "eventDateTime": {
+                "value": "2000-03-31T13:10:00+09:00",
+                "validFormat": "yyyy-mm-ddThh:mm"
+            },
+            "colorPlume": {
+                "heightAboveCrater": {
+                    "type": "火口上噴煙高度",
+                    "unit": "m",
+                    "value": "2700"
+                },
+                "heightSeaLevel": {
+                    "type": "海抜噴煙高度",
+                    "unit": "ft",
+                    "value": "11500"
+                },
+                "direction": {
+                    "type": "噴煙の流向",
+                    "unit": "漢字",
+                    "value": "東"
+                }
+            },
+            "otherObservation": "噴火地点は西山山麓と思われる"
+        }
+    }
+}

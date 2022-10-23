@@ -103,34 +103,34 @@ const _$EarthquakeComponentGeodeticSystemEnumMap = {
 
 Latitude _$LatitudeFromJson(Map json) => Latitude(
       text: json['text'] as String,
-      value: (json['value'] as num).toDouble(),
+      value: stringToDouble(json['value'] as String),
     );
 
 Map<String, dynamic> _$LatitudeToJson(Latitude instance) => <String, dynamic>{
       'text': instance.text,
-      'value': instance.value,
+      'value': stringFromDouble(instance.value),
     };
 
 Longitude _$LongitudeFromJson(Map json) => Longitude(
       text: json['text'] as String,
-      value: (json['value'] as num).toDouble(),
+      value: stringToDouble(json['value'] as String),
     );
 
 Map<String, dynamic> _$LongitudeToJson(Longitude instance) => <String, dynamic>{
       'text': instance.text,
-      'value': instance.value,
+      'value': stringFromDouble(instance.value),
     };
 
 Height _$HeightFromJson(Map json) => Height(
       type: json['type'] as String,
       unit: json['unit'] as String,
-      value: (json['value'] as num).toDouble(),
+      value: stringToDouble(json['value'] as String),
     );
 
 Map<String, dynamic> _$HeightToJson(Height instance) => <String, dynamic>{
       'type': instance.type,
       'unit': instance.unit,
-      'value': instance.value,
+      'value': stringFromDouble(instance.value),
     };
 
 EarthquakeComponentDepth _$EarthquakeComponentDepthFromJson(Map json) =>

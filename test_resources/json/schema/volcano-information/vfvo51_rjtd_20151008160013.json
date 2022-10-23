@@ -1,0 +1,3167 @@
+{
+    "_originalId": "TELEGRAM_ID",
+    "_schema": {
+        "type": "volcano-information",
+        "version": "1.0.0"
+    },
+    "type": "火山の状況に関する解説情報",
+    "title": "火山名　全国の活火山　火山の状況に関する解説情報",
+    "status": "通常",
+    "infoType": "発表",
+    "editorialOffice": "気象庁本庁",
+    "publishingOffice": [
+        "気象庁地震火山部"
+    ],
+    "pressDateTime": "2015-10-08T07:00:13Z",
+    "reportDateTime": "2015-10-08T16:00:00+09:00",
+    "targetDateTime": "2015-10-08T16:00:00+09:00",
+    "eventId": "900",
+    "serialNo": "13",
+    "infoKind": "火山の状況に関する解説情報",
+    "infoKindVersion": "1.0_0",
+    "headline": "　本日、全国の活火山の活動状況や警戒事項を取りまとめた月間火山概況（\n平成２７年９月）を発表しました。その概要は以下のとおりです。詳しくは\n月間火山概況及び火山活動解説資料を参照ください。\n",
+    "body": {
+        "targets": [
+            {
+                "code": "509",
+                "name": "口永良部島",
+                "coordinate": {
+                    "latitude": {
+                        "text": "30˚26.60'N",
+                        "value": "30.4433"
+                    },
+                    "longitude": {
+                        "text": "130˚13.03'E",
+                        "value": "130.2172"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "657"
+                    }
+                },
+                "kind": {
+                    "code": "15",
+                    "name": "レベル５（避難）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "15",
+                        "name": "レベル５（避難）"
+                    }
+                }
+            },
+            {
+                "code": "503",
+                "name": "阿蘇山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "32˚53.07'N",
+                        "value": "32.8845"
+                    },
+                    "longitude": {
+                        "text": "131˚06.23'E",
+                        "value": "131.1038"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1592"
+                    }
+                },
+                "kind": {
+                    "code": "13",
+                    "name": "レベル３（入山規制）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "13",
+                        "name": "レベル３（入山規制）"
+                    }
+                }
+            },
+            {
+                "code": "506",
+                "name": "桜島",
+                "coordinate": {
+                    "latitude": {
+                        "text": "31˚35.55'N",
+                        "value": "31.5925"
+                    },
+                    "longitude": {
+                        "text": "130˚39.40'E",
+                        "value": "130.6567"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1117"
+                    }
+                },
+                "kind": {
+                    "code": "13",
+                    "name": "レベル３（入山規制）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "13",
+                        "name": "レベル３（入山規制）"
+                    }
+                }
+            },
+            {
+                "code": "105",
+                "name": "雌阿寒岳",
+                "coordinate": {
+                    "latitude": {
+                        "text": "43˚23.18'N",
+                        "value": "43.3863"
+                    },
+                    "longitude": {
+                        "text": "144˚00.52'E",
+                        "value": "144.0087"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1499"
+                    }
+                },
+                "kind": {
+                    "code": "12",
+                    "name": "レベル２（火口周辺規制）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "12",
+                        "name": "レベル２（火口周辺規制）"
+                    }
+                }
+            },
+            {
+                "code": "213",
+                "name": "吾妻山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "37˚44.12'N",
+                        "value": "37.7353"
+                    },
+                    "longitude": {
+                        "text": "140˚14.67'E",
+                        "value": "140.2445"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1949"
+                    }
+                },
+                "kind": {
+                    "code": "12",
+                    "name": "レベル２（火口周辺規制）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "12",
+                        "name": "レベル２（火口周辺規制）"
+                    }
+                }
+            },
+            {
+                "code": "305",
+                "name": "草津白根山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "36˚38.63'N",
+                        "value": "36.6438"
+                    },
+                    "longitude": {
+                        "text": "138˚31.67'E",
+                        "value": "138.5278"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "2160"
+                    }
+                },
+                "kind": {
+                    "code": "12",
+                    "name": "レベル２（火口周辺規制）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "12",
+                        "name": "レベル２（火口周辺規制）"
+                    }
+                }
+            },
+            {
+                "code": "306",
+                "name": "浅間山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "36˚24.38'N",
+                        "value": "36.4063"
+                    },
+                    "longitude": {
+                        "text": "138˚31.38'E",
+                        "value": "138.5230"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "2568"
+                    }
+                },
+                "kind": {
+                    "code": "12",
+                    "name": "レベル２（火口周辺規制）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "12",
+                        "name": "レベル２（火口周辺規制）"
+                    }
+                }
+            },
+            {
+                "code": "312",
+                "name": "御嶽山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "35˚53.57'N",
+                        "value": "35.8928"
+                    },
+                    "longitude": {
+                        "text": "137˚28.82'E",
+                        "value": "137.4803"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "3067"
+                    }
+                },
+                "kind": {
+                    "code": "12",
+                    "name": "レベル２（火口周辺規制）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "12",
+                        "name": "レベル２（火口周辺規制）"
+                    }
+                }
+            },
+            {
+                "code": "315",
+                "name": "箱根山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "35˚14.00'N",
+                        "value": "35.2333"
+                    },
+                    "longitude": {
+                        "text": "139˚01.25'E",
+                        "value": "139.0208"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1438"
+                    }
+                },
+                "kind": {
+                    "code": "12",
+                    "name": "レベル２（火口周辺規制）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "12",
+                        "name": "レベル２（火口周辺規制）"
+                    }
+                }
+            },
+            {
+                "code": "551",
+                "name": "霧島山（新燃岳）",
+                "coordinate": {
+                    "latitude": {
+                        "text": "31˚54.57'N",
+                        "value": "31.9095"
+                    },
+                    "longitude": {
+                        "text": "130˚53.18'E",
+                        "value": "130.8863"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1421"
+                    }
+                },
+                "kind": {
+                    "code": "12",
+                    "name": "レベル２（火口周辺規制）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "12",
+                        "name": "レベル２（火口周辺規制）"
+                    }
+                }
+            },
+            {
+                "code": "511",
+                "name": "諏訪之瀬島",
+                "coordinate": {
+                    "latitude": {
+                        "text": "29˚38.30'N",
+                        "value": "29.6383"
+                    },
+                    "longitude": {
+                        "text": "129˚42.83'E",
+                        "value": "129.7138"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "796"
+                    }
+                },
+                "kind": {
+                    "code": "12",
+                    "name": "レベル２（火口周辺規制）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "12",
+                        "name": "レベル２（火口周辺規制）"
+                    }
+                }
+            },
+            {
+                "code": "326",
+                "name": "西之島",
+                "coordinate": {
+                    "latitude": {
+                        "text": "27˚14.82'N",
+                        "value": "27.2470"
+                    },
+                    "longitude": {
+                        "text": "140˚52.47'E",
+                        "value": "140.8745"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "25"
+                    }
+                },
+                "kind": {
+                    "code": "23",
+                    "name": "入山危険",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "23",
+                        "name": "入山危険"
+                    }
+                }
+            },
+            {
+                "code": "329",
+                "name": "硫黄島",
+                "coordinate": {
+                    "latitude": {
+                        "text": "24˚45.03'N",
+                        "value": "24.7505"
+                    },
+                    "longitude": {
+                        "text": "141˚17.35'E",
+                        "value": "141.2892"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "169"
+                    }
+                },
+                "kind": {
+                    "code": "22",
+                    "name": "火口周辺危険",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "22",
+                        "name": "火口周辺危険"
+                    }
+                }
+            },
+            {
+                "code": "331",
+                "name": "福徳岡ノ場",
+                "coordinate": {
+                    "latitude": {
+                        "text": "24˚17.08'N",
+                        "value": "24.2847"
+                    },
+                    "longitude": {
+                        "text": "141˚28.87'E",
+                        "value": "141.4812"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "-29"
+                    }
+                },
+                "kind": {
+                    "code": "36",
+                    "name": "周辺海域警戒",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "36",
+                        "name": "周辺海域警戒"
+                    }
+                }
+            },
+            {
+                "code": "108",
+                "name": "十勝岳",
+                "coordinate": {
+                    "latitude": {
+                        "text": "43˚25.07'N",
+                        "value": "43.4178"
+                    },
+                    "longitude": {
+                        "text": "142˚41.18'E",
+                        "value": "142.6863"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "2077"
+                    }
+                },
+                "kind": {
+                    "code": "11",
+                    "name": "レベル１（活火山であることに留意）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "11",
+                        "name": "レベル１（活火山であることに留意）"
+                    }
+                }
+            },
+            {
+                "code": "109",
+                "name": "樽前山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "42˚41.43'N",
+                        "value": "42.6905"
+                    },
+                    "longitude": {
+                        "text": "141˚22.60'E",
+                        "value": "141.3767"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1041"
+                    }
+                },
+                "kind": {
+                    "code": "11",
+                    "name": "レベル１（活火山であることに留意）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "11",
+                        "name": "レベル１（活火山であることに留意）"
+                    }
+                }
+            },
+            {
+                "code": "111",
+                "name": "倶多楽",
+                "coordinate": {
+                    "latitude": {
+                        "text": "42˚30.32'N",
+                        "value": "42.5053"
+                    },
+                    "longitude": {
+                        "text": "141˚08.67'E",
+                        "value": "141.1445"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "377"
+                    }
+                },
+                "kind": {
+                    "code": "11",
+                    "name": "レベル１（活火山であることに留意）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "11",
+                        "name": "レベル１（活火山であることに留意）"
+                    }
+                }
+            },
+            {
+                "code": "112",
+                "name": "有珠山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "42˚32.63'N",
+                        "value": "42.5438"
+                    },
+                    "longitude": {
+                        "text": "140˚50.35'E",
+                        "value": "140.8392"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "733"
+                    }
+                },
+                "kind": {
+                    "code": "11",
+                    "name": "レベル１（活火山であることに留意）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "11",
+                        "name": "レベル１（活火山であることに留意）"
+                    }
+                }
+            },
+            {
+                "code": "113",
+                "name": "北海道駒ヶ岳",
+                "coordinate": {
+                    "latitude": {
+                        "text": "42˚03.80'N",
+                        "value": "42.0633"
+                    },
+                    "longitude": {
+                        "text": "140˚40.63'E",
+                        "value": "140.6772"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1131"
+                    }
+                },
+                "kind": {
+                    "code": "11",
+                    "name": "レベル１（活火山であることに留意）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "11",
+                        "name": "レベル１（活火山であることに留意）"
+                    }
+                }
+            },
+            {
+                "code": "205",
+                "name": "秋田焼山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "39˚57.83'N",
+                        "value": "39.9638"
+                    },
+                    "longitude": {
+                        "text": "140˚45.42'E",
+                        "value": "140.7570"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1366"
+                    }
+                },
+                "kind": {
+                    "code": "11",
+                    "name": "レベル１（活火山であることに留意）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "11",
+                        "name": "レベル１（活火山であることに留意）"
+                    }
+                }
+            },
+            {
+                "code": "207",
+                "name": "岩手山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "39˚51.15'N",
+                        "value": "39.8525"
+                    },
+                    "longitude": {
+                        "text": "141˚00.07'E",
+                        "value": "141.0012"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "2038"
+                    }
+                },
+                "kind": {
+                    "code": "11",
+                    "name": "レベル１（活火山であることに留意）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "11",
+                        "name": "レベル１（活火山であることに留意）"
+                    }
+                }
+            },
+            {
+                "code": "208",
+                "name": "秋田駒ヶ岳",
+                "coordinate": {
+                    "latitude": {
+                        "text": "39˚45.67'N",
+                        "value": "39.7612"
+                    },
+                    "longitude": {
+                        "text": "140˚47.97'E",
+                        "value": "140.7995"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1637"
+                    }
+                },
+                "kind": {
+                    "code": "11",
+                    "name": "レベル１（活火山であることに留意）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "11",
+                        "name": "レベル１（活火山であることに留意）"
+                    }
+                }
+            },
+            {
+                "code": "214",
+                "name": "安達太良山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "37˚37.98'N",
+                        "value": "37.6330"
+                    },
+                    "longitude": {
+                        "text": "140˚16.98'E",
+                        "value": "140.2830"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1710"
+                    }
+                },
+                "kind": {
+                    "code": "11",
+                    "name": "レベル１（活火山であることに留意）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "11",
+                        "name": "レベル１（活火山であることに留意）"
+                    }
+                }
+            },
+            {
+                "code": "215",
+                "name": "磐梯山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "37˚36.07'N",
+                        "value": "37.6012"
+                    },
+                    "longitude": {
+                        "text": "140˚04.33'E",
+                        "value": "140.0722"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1816"
+                    }
+                },
+                "kind": {
+                    "code": "11",
+                    "name": "レベル１（活火山であることに留意）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "11",
+                        "name": "レベル１（活火山であることに留意）"
+                    }
+                }
+            },
+            {
+                "code": "301",
+                "name": "那須岳",
+                "coordinate": {
+                    "latitude": {
+                        "text": "37˚07.48'N",
+                        "value": "37.1247"
+                    },
+                    "longitude": {
+                        "text": "139˚57.77'E",
+                        "value": "139.9628"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1915"
+                    }
+                },
+                "kind": {
+                    "code": "11",
+                    "name": "レベル１（活火山であることに留意）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "11",
+                        "name": "レベル１（活火山であることに留意）"
+                    }
+                }
+            },
+            {
+                "code": "307",
+                "name": "新潟焼山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "36˚55.25'N",
+                        "value": "36.9208"
+                    },
+                    "longitude": {
+                        "text": "138˚02.15'E",
+                        "value": "138.0358"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "2400"
+                    }
+                },
+                "kind": {
+                    "code": "11",
+                    "name": "レベル１（活火山であることに留意）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "11",
+                        "name": "レベル１（活火山であることに留意）"
+                    }
+                }
+            },
+            {
+                "code": "310",
+                "name": "焼岳",
+                "coordinate": {
+                    "latitude": {
+                        "text": "36˚13.62'N",
+                        "value": "36.2270"
+                    },
+                    "longitude": {
+                        "text": "137˚35.22'E",
+                        "value": "137.5870"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "2455"
+                    }
+                },
+                "kind": {
+                    "code": "11",
+                    "name": "レベル１（活火山であることに留意）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "11",
+                        "name": "レベル１（活火山であることに留意）"
+                    }
+                }
+            },
+            {
+                "code": "313",
+                "name": "白山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "36˚09.30'N",
+                        "value": "36.1550"
+                    },
+                    "longitude": {
+                        "text": "136˚46.28'E",
+                        "value": "136.7713"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "2702"
+                    }
+                },
+                "kind": {
+                    "code": "11",
+                    "name": "レベル１（活火山であることに留意）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "11",
+                        "name": "レベル１（活火山であることに留意）"
+                    }
+                }
+            },
+            {
+                "code": "314",
+                "name": "富士山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "35˚21.65'N",
+                        "value": "35.3608"
+                    },
+                    "longitude": {
+                        "text": "138˚43.65'E",
+                        "value": "138.7275"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "3776"
+                    }
+                },
+                "kind": {
+                    "code": "11",
+                    "name": "レベル１（活火山であることに留意）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "11",
+                        "name": "レベル１（活火山であることに留意）"
+                    }
+                }
+            },
+            {
+                "code": "316",
+                "name": "伊豆東部火山群",
+                "coordinate": {
+                    "latitude": {
+                        "text": "34˚59.62'N",
+                        "value": "34.9937"
+                    },
+                    "longitude": {
+                        "text": "139˚07.80'E",
+                        "value": "139.1300"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "-118"
+                    }
+                },
+                "kind": {
+                    "code": "11",
+                    "name": "レベル１（活火山であることに留意）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "11",
+                        "name": "レベル１（活火山であることに留意）"
+                    }
+                }
+            },
+            {
+                "code": "317",
+                "name": "伊豆大島",
+                "coordinate": {
+                    "latitude": {
+                        "text": "34˚43.47'N",
+                        "value": "34.7245"
+                    },
+                    "longitude": {
+                        "text": "139˚23.67'E",
+                        "value": "139.3945"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "758"
+                    }
+                },
+                "kind": {
+                    "code": "11",
+                    "name": "レベル１（活火山であることに留意）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "11",
+                        "name": "レベル１（活火山であることに留意）"
+                    }
+                }
+            },
+            {
+                "code": "320",
+                "name": "三宅島",
+                "coordinate": {
+                    "latitude": {
+                        "text": "34˚05.62'N",
+                        "value": "34.0937"
+                    },
+                    "longitude": {
+                        "text": "139˚31.57'E",
+                        "value": "139.5262"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "775"
+                    }
+                },
+                "kind": {
+                    "code": "11",
+                    "name": "レベル１（活火山であることに留意）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "11",
+                        "name": "レベル１（活火山であることに留意）"
+                    }
+                }
+            },
+            {
+                "code": "502",
+                "name": "九重山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "33˚05.15'N",
+                        "value": "33.0858"
+                    },
+                    "longitude": {
+                        "text": "131˚14.93'E",
+                        "value": "131.2488"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1791"
+                    }
+                },
+                "kind": {
+                    "code": "11",
+                    "name": "レベル１（活火山であることに留意）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "11",
+                        "name": "レベル１（活火山であることに留意）"
+                    }
+                }
+            },
+            {
+                "code": "504",
+                "name": "雲仙岳",
+                "coordinate": {
+                    "latitude": {
+                        "text": "32˚45.68'N",
+                        "value": "32.7613"
+                    },
+                    "longitude": {
+                        "text": "130˚17.93'E",
+                        "value": "130.2988"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1483"
+                    }
+                },
+                "kind": {
+                    "code": "11",
+                    "name": "レベル１（活火山であることに留意）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "11",
+                        "name": "レベル１（活火山であることに留意）"
+                    }
+                }
+            },
+            {
+                "code": "550",
+                "name": "霧島山（御鉢）",
+                "coordinate": {
+                    "latitude": {
+                        "text": "31˚53.18'N",
+                        "value": "31.8863"
+                    },
+                    "longitude": {
+                        "text": "130˚55.13'E",
+                        "value": "130.9188"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1573"
+                    }
+                },
+                "kind": {
+                    "code": "11",
+                    "name": "レベル１（活火山であることに留意）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "11",
+                        "name": "レベル１（活火山であることに留意）"
+                    }
+                }
+            },
+            {
+                "code": "508",
+                "name": "薩摩硫黄島",
+                "coordinate": {
+                    "latitude": {
+                        "text": "30˚47.58'N",
+                        "value": "30.7930"
+                    },
+                    "longitude": {
+                        "text": "130˚18.32'E",
+                        "value": "130.3053"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "704"
+                    }
+                },
+                "kind": {
+                    "code": "11",
+                    "name": "レベル１（活火山であることに留意）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "11",
+                        "name": "レベル１（活火山であることに留意）"
+                    }
+                }
+            },
+            {
+                "code": "101",
+                "name": "知床硫黄山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "44˚08.00'N",
+                        "value": "44.1333"
+                    },
+                    "longitude": {
+                        "text": "145˚09.68'E",
+                        "value": "145.1613"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1562"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "102",
+                "name": "羅臼岳",
+                "coordinate": {
+                    "latitude": {
+                        "text": "44˚04.55'N",
+                        "value": "44.0758"
+                    },
+                    "longitude": {
+                        "text": "145˚07.33'E",
+                        "value": "145.1222"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1660"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "119",
+                "name": "天頂山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "44˚02.67'N",
+                        "value": "44.0445"
+                    },
+                    "longitude": {
+                        "text": "145˚05.15'E",
+                        "value": "145.0858"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1046"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "103",
+                "name": "摩周",
+                "coordinate": {
+                    "latitude": {
+                        "text": "43˚34.33'N",
+                        "value": "43.5722"
+                    },
+                    "longitude": {
+                        "text": "144˚33.65'E",
+                        "value": "144.5608"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "857"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "104",
+                "name": "アトサヌプリ",
+                "coordinate": {
+                    "latitude": {
+                        "text": "43˚36.62'N",
+                        "value": "43.6103"
+                    },
+                    "longitude": {
+                        "text": "144˚26.32'E",
+                        "value": "144.4387"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "508"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "120",
+                "name": "雄阿寒岳",
+                "coordinate": {
+                    "latitude": {
+                        "text": "43˚27.25'N",
+                        "value": "43.4542"
+                    },
+                    "longitude": {
+                        "text": "144˚09.88'E",
+                        "value": "144.1647"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1370"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "106",
+                "name": "丸山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "43˚25.05'N",
+                        "value": "43.4175"
+                    },
+                    "longitude": {
+                        "text": "143˚01.87'E",
+                        "value": "143.0312"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1692"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "107",
+                "name": "大雪山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "43˚39.82'N",
+                        "value": "43.6637"
+                    },
+                    "longitude": {
+                        "text": "142˚51.25'E",
+                        "value": "142.8542"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "2291"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "116",
+                "name": "利尻山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "45˚10.72'N",
+                        "value": "45.1787"
+                    },
+                    "longitude": {
+                        "text": "141˚14.52'E",
+                        "value": "141.2420"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1721"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "110",
+                "name": "恵庭岳",
+                "coordinate": {
+                    "latitude": {
+                        "text": "42˚47.60'N",
+                        "value": "42.7933"
+                    },
+                    "longitude": {
+                        "text": "141˚17.12'E",
+                        "value": "141.2853"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1320"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "117",
+                "name": "羊蹄山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "42˚49.60'N",
+                        "value": "42.8267"
+                    },
+                    "longitude": {
+                        "text": "140˚48.68'E",
+                        "value": "140.8113"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1898"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "118",
+                "name": "ニセコ",
+                "coordinate": {
+                    "latitude": {
+                        "text": "42˚53.12'N",
+                        "value": "42.8853"
+                    },
+                    "longitude": {
+                        "text": "140˚38.43'E",
+                        "value": "140.6405"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1116"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "114",
+                "name": "恵山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "41˚48.28'N",
+                        "value": "41.8047"
+                    },
+                    "longitude": {
+                        "text": "141˚09.97'E",
+                        "value": "141.1662"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "618"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "115",
+                "name": "渡島大島",
+                "coordinate": {
+                    "latitude": {
+                        "text": "41˚30.60'N",
+                        "value": "41.5100"
+                    },
+                    "longitude": {
+                        "text": "139˚22.03'E",
+                        "value": "139.3672"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "732"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "201",
+                "name": "恐山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "41˚16.72'N",
+                        "value": "41.2787"
+                    },
+                    "longitude": {
+                        "text": "141˚07.20'E",
+                        "value": "141.1200"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "878"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "202",
+                "name": "岩木山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "40˚39.35'N",
+                        "value": "40.6558"
+                    },
+                    "longitude": {
+                        "text": "140˚18.18'E",
+                        "value": "140.3030"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1625"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "203",
+                "name": "八甲田山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "40˚39.53'N",
+                        "value": "40.6588"
+                    },
+                    "longitude": {
+                        "text": "140˚52.63'E",
+                        "value": "140.8772"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1585"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "204",
+                "name": "十和田",
+                "coordinate": {
+                    "latitude": {
+                        "text": "40˚27.57'N",
+                        "value": "40.4595"
+                    },
+                    "longitude": {
+                        "text": "140˚54.60'E",
+                        "value": "140.9100"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "690"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "206",
+                "name": "八幡平",
+                "coordinate": {
+                    "latitude": {
+                        "text": "39˚57.47'N",
+                        "value": "39.9578"
+                    },
+                    "longitude": {
+                        "text": "140˚51.25'E",
+                        "value": "140.8542"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1613"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "209",
+                "name": "鳥海山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "39˚05.95'N",
+                        "value": "39.0992"
+                    },
+                    "longitude": {
+                        "text": "140˚02.93'E",
+                        "value": "140.0488"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "2236"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "210",
+                "name": "栗駒山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "38˚57.65'N",
+                        "value": "38.9608"
+                    },
+                    "longitude": {
+                        "text": "140˚47.30'E",
+                        "value": "140.7883"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1627"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "211",
+                "name": "鳴子",
+                "coordinate": {
+                    "latitude": {
+                        "text": "38˚43.73'N",
+                        "value": "38.7288"
+                    },
+                    "longitude": {
+                        "text": "140˚44.07'E",
+                        "value": "140.7345"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "470"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "217",
+                "name": "肘折",
+                "coordinate": {
+                    "latitude": {
+                        "text": "38˚35.95'N",
+                        "value": "38.5992"
+                    },
+                    "longitude": {
+                        "text": "140˚09.70'E",
+                        "value": "140.1617"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "552"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "212",
+                "name": "蔵王山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "38˚08.62'N",
+                        "value": "38.1437"
+                    },
+                    "longitude": {
+                        "text": "140˚26.40'E",
+                        "value": "140.4400"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1841"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "218",
+                "name": "沼沢",
+                "coordinate": {
+                    "latitude": {
+                        "text": "37˚26.67'N",
+                        "value": "37.4445"
+                    },
+                    "longitude": {
+                        "text": "139˚33.97'E",
+                        "value": "139.5662"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "835"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "216",
+                "name": "燧ヶ岳",
+                "coordinate": {
+                    "latitude": {
+                        "text": "36˚57.30'N",
+                        "value": "36.9550"
+                    },
+                    "longitude": {
+                        "text": "139˚17.12'E",
+                        "value": "139.2853"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "2356"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "333",
+                "name": "高原山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "36˚54.00'N",
+                        "value": "36.9000"
+                    },
+                    "longitude": {
+                        "text": "139˚46.60'E",
+                        "value": "139.7767"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1795"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "302",
+                "name": "日光白根山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "36˚47.92'N",
+                        "value": "36.7987"
+                    },
+                    "longitude": {
+                        "text": "139˚22.55'E",
+                        "value": "139.3758"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "2578"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "303",
+                "name": "赤城山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "36˚33.62'N",
+                        "value": "36.5603"
+                    },
+                    "longitude": {
+                        "text": "139˚11.60'E",
+                        "value": "139.1933"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1828"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "304",
+                "name": "榛名山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "36˚28.63'N",
+                        "value": "36.4772"
+                    },
+                    "longitude": {
+                        "text": "138˚51.05'E",
+                        "value": "138.8508"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1449"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "334",
+                "name": "横岳",
+                "coordinate": {
+                    "latitude": {
+                        "text": "36˚05.23'N",
+                        "value": "36.0872"
+                    },
+                    "longitude": {
+                        "text": "138˚19.22'E",
+                        "value": "138.3203"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "2480"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "308",
+                "name": "妙高山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "36˚53.48'N",
+                        "value": "36.8913"
+                    },
+                    "longitude": {
+                        "text": "138˚06.82'E",
+                        "value": "138.1137"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "2454"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "309",
+                "name": "弥陀ヶ原",
+                "coordinate": {
+                    "latitude": {
+                        "text": "36˚34.27'N",
+                        "value": "36.5712"
+                    },
+                    "longitude": {
+                        "text": "137˚35.38'E",
+                        "value": "137.5897"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "2621"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "335",
+                "name": "アカンダナ山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "36˚12.02'N",
+                        "value": "36.2003"
+                    },
+                    "longitude": {
+                        "text": "137˚34.37'E",
+                        "value": "137.5728"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "2109"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "311",
+                "name": "乗鞍岳",
+                "coordinate": {
+                    "latitude": {
+                        "text": "36˚06.38'N",
+                        "value": "36.1063"
+                    },
+                    "longitude": {
+                        "text": "137˚33.22'E",
+                        "value": "137.5537"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "3026"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "336",
+                "name": "利島",
+                "coordinate": {
+                    "latitude": {
+                        "text": "34˚31.22'N",
+                        "value": "34.5203"
+                    },
+                    "longitude": {
+                        "text": "139˚16.75'E",
+                        "value": "139.2792"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "508"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "318",
+                "name": "新島",
+                "coordinate": {
+                    "latitude": {
+                        "text": "34˚23.82'N",
+                        "value": "34.3970"
+                    },
+                    "longitude": {
+                        "text": "139˚16.22'E",
+                        "value": "139.2703"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "432"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "319",
+                "name": "神津島",
+                "coordinate": {
+                    "latitude": {
+                        "text": "34˚13.17'N",
+                        "value": "34.2195"
+                    },
+                    "longitude": {
+                        "text": "139˚09.18'E",
+                        "value": "139.1530"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "572"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "337",
+                "name": "御蔵島",
+                "coordinate": {
+                    "latitude": {
+                        "text": "33˚52.47'N",
+                        "value": "33.8745"
+                    },
+                    "longitude": {
+                        "text": "139˚36.12'E",
+                        "value": "139.6020"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "851"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "321",
+                "name": "八丈島",
+                "coordinate": {
+                    "latitude": {
+                        "text": "33˚08.22'N",
+                        "value": "33.1370"
+                    },
+                    "longitude": {
+                        "text": "139˚45.97'E",
+                        "value": "139.7662"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "854"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "322",
+                "name": "青ヶ島",
+                "coordinate": {
+                    "latitude": {
+                        "text": "32˚27.50'N",
+                        "value": "32.4583"
+                    },
+                    "longitude": {
+                        "text": "139˚45.55'E",
+                        "value": "139.7592"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "423"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "325",
+                "name": "伊豆鳥島",
+                "coordinate": {
+                    "latitude": {
+                        "text": "30˚29.03'N",
+                        "value": "30.4838"
+                    },
+                    "longitude": {
+                        "text": "140˚18.18'E",
+                        "value": "140.3030"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "394"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "401",
+                "name": "三瓶山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "35˚08.43'N",
+                        "value": "35.1405"
+                    },
+                    "longitude": {
+                        "text": "132˚37.30'E",
+                        "value": "132.6217"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1126"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "512",
+                "name": "阿武火山群",
+                "coordinate": {
+                    "latitude": {
+                        "text": "34˚26.97'N",
+                        "value": "34.4495"
+                    },
+                    "longitude": {
+                        "text": "131˚24.12'E",
+                        "value": "131.4020"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "112"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "513",
+                "name": "鶴見岳・伽藍岳",
+                "coordinate": {
+                    "latitude": {
+                        "text": "33˚17.20'N",
+                        "value": "33.2867"
+                    },
+                    "longitude": {
+                        "text": "131˚25.78'E",
+                        "value": "131.4297"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1375"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "514",
+                "name": "由布岳",
+                "coordinate": {
+                    "latitude": {
+                        "text": "33˚16.93'N",
+                        "value": "33.2822"
+                    },
+                    "longitude": {
+                        "text": "131˚23.42'E",
+                        "value": "131.3903"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1583"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "515",
+                "name": "福江火山群",
+                "coordinate": {
+                    "latitude": {
+                        "text": "32˚39.40'N",
+                        "value": "32.6567"
+                    },
+                    "longitude": {
+                        "text": "128˚50.93'E",
+                        "value": "128.8488"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "315"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "505",
+                "name": "霧島山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "31˚56.05'N",
+                        "value": "31.9342"
+                    },
+                    "longitude": {
+                        "text": "130˚51.70'E",
+                        "value": "130.8617"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1700"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "516",
+                "name": "米丸・住吉池",
+                "coordinate": {
+                    "latitude": {
+                        "text": "31˚46.57'N",
+                        "value": "31.7762"
+                    },
+                    "longitude": {
+                        "text": "130˚33.92'E",
+                        "value": "130.5653"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "15"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "518",
+                "name": "池田・山川",
+                "coordinate": {
+                    "latitude": {
+                        "text": "31˚12.80'N",
+                        "value": "31.2133"
+                    },
+                    "longitude": {
+                        "text": "130˚34.03'E",
+                        "value": "130.5672"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "256"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "507",
+                "name": "開聞岳",
+                "coordinate": {
+                    "latitude": {
+                        "text": "31˚10.80'N",
+                        "value": "31.1800"
+                    },
+                    "longitude": {
+                        "text": "130˚31.70'E",
+                        "value": "130.5283"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "924"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "519",
+                "name": "口之島",
+                "coordinate": {
+                    "latitude": {
+                        "text": "29˚58.08'N",
+                        "value": "29.9680"
+                    },
+                    "longitude": {
+                        "text": "129˚55.53'E",
+                        "value": "129.9255"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "628"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "510",
+                "name": "中之島",
+                "coordinate": {
+                    "latitude": {
+                        "text": "29˚51.55'N",
+                        "value": "29.8592"
+                    },
+                    "longitude": {
+                        "text": "129˚51.42'E",
+                        "value": "129.8570"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "979"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "601",
+                "name": "硫黄鳥島",
+                "coordinate": {
+                    "latitude": {
+                        "text": "27˚52.87'N",
+                        "value": "27.8812"
+                    },
+                    "longitude": {
+                        "text": "128˚13.35'E",
+                        "value": "128.2225"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "212"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "151",
+                "name": "茂世路岳",
+                "coordinate": {
+                    "latitude": {
+                        "text": "45˚23.33'N",
+                        "value": "45.3888"
+                    },
+                    "longitude": {
+                        "text": "148˚50.25'E",
+                        "value": "148.8375"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1124"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "152",
+                "name": "散布山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "45˚20.25'N",
+                        "value": "45.3375"
+                    },
+                    "longitude": {
+                        "text": "147˚55.22'E",
+                        "value": "147.9203"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1587"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "153",
+                "name": "指臼岳",
+                "coordinate": {
+                    "latitude": {
+                        "text": "45˚05.98'N",
+                        "value": "45.0997"
+                    },
+                    "longitude": {
+                        "text": "148˚01.17'E",
+                        "value": "148.0195"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1125"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "154",
+                "name": "小田萌山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "45˚01.70'N",
+                        "value": "45.0283"
+                    },
+                    "longitude": {
+                        "text": "147˚55.05'E",
+                        "value": "147.9175"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1208"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "155",
+                "name": "択捉焼山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "45˚00.72'N",
+                        "value": "45.0120"
+                    },
+                    "longitude": {
+                        "text": "147˚52.27'E",
+                        "value": "147.8712"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1158"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "156",
+                "name": "択捉阿登佐岳",
+                "coordinate": {
+                    "latitude": {
+                        "text": "44˚48.45'N",
+                        "value": "44.8075"
+                    },
+                    "longitude": {
+                        "text": "147˚07.85'E",
+                        "value": "147.1308"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1206"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "157",
+                "name": "ベルタルベ山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "44˚27.70'N",
+                        "value": "44.4617"
+                    },
+                    "longitude": {
+                        "text": "146˚55.92'E",
+                        "value": "146.9320"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1221"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "161",
+                "name": "ルルイ岳",
+                "coordinate": {
+                    "latitude": {
+                        "text": "44˚27.27'N",
+                        "value": "44.4545"
+                    },
+                    "longitude": {
+                        "text": "146˚08.37'E",
+                        "value": "146.1395"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1486"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "158",
+                "name": "爺爺岳",
+                "coordinate": {
+                    "latitude": {
+                        "text": "44˚21.20'N",
+                        "value": "44.3533"
+                    },
+                    "longitude": {
+                        "text": "146˚15.13'E",
+                        "value": "146.2522"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "1822"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "159",
+                "name": "羅臼山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "43˚58.73'N",
+                        "value": "43.9788"
+                    },
+                    "longitude": {
+                        "text": "145˚43.95'E",
+                        "value": "145.7325"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "882"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "160",
+                "name": "泊山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "43˚50.63'N",
+                        "value": "43.8438"
+                    },
+                    "longitude": {
+                        "text": "145˚30.27'E",
+                        "value": "145.5045"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "535"
+                    }
+                },
+                "kind": {
+                    "code": "21",
+                    "name": "活火山であることに留意",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "21",
+                        "name": "活火山であることに留意"
+                    }
+                }
+            },
+            {
+                "code": "323",
+                "name": "ベヨネース列岩",
+                "coordinate": {
+                    "latitude": {
+                        "text": "31˚55.10'N",
+                        "value": "31.9183"
+                    },
+                    "longitude": {
+                        "text": "140˚01.30'E",
+                        "value": "140.0217"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "-50"
+                    }
+                },
+                "kind": {
+                    "code": "35",
+                    "name": "活火山であることに留意（海底火山）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "35",
+                        "name": "活火山であることに留意（海底火山）"
+                    }
+                }
+            },
+            {
+                "code": "324",
+                "name": "須美寿島",
+                "coordinate": {
+                    "latitude": {
+                        "text": "31˚26.38'N",
+                        "value": "31.4397"
+                    },
+                    "longitude": {
+                        "text": "140˚03.03'E",
+                        "value": "140.0505"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "136"
+                    }
+                },
+                "kind": {
+                    "code": "35",
+                    "name": "活火山であることに留意（海底火山）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "35",
+                        "name": "活火山であることに留意（海底火山）"
+                    }
+                }
+            },
+            {
+                "code": "338",
+                "name": "孀婦岩",
+                "coordinate": {
+                    "latitude": {
+                        "text": "29˚47.65'N",
+                        "value": "29.7942"
+                    },
+                    "longitude": {
+                        "text": "140˚20.52'E",
+                        "value": "140.3420"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "99"
+                    }
+                },
+                "kind": {
+                    "code": "35",
+                    "name": "活火山であることに留意（海底火山）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "35",
+                        "name": "活火山であることに留意（海底火山）"
+                    }
+                }
+            },
+            {
+                "code": "339",
+                "name": "海形海山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "26˚42.55'N",
+                        "value": "26.7092"
+                    },
+                    "longitude": {
+                        "text": "141˚04.45'E",
+                        "value": "141.0742"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "-449"
+                    }
+                },
+                "kind": {
+                    "code": "35",
+                    "name": "活火山であることに留意（海底火山）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "35",
+                        "name": "活火山であることに留意（海底火山）"
+                    }
+                }
+            },
+            {
+                "code": "327",
+                "name": "海徳海山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "26˚07.60'N",
+                        "value": "26.1267"
+                    },
+                    "longitude": {
+                        "text": "141˚06.10'E",
+                        "value": "141.1017"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "-95"
+                    }
+                },
+                "kind": {
+                    "code": "35",
+                    "name": "活火山であることに留意（海底火山）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "35",
+                        "name": "活火山であることに留意（海底火山）"
+                    }
+                }
+            },
+            {
+                "code": "328",
+                "name": "噴火浅根",
+                "coordinate": {
+                    "latitude": {
+                        "text": "25˚27.30'N",
+                        "value": "25.4550"
+                    },
+                    "longitude": {
+                        "text": "141˚14.30'E",
+                        "value": "141.2383"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "-20"
+                    }
+                },
+                "kind": {
+                    "code": "35",
+                    "name": "活火山であることに留意（海底火山）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "35",
+                        "name": "活火山であることに留意（海底火山）"
+                    }
+                }
+            },
+            {
+                "code": "330",
+                "name": "北福徳堆",
+                "coordinate": {
+                    "latitude": {
+                        "text": "24˚25.00'N",
+                        "value": "24.4167"
+                    },
+                    "longitude": {
+                        "text": "141˚25.00'E",
+                        "value": "141.4167"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "-73"
+                    }
+                },
+                "kind": {
+                    "code": "35",
+                    "name": "活火山であることに留意（海底火山）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "35",
+                        "name": "活火山であることに留意（海底火山）"
+                    }
+                }
+            },
+            {
+                "code": "340",
+                "name": "南日吉海山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "23˚30.00'N",
+                        "value": "23.5000"
+                    },
+                    "longitude": {
+                        "text": "141˚56.10'E",
+                        "value": "141.9350"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "-107"
+                    }
+                },
+                "kind": {
+                    "code": "35",
+                    "name": "活火山であることに留意（海底火山）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "35",
+                        "name": "活火山であることに留意（海底火山）"
+                    }
+                }
+            },
+            {
+                "code": "341",
+                "name": "日光海山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "23˚04.70'N",
+                        "value": "23.0783"
+                    },
+                    "longitude": {
+                        "text": "142˚19.53'E",
+                        "value": "142.3255"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "-392"
+                    }
+                },
+                "kind": {
+                    "code": "35",
+                    "name": "活火山であることに留意（海底火山）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "35",
+                        "name": "活火山であることに留意（海底火山）"
+                    }
+                }
+            },
+            {
+                "code": "517",
+                "name": "若尊",
+                "coordinate": {
+                    "latitude": {
+                        "text": "31˚39.80'N",
+                        "value": "31.6633"
+                    },
+                    "longitude": {
+                        "text": "130˚47.90'E",
+                        "value": "130.7983"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "-77"
+                    }
+                },
+                "kind": {
+                    "code": "35",
+                    "name": "活火山であることに留意（海底火山）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "35",
+                        "name": "活火山であることに留意（海底火山）"
+                    }
+                }
+            },
+            {
+                "code": "602",
+                "name": "西表島北北東海底火山",
+                "coordinate": {
+                    "latitude": {
+                        "text": "24˚34.00'N",
+                        "value": "24.5667"
+                    },
+                    "longitude": {
+                        "text": "123˚56.00'E",
+                        "value": "123.9333"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "unit": "m",
+                        "value": "-200"
+                    }
+                },
+                "kind": {
+                    "code": "35",
+                    "name": "活火山であることに留意（海底火山）",
+                    "condition": "継続",
+                    "lastKind": {
+                        "code": "35",
+                        "name": "活火山であることに留意（海底火山）"
+                    }
+                }
+            }
+        ],
+        "comments": {
+            "headline": "　本日、全国の活火山の活動状況や警戒事項を取りまとめた月間火山概況（\n平成２７年９月）を発表しました。その概要は以下のとおりです。詳しくは\n月間火山概況及び火山活動解説資料を参照ください。\n\n",
+            "activity": "　口永良部島の火山活動は活発な状態が継続しています。新岳では、６月１\n９日のごく小規模な噴火以降、噴火は観測されていませんが、火山性地震が\n時々発生しました。火山性微動は観測されていません。火山ガスはやや少な\nい状態で経過しています。今後も、５月２９日と同程度の噴火が発生する可\n能性があります。大きな噴石の飛散及び火砕流の流下が切迫している居住地\n域では、厳重な警戒（避難等の対応）をしてください。\n　桜島では、８月１５日に南岳直下付近を震源とする火山性地震の多発や桜\n島島内に設置している傾斜計及び伸縮計で山体膨張を示す急激な地殻変動が\n観測されたため、噴火警戒レベルを３（入山規制）から、４（避難準備）に\n引き上げました。その後、南岳の地下に貫入したマグマの浅部への上昇は停\n止し、新たなマグマの貫入も生じていないと考えられることから、９月１日\n１６時００分に火口周辺警報を発表し、噴火警戒レベルを３（入山規制）に\n引き下げました。これまで繰り返し噴火活動が続いており、今後も活発な噴\n火活動が継続すると考えられるため、火山活動の推移に注意が必要です。ま\nた、８月１５日頃に貫入したマグマのさらなる上昇は今のところみられませ\nんが、再びマグマ貫入がある場合などには、桜島の火山活動の活発化は避け\nられないものとみられ、引き続き火山活動の変化を注意深く監視していく必\n要があります。昭和火口及び南岳山頂火口から概ね２ｋｍの範囲では、噴火\nに伴う弾道を描いて飛散する大きな噴石及び火砕流に警戒してください。\n　阿蘇山の中岳第一火口では、１４日０９時４３分に小規模な噴火が発生し\n、灰色の噴煙が火口縁上２，０００ｍまで上がりました。この噴火に伴い小\n規模な火砕流が発生しました。変色域の分布から、火砕流は中岳第一火口か\nら南東方向に約１．３ｋｍ、北東方向に約１．０ｋｍまで広がったと推定さ\nれます。また、弾道を描いて飛散する大きな噴石が火口周辺に飛散するのを\n確認しました。今後も同程度の噴火が発生し、弾道を描いて飛散する大きな\n噴石が火口から１ｋｍを超えて飛散する可能性があると判断し、同日１０時\n１０分に火口周辺警報を発表し、噴火警戒レベルを２（火口周辺規制）から\n３（入山規制）に引き上げました。中岳第一火口から概ね２ｋｍの範囲では\n、噴火に伴う弾道を描いて飛散する大きな噴石及び火砕流に警戒してくださ\nい。\n　西之島では、海上保安庁等の観測によると、噴火による噴石等の堆積や溶\n岩の流出が継続しています。西之島では、今後も新たに形成された陸地にあ\nる火口で噴火活動が継続すると考えられます。また、西之島周辺の海底で噴\n火が発生する可能性も引き続き考えられ、噴火による影響が海上まで及んだ\n場合、弾道を描いて飛散する大きな噴石や、水面を高速で広がるベースサー\nジ等の影響が概ね２ｋｍの範囲に及ぶおそれがありますので、西之島の中心\nから概ね４ｋｍ以内では噴火に警戒してください。\n　箱根山では、大涌谷で６月３０日から７月１日の間に発生したと考えられ\nるごく小規模な噴火の発生以降、噴火は観測されていません。火山性地震は\n少ない状態で経過しています。地殻変動についてはＧＮＳＳ観測等により、\n山体膨張は停止したものと考えられます。これらのことから、１１日１４時\n００分に火口周辺警報を発表し、噴火警戒レベルを３（入山規制）から２（\n火口周辺規制）に引き下げました。一方、地震活動は低下したものの、４月\n下旬の活動活発化以前の状態には戻っていないこと、大涌谷周辺では活発な\n噴気活動が継続していることから、大涌谷周辺の想定火口域では小規模な噴\n火が発生する可能性があります。大涌谷周辺の想定火口域では小規模な噴火\nに伴う弾道を描いて飛散する大きな噴石に警戒してください。\n　雌阿寒岳では、１０月１日に実施した現地調査及び上空からの観測（海上\n保安庁の協力による）により、今年７月の現地調査と比較してポンマチネシ\nリ火口第４火口の火口壁における地熱域のわずかな拡大や、９６ー１火口の\n噴煙の勢いの増加を確認しました。全磁力連続観測ではポンマチネシリ９６\nー１火口近傍の地下における熱活動の活発化の可能性を示す全磁力の変化が\n継続しています。ポンマチネシリ火口付近の浅いところを震源とする、微小\nな火山性地震は、８月以降徐々に減少していますが、２０１５年４月中旬よ\nり前の活動と比べて依然としてやや多い状態です。ポンマチネシリ火口から\n約５００ｍの範囲では、ごく小さな噴火に伴う弾道を描いて飛散する大きな\n噴石に警戒してください。\n　吾妻山では、大穴火口からの噴気活動はやや活発な状態が続いています。\n大穴火口付近では小規模な噴火が発生する可能性がありますので、大穴火口\n周辺（火口から概ね５００ｍの範囲）では弾道を描いて飛散する大きな噴石\nに警戒してください。\n　草津白根山では、湯釜火口内北東部や北壁及び水釜火口の北から北東側に\n当たる斜面で熱活動の活発な状態が継続しています。東京工業大学によると\n、北側噴気地帯のガス成分及び湯釜湖水の化学成分にも活動活発化を示す変\n化がみられています。湯釜火口から概ね１ｋｍの範囲では、小規模な噴火に\n伴う弾道を描いて飛散する大きな噴石に警戒してください。\n　浅間山では、６月１９日の噴火以降、噴火は観測されていません。山頂直\n下のごく浅い所を震源とする体に感じない火山性地震は多い状態が続いてい\nます。また、二酸化硫黄の放出量も多い状態で経過しており、引き続き火山\n活動はやや高まった状態で経過しています。今後も火口周辺に影響を及ぼす\n小規模な噴火が発生する可能性がありますので、山頂火口から概ね２ｋｍの\n範囲では、弾道を描いて飛散する大きな噴石に警戒が必要です。登山者等は\n地元自治体等の指示に従って危険な地域には立ち入らないでください。\n　御嶽山では、火山活動は低下した状態が続き、昨年（２０１４年）１０月\n以降噴火が発生していないことから、昨年９月２７日と同程度の噴火の可能\n性は低下していると考えられます。一方、弱いながらも噴煙活動や地震活動\nが続いていることから、昨年９月２７日よりも規模の小さな噴火が今後も突\n発的に発生する可能性は否定できません。火口から概ね１ｋｍの範囲では、\n噴火に伴う弾道を描いて飛散する大きな噴石に警戒してください。\n　霧島山（新燃岳）では、火口直下を震源とする火山性地震が時々発生しま\nした。ＧＮＳＳ連続観測によると、新燃岳周辺の一部の基線で、わずかに伸\nびの傾向が認められます。また、北西数ｋｍの地下深くにあると考えられる\nマグマだまりの膨張を示す地殻変動は、２０１３年１２月頃から伸びの傾向\nがみられていましたが、２０１５年１月頃から停滞しています。火口から概\nね１ｋｍの範囲では、噴火に伴う弾道を描いて飛散する大きな噴石に警戒し\nてください。\n　諏訪之瀬島の御岳火口では、爆発的噴火が８９回発生するなど、活発な状\n態で経過しました。今後も火口周辺に影響を及ぼす程度の噴火が発生すると\n予想されますので、火口から概ね１ｋｍの範囲では、噴火に伴う弾道を描い\nて飛散する大きな噴石に警戒してください。\n\n　その他の火山の活動状況に特段の変化はありません。\n"
+        }
+    }
+}

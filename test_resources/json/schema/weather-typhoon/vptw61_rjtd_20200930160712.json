@@ -1,0 +1,77 @@
+{
+    "_originalId": "TELEGRAM_ID",
+    "_schema": {
+        "type": "weather-typhoon",
+        "version": "1.0.0"
+    },
+    "type": "台風解析・予報情報（５日予報）（Ｈ３０）",
+    "title": "台風解析・予報情報",
+    "status": "通常",
+    "infoType": "発表",
+    "editorialOffice": "気象庁本庁",
+    "publishingOffice": [
+        "気象庁予報部"
+    ],
+    "pressDateTime": "2020-09-30T07:07:12Z",
+    "reportDateTime": "2020-09-30T16:10:00+09:00",
+    "targetDateTime": "2020-09-30T15:00:00+09:00",
+    "targetDuration": "PT120H",
+    "eventId": "TC2002",
+    "serialNo": "5",
+    "infoKind": "台風解析・予報情報（５日予報）",
+    "infoKindVersion": "1.0_2",
+    "headline": null,
+    "body": {
+        "typhoon": {
+            "tcNumber": "TC202002",
+            "name": {
+                "text": null,
+                "kana": null,
+                "number": null
+            },
+            "remark": "台風発生の可能性が小さくなった"
+        },
+        "forecasts": [
+            {
+                "type": "実況",
+                "elapsedTime": "PT0H",
+                "dateTime": "2020-09-30T15:00:00+09:00",
+                "classification": {
+                    "category": "TD",
+                    "name": "熱帯低気圧",
+                    "area": null,
+                    "intensity": null
+                },
+                "center": {
+                    "location": "小笠原近海",
+                    "coordinate": {
+                        "latitude": {
+                            "text": "26˚00'N",
+                            "value": "26.0000"
+                        },
+                        "longitude": {
+                            "text": "143˚00'E",
+                            "value": "143.0000"
+                        }
+                    },
+                    "direction": {
+                        "type": "移動方向",
+                        "unit": "１６方位漢字",
+                        "value": "北西",
+                        "azimuth": "315"
+                    },
+                    "speed": {
+                        "type": "移動速度",
+                        "unit": "km/h",
+                        "value": "20"
+                    },
+                    "pressure": {
+                        "type": "中心気圧",
+                        "unit": "hPa",
+                        "value": "1004"
+                    }
+                }
+            }
+        ]
+    }
+}

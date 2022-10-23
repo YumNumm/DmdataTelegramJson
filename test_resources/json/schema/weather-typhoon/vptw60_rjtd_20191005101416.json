@@ -1,0 +1,593 @@
+{
+    "_originalId": "TELEGRAM_ID",
+    "_schema": {
+        "type": "weather-typhoon",
+        "version": "1.0.0"
+    },
+    "type": "台風解析・予報情報（５日予報）（Ｈ３０）",
+    "title": "台風解析・予報情報",
+    "status": "通常",
+    "infoType": "発表",
+    "editorialOffice": "気象庁本庁",
+    "publishingOffice": [
+        "気象庁予報部"
+    ],
+    "pressDateTime": "2019-10-05T01:14:16Z",
+    "reportDateTime": "2019-10-05T10:15:00+09:00",
+    "targetDateTime": "2019-10-05T09:00:00+09:00",
+    "targetDuration": "PT120H",
+    "eventId": "TC1925",
+    "serialNo": "1",
+    "infoKind": "台風解析・予報情報（５日予報）",
+    "infoKindVersion": "1.0_2",
+    "headline": null,
+    "body": {
+        "typhoon": {
+            "tcNumber": "TC201925",
+            "name": {
+                "text": null,
+                "kana": null,
+                "number": null
+            },
+            "remark": "台風発生予想"
+        },
+        "forecasts": [
+            {
+                "type": "実況",
+                "elapsedTime": "PT0H",
+                "dateTime": "2019-10-05T09:00:00+09:00",
+                "classification": {
+                    "category": "TD",
+                    "name": "熱帯低気圧",
+                    "area": null,
+                    "intensity": null
+                },
+                "center": {
+                    "location": "ウェーク島近海",
+                    "coordinate": {
+                        "latitude": {
+                            "text": "15˚00'N",
+                            "value": "15.0000"
+                        },
+                        "longitude": {
+                            "text": "162˚40'E",
+                            "value": "162.6667"
+                        },
+                        "condition": "不確実"
+                    },
+                    "direction": {
+                        "type": "移動方向",
+                        "unit": "１６方位漢字",
+                        "value": "西",
+                        "azimuth": "270"
+                    },
+                    "speed": {
+                        "type": "移動速度",
+                        "unit": "km/h",
+                        "value": "20"
+                    },
+                    "pressure": {
+                        "type": "中心気圧",
+                        "unit": "hPa",
+                        "value": "1006"
+                    }
+                },
+                "wind": {
+                    "average": {
+                        "type": "最大風速",
+                        "unit": "m/s",
+                        "value": "15",
+                        "condition": "中心付近"
+                    },
+                    "instantaneous": {
+                        "type": "最大瞬間風速",
+                        "unit": "m/s",
+                        "value": "23"
+                    },
+                    "area": {
+                        "storm": [],
+                        "strong": []
+                    }
+                }
+            },
+            {
+                "type": "予報",
+                "elapsedTime": "PT12H",
+                "dateTime": "2019-10-05T21:00:00+09:00",
+                "classification": {
+                    "category": "TD",
+                    "name": "熱帯低気圧",
+                    "intensity": null
+                },
+                "center": {
+                    "location": "南鳥島近海",
+                    "probabilityCircle": {
+                        "basePoint": {
+                            "latitude": {
+                                "text": "15˚35'N",
+                                "value": "15.5833"
+                            },
+                            "longitude": {
+                                "text": "159˚10'E",
+                                "value": "159.1667"
+                            }
+                        },
+                        "axes": [
+                            {
+                                "direction": {
+                                    "type": "方向",
+                                    "unit": "８方位漢字",
+                                    "value": null,
+                                    "azimuth": null,
+                                    "condition": "全域"
+                                },
+                                "radius": {
+                                    "type": "７０パーセント確率半径",
+                                    "unit": "km",
+                                    "value": "110"
+                                }
+                            }
+                        ]
+                    },
+                    "direction": {
+                        "type": "移動方向",
+                        "unit": "１６方位漢字",
+                        "value": "西",
+                        "azimuth": "270"
+                    },
+                    "speed": {
+                        "type": "移動速度",
+                        "unit": "km/h",
+                        "value": "30"
+                    },
+                    "pressure": {
+                        "type": "中心気圧",
+                        "unit": "hPa",
+                        "value": "1004"
+                    }
+                },
+                "wind": {
+                    "average": {
+                        "type": "最大風速",
+                        "unit": "m/s",
+                        "value": "15",
+                        "condition": "中心付近"
+                    },
+                    "instantaneous": {
+                        "type": "最大瞬間風速",
+                        "unit": "m/s",
+                        "value": "23"
+                    },
+                    "area": {
+                        "stormWarning": []
+                    }
+                }
+            },
+            {
+                "type": "予報",
+                "elapsedTime": "PT24H",
+                "dateTime": "2019-10-06T09:00:00+09:00",
+                "classification": {
+                    "category": "TS",
+                    "name": "台風",
+                    "intensity": null
+                },
+                "center": {
+                    "location": "南鳥島近海",
+                    "probabilityCircle": {
+                        "basePoint": {
+                            "latitude": {
+                                "text": "16˚20'N",
+                                "value": "16.3333"
+                            },
+                            "longitude": {
+                                "text": "155˚35'E",
+                                "value": "155.5833"
+                            }
+                        },
+                        "axes": [
+                            {
+                                "direction": {
+                                    "type": "方向",
+                                    "unit": "８方位漢字",
+                                    "value": null,
+                                    "azimuth": null,
+                                    "condition": "全域"
+                                },
+                                "radius": {
+                                    "type": "７０パーセント確率半径",
+                                    "unit": "km",
+                                    "value": "150"
+                                }
+                            }
+                        ]
+                    },
+                    "direction": {
+                        "type": "移動方向",
+                        "unit": "１６方位漢字",
+                        "value": "西",
+                        "azimuth": "270"
+                    },
+                    "speed": {
+                        "type": "移動速度",
+                        "unit": "km/h",
+                        "value": "30"
+                    },
+                    "pressure": {
+                        "type": "中心気圧",
+                        "unit": "hPa",
+                        "value": "1002"
+                    }
+                },
+                "wind": {
+                    "average": {
+                        "type": "最大風速",
+                        "unit": "m/s",
+                        "value": "18",
+                        "condition": "中心付近"
+                    },
+                    "instantaneous": {
+                        "type": "最大瞬間風速",
+                        "unit": "m/s",
+                        "value": "25"
+                    },
+                    "area": {
+                        "stormWarning": []
+                    }
+                }
+            },
+            {
+                "type": "予報",
+                "elapsedTime": "PT48H",
+                "dateTime": "2019-10-07T09:00:00+09:00",
+                "classification": {
+                    "category": "TY",
+                    "name": "台風",
+                    "intensity": "非常に強い"
+                },
+                "center": {
+                    "location": "マリアナ諸島",
+                    "probabilityCircle": {
+                        "basePoint": {
+                            "latitude": {
+                                "text": "17˚20'N",
+                                "value": "17.3333"
+                            },
+                            "longitude": {
+                                "text": "143˚55'E",
+                                "value": "143.9167"
+                            }
+                        },
+                        "axes": [
+                            {
+                                "direction": {
+                                    "type": "方向",
+                                    "unit": "８方位漢字",
+                                    "value": null,
+                                    "azimuth": null,
+                                    "condition": "全域"
+                                },
+                                "radius": {
+                                    "type": "７０パーセント確率半径",
+                                    "unit": "km",
+                                    "value": "140"
+                                }
+                            }
+                        ]
+                    },
+                    "direction": {
+                        "type": "移動方向",
+                        "unit": "１６方位漢字",
+                        "value": "西北西",
+                        "azimuth": "292.5"
+                    },
+                    "speed": {
+                        "type": "移動速度",
+                        "unit": "km/h",
+                        "value": "30"
+                    },
+                    "pressure": {
+                        "type": "中心気圧",
+                        "unit": "hPa",
+                        "value": "940"
+                    }
+                },
+                "wind": {
+                    "average": {
+                        "type": "最大風速",
+                        "unit": "m/s",
+                        "value": "45",
+                        "condition": "中心付近"
+                    },
+                    "instantaneous": {
+                        "type": "最大瞬間風速",
+                        "unit": "m/s",
+                        "value": "65"
+                    },
+                    "area": {
+                        "stormWarning": [
+                            {
+                                "direction": {
+                                    "type": "方向",
+                                    "unit": "８方位漢字",
+                                    "value": null,
+                                    "azimuth": null,
+                                    "condition": "全域"
+                                },
+                                "radius": {
+                                    "type": "半径",
+                                    "unit": "km",
+                                    "value": "300"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "予報",
+                "elapsedTime": "PT72H",
+                "dateTime": "2019-10-08T09:00:00+09:00",
+                "classification": {
+                    "category": "TY",
+                    "name": "台風",
+                    "intensity": "猛烈な"
+                },
+                "center": {
+                    "location": "沖ノ鳥島近海",
+                    "probabilityCircle": {
+                        "basePoint": {
+                            "latitude": {
+                                "text": "19˚20'N",
+                                "value": "19.3333"
+                            },
+                            "longitude": {
+                                "text": "139˚20'E",
+                                "value": "139.3333"
+                            }
+                        },
+                        "axes": [
+                            {
+                                "direction": {
+                                    "type": "方向",
+                                    "unit": "８方位漢字",
+                                    "value": null,
+                                    "azimuth": null,
+                                    "condition": "全域"
+                                },
+                                "radius": {
+                                    "type": "７０パーセント確率半径",
+                                    "unit": "km",
+                                    "value": "190"
+                                }
+                            }
+                        ]
+                    },
+                    "direction": {
+                        "type": "移動方向",
+                        "unit": "１６方位漢字",
+                        "value": "西北西",
+                        "azimuth": "292.5"
+                    },
+                    "speed": {
+                        "type": "移動速度",
+                        "unit": "km/h",
+                        "value": "20"
+                    },
+                    "pressure": {
+                        "type": "中心気圧",
+                        "unit": "hPa",
+                        "value": "915"
+                    }
+                },
+                "wind": {
+                    "average": {
+                        "type": "最大風速",
+                        "unit": "m/s",
+                        "value": "55",
+                        "condition": "中心付近"
+                    },
+                    "instantaneous": {
+                        "type": "最大瞬間風速",
+                        "unit": "m/s",
+                        "value": "75"
+                    },
+                    "area": {
+                        "stormWarning": [
+                            {
+                                "direction": {
+                                    "type": "方向",
+                                    "unit": "８方位漢字",
+                                    "value": null,
+                                    "azimuth": null,
+                                    "condition": "全域"
+                                },
+                                "radius": {
+                                    "type": "半径",
+                                    "unit": "km",
+                                    "value": "410"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "予報",
+                "elapsedTime": "PT96H",
+                "dateTime": "2019-10-09T09:00:00+09:00",
+                "classification": {
+                    "category": "TY",
+                    "name": "台風",
+                    "intensity": "猛烈な"
+                },
+                "center": {
+                    "location": "日本の南",
+                    "probabilityCircle": {
+                        "basePoint": {
+                            "latitude": {
+                                "text": "21˚20'N",
+                                "value": "21.3333"
+                            },
+                            "longitude": {
+                                "text": "136˚50'E",
+                                "value": "136.8333"
+                            }
+                        },
+                        "axes": [
+                            {
+                                "direction": {
+                                    "type": "方向",
+                                    "unit": "８方位漢字",
+                                    "value": null,
+                                    "azimuth": null,
+                                    "condition": "全域"
+                                },
+                                "radius": {
+                                    "type": "７０パーセント確率半径",
+                                    "unit": "km",
+                                    "value": "260"
+                                }
+                            }
+                        ]
+                    },
+                    "direction": {
+                        "type": "移動方向",
+                        "unit": "１６方位漢字",
+                        "value": "北西",
+                        "azimuth": "315"
+                    },
+                    "speed": {
+                        "type": "移動速度",
+                        "unit": "km/h",
+                        "value": "15"
+                    },
+                    "pressure": {
+                        "type": "中心気圧",
+                        "unit": "hPa",
+                        "value": "915"
+                    }
+                },
+                "wind": {
+                    "average": {
+                        "type": "最大風速",
+                        "unit": "m/s",
+                        "value": "55",
+                        "condition": "中心付近"
+                    },
+                    "instantaneous": {
+                        "type": "最大瞬間風速",
+                        "unit": "m/s",
+                        "value": "75"
+                    },
+                    "area": {
+                        "stormWarning": [
+                            {
+                                "direction": {
+                                    "type": "方向",
+                                    "unit": "８方位漢字",
+                                    "value": null,
+                                    "azimuth": null,
+                                    "condition": "全域"
+                                },
+                                "radius": {
+                                    "type": "半径",
+                                    "unit": "km",
+                                    "value": "480"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "予報",
+                "elapsedTime": "PT120H",
+                "dateTime": "2019-10-10T09:00:00+09:00",
+                "classification": {
+                    "category": "TY",
+                    "name": "台風",
+                    "intensity": "猛烈な"
+                },
+                "center": {
+                    "location": "日本の南",
+                    "probabilityCircle": {
+                        "basePoint": {
+                            "latitude": {
+                                "text": "24˚10'N",
+                                "value": "24.1667"
+                            },
+                            "longitude": {
+                                "text": "133˚50'E",
+                                "value": "133.8333"
+                            }
+                        },
+                        "axes": [
+                            {
+                                "direction": {
+                                    "type": "方向",
+                                    "unit": "８方位漢字",
+                                    "value": null,
+                                    "azimuth": null,
+                                    "condition": "全域"
+                                },
+                                "radius": {
+                                    "type": "７０パーセント確率半径",
+                                    "unit": "km",
+                                    "value": "370"
+                                }
+                            }
+                        ]
+                    },
+                    "direction": {
+                        "type": "移動方向",
+                        "unit": "１６方位漢字",
+                        "value": "北西",
+                        "azimuth": "315"
+                    },
+                    "speed": {
+                        "type": "移動速度",
+                        "unit": "km/h",
+                        "value": "20"
+                    },
+                    "pressure": {
+                        "type": "中心気圧",
+                        "unit": "hPa",
+                        "value": "915"
+                    }
+                },
+                "wind": {
+                    "average": {
+                        "type": "最大風速",
+                        "unit": "m/s",
+                        "value": "55",
+                        "condition": "中心付近"
+                    },
+                    "instantaneous": {
+                        "type": "最大瞬間風速",
+                        "unit": "m/s",
+                        "value": "75"
+                    },
+                    "area": {
+                        "stormWarning": [
+                            {
+                                "direction": {
+                                    "type": "方向",
+                                    "unit": "８方位漢字",
+                                    "value": null,
+                                    "azimuth": null,
+                                    "condition": "全域"
+                                },
+                                "radius": {
+                                    "type": "半径",
+                                    "unit": "km",
+                                    "value": "600"
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

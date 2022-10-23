@@ -1,0 +1,36 @@
+{
+    "_originalId": "TELEGRAM_ID",
+    "_schema": {
+        "type": "weather-river-flood",
+        "version": "1.0.0"
+    },
+    "type": "指定河川洪水予報",
+    "title": "○○川上流氾濫警戒情報",
+    "status": "通常",
+    "infoType": "発表",
+    "editorialOffice": "○○地方気象台",
+    "publishingOffice": [
+        "○○河川事務所",
+        "○○地方気象台",
+        "△△地方気象台"
+    ],
+    "pressDateTime": "2019-05-27T00:00:00Z",
+    "reportDateTime": "2019-05-27T09:00:00+09:00",
+    "targetDateTime": "2019-05-27T09:00:00+09:00",
+    "eventId": "123456789012",
+    "serialNo": "3",
+    "infoKind": "指定河川洪水予報",
+    "infoKindVersion": "1.1_1",
+    "headline": "【警戒レベル３相当情報［洪水］】○○川上流では、今後、氾濫危険水位に到達する見込み",
+    "body": {
+        "target": {
+            "code": "123456789012",
+            "name": "○○川上流",
+            "kind": {
+                "code": "30",
+                "name": "氾濫警戒情報",
+                "condition": "洪水警報（発表）"
+            }
+        }
+    }
+}

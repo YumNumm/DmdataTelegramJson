@@ -1,0 +1,26 @@
+{
+    "_originalId": "TELEGRAM_ID",
+    "_schema": {
+        "type": "volcano-information",
+        "version": "1.0.0"
+    },
+    "type": "噴火速報",
+    "title": "火山名　御嶽山　噴火速報",
+    "status": "通常",
+    "infoType": "取消",
+    "editorialOffice": "気象庁本庁",
+    "publishingOffice": [
+        "気象庁地震火山部"
+    ],
+    "pressDateTime": "2014-09-27T03:10:12Z",
+    "reportDateTime": "2014-09-27T12:10:00+09:00",
+    "targetDateTime": "2014-09-27T11:53:00+09:00",
+    "eventId": "20140927120000_312",
+    "serialNo": null,
+    "infoKind": "噴火速報",
+    "infoKindVersion": "1.2_0",
+    "headline": "噴火速報を取り消します。",
+    "body": {
+        "text": "平成２６年９月２７日１２時００分に発表した御嶽山の噴火速報を取り消します。"
+    }
+}

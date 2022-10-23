@@ -4,6 +4,7 @@ import 'package:dmdata_telegram_json/schema/component/jma_intensity.dart';
 import 'package:dmdata_telegram_json/schema/component/jma_lg_intensity.dart';
 import 'package:dmdata_telegram_json/schema/earthquake_component/earthquake_component.dart';
 import 'package:dmdata_telegram_json/schema/jma_xml_telegram/earthquake_forecast.dart';
+import 'package:dmdata_telegram_json/utils/type.dart';
 import 'package:json_annotation/json_annotation.dart';
 
 part 'eew_information.g.dart';
@@ -94,7 +95,7 @@ class EewAreaKind {
   EewAreaKind({
     required this.code,
     required this.name,
-    required this.last,
+    required this.lastKind,
   });
 
   factory EewAreaKind.fromJson(Map<String, dynamic> json) =>
@@ -102,13 +103,13 @@ class EewAreaKind {
 
   /// 警報の種別、コード 31 で固定
   /// コードは、コード表11 による
-  final int code;
+  final String code;
 
   /// 警報の種別、名称 緊急地震速報（警報） で固定
   final String name;
 
   /// このEventIdで前回の警報種別
-  final EewAreaKindLast last;
+  final EewAreaKindLast lastKind;
 
   Map<String, dynamic> toJson() => _$EewAreaKindToJson(this);
 }
@@ -124,6 +125,7 @@ class EewAreaKindLast {
 
   /// 警報の種別、コード 31 又は 00
   /// コードは、コード表11 による
+  @JsonKey(fromJson: stringToInt, toJson: stringFromInt)
   final int code;
 
   /// 警報の種別、名称 緊急地震速報（警報） 又は なし
@@ -138,7 +140,7 @@ class EewAreaKindLast {
 @JsonSerializable(explicitToJson: true)
 class EewEarthquake {
   EewEarthquake({
-    required this.arraivalTime,
+    required this.arrivalTime,
     required this.hypocenter,
     required this.magnitude,
     this.originTime,
@@ -152,7 +154,7 @@ class EewEarthquake {
   final DateTime? originTime;
 
   /// 地震発生時刻を秒単位で、ISO8601の日本時間で記載する
-  final DateTime arraivalTime;
+  final DateTime arrivalTime;
 
   /// 仮定震源要素の時出現し、仮定震源要素 が入る
   final String? condition;
@@ -184,6 +186,7 @@ class EewHypocenter {
 
   /// 震央地名コード
   /// コード表41 による
+  @JsonKey(fromJson: stringToInt, toJson: stringFromInt)
   final int code;
 
   /// 震央地名
@@ -229,11 +232,12 @@ class EewDepth {
 
   /// 震源の深さ
   /// 不明時は Null とする
+  @JsonKey(fromJson: stringToIntNullable, toJson: stringFromIntNullable)
   final int? value;
 
   /// 深さの例外的表現。取りうる値は ごく浅い、７００ｋｍ以上、 不明 とする
   /// 	valueが0または700または Null の時
-  final EewDepthCondition condition;
+  final EewDepthCondition? condition;
 
   Map<String, dynamic> toJson() => _$EewDepthToJson(this);
 }
@@ -260,6 +264,7 @@ class EewReduce {
 
   /// 短縮用震央地名コード
   /// コードは、コード表42 による
+  @JsonKey(fromJson: stringToInt, toJson: stringFromInt)
   final int code;
 
   /// 短縮用震央地名
@@ -283,15 +288,19 @@ class EewAccuracy {
 
   /// 震央位置の精度値
   /// **要素は2つ([0],[1])** で、[0]は震央位置の精度値、[1]は震源位置の精度値の単位
+  @JsonKey(fromJson: dynamicListToIntList, toJson: dynamicListFromIntList)
   final List<int> epicenters;
 
   /// 深さの精度値
+  @JsonKey(fromJson: stringToInt, toJson: stringFromInt)
   final int depth;
 
   /// マグニチュードの精度値
+  @JsonKey(fromJson: stringToInt, toJson: stringFromInt)
   final int magnitudeCalculation;
 
   /// マグニチュード計算使用観測点数
+  @JsonKey(fromJson: stringToInt, toJson: stringFromInt)
   final int numberOfMagnitudeCalculation;
 
   Map<String, dynamic> toJson() => _$EewAccuracyToJson(this);
@@ -322,6 +331,7 @@ class EewMagnitude {
 
   /// マグニチュードの数値
   /// 不明時は Null とする
+  @JsonKey(fromJson: stringToDoubleNullable, toJson: stringFromDoubleNullable)
   final double? value;
 
   /// マグニチュードの数値が求まらない事項を記載し
@@ -352,7 +362,7 @@ class EewIntensity {
 
   /// 最大予測長周期地震動階級を記載する
   /// VXSE43、VXSE45時のみ 震源の深さが150km未満の時出現
-  final EewIntensityForecastMaxLgInt forecastMaxLgInt;
+  final EewIntensityForecastMaxLgInt? forecastMaxLgInt;
 
   /// 予測震度・予測長周期地震動階級付加要素
   final EewIntensityAppendix appendix;
@@ -411,7 +421,7 @@ class EewIntensityAppendix {
   EewIntensityAppendix({
     required this.maxIntChange,
     required this.maxLgIntChange,
-    required this.maxChangeReason,
+    required this.maxIntChangeReason,
   });
 
   factory EewIntensityAppendix.fromJson(Map<String, dynamic> json) =>
@@ -425,7 +435,7 @@ class EewIntensityAppendix {
   final EewIntensityMaxLgIntChange? maxLgIntChange;
 
   /// 最大予測値変化の理由
-  final EewIntensityMaxIntChangeReason maxChangeReason;
+  final EewIntensityMaxIntChangeReason maxIntChangeReason;
 
   Map<String, dynamic> toJson() => _$EewIntensityAppendixToJson(this);
 }
@@ -433,15 +443,15 @@ class EewIntensityAppendix {
 /// 最大予測震度変化を記載します。0 から 2 までの整数値を使用します。
 enum EewIntensityMaxIntChange {
   /// ほとんど変化なし
-  @JsonValue(0)
+  @JsonValue('0')
   noChange('ほとんど変化なし'),
 
   /// 最大予測震度が 1.0 以上大きくなった
-  @JsonValue(1)
+  @JsonValue('1')
   increase('最大予測震度が1.0以上大きくなった'),
 
   /// 最大予測震度が 1.0 以上小さくなった
-  @JsonValue(2)
+  @JsonValue('2')
   decrease('最大予測震度が1.0以上小さくなった');
 
   const EewIntensityMaxIntChange(this.description);
@@ -451,15 +461,15 @@ enum EewIntensityMaxIntChange {
 /// 最大予測長周期地震動階級変化を記載します。0 から 2 までの整数値を使用します。
 enum EewIntensityMaxLgIntChange {
   /// ほとんど変化なし
-  @JsonValue(0)
+  @JsonValue('0')
   noChange('ほとんど変化なし'),
 
   /// 最大予測長周期地震動階級が1以上大きくなった
-  @JsonValue(1)
+  @JsonValue('1')
   increase('最大予測長周期地震動階級が1以上大きくなった'),
 
   /// 最大予測長周期地震動階級が1以上小さくなった
-  @JsonValue(2)
+  @JsonValue('2')
   decrease('最大予測長周期地震動階級が1以上小さくなった');
 
   const EewIntensityMaxLgIntChange(this.description);
@@ -469,27 +479,27 @@ enum EewIntensityMaxLgIntChange {
 /// 最大予測震度または最大予測長周期地震動階級変化の理由を記載します。0 から 9 までの整数値を使用します。
 enum EewIntensityMaxIntChangeReason {
   /// 変化なし
-  @JsonValue(0)
+  @JsonValue('0')
   noChange('変化なし'),
 
   /// 主としてＭが変化したため(1.0 以上)
-  @JsonValue(1)
+  @JsonValue('1')
   mChange('主としてＭが変化したため(1.0以上)'),
 
   /// 主として震央位置が変化したため(10.0km 以上)
-  @JsonValue(2)
+  @JsonValue('2')
   epicenterChange('主として震央位置が変化したため(10.0km以上)'),
 
   /// M及び震央位置が変化したため(1 と 2 の複合条件)
-  @JsonValue(3)
+  @JsonValue('3')
   mAndEpicenterChange('M及び震央位置が変化したため(1と2の複合条件)'),
 
   /// 震源の深さが変化したため(上記のいずれにもあてはまらず、30.0km 以上の変化)
-  @JsonValue(4)
+  @JsonValue('4')
   depthChange('震源の深さが変化したため(上記のいずれにもあてはまらず、30.0km以上の変化)'),
 
   /// PLUM法による予測により変化したため
-  @JsonValue(9)
+  @JsonValue('9')
   byPlumAssume('PLUM法による予測により変化したため');
 
   const EewIntensityMaxIntChangeReason(this.description);
@@ -517,6 +527,7 @@ class EewIntensityRegion {
 
   /// 細分化地域コード
   /// コードは、コード表24 による
+  @JsonKey(fromJson: stringToInt, toJson: stringFromInt)
   final int code;
 
   /// 細分化地域名
@@ -611,7 +622,6 @@ class EewCommentsWarning {
 
   Map<String, dynamic> toJson() => _$EewCommentsWarningToJson(this);
 }
-
 
 /*
 /// 震央位置の精度値

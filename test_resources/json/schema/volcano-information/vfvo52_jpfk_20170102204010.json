@@ -1,0 +1,76 @@
+{
+    "_originalId": "TELEGRAM_ID",
+    "_schema": {
+        "type": "volcano-information",
+        "version": "1.0.0"
+    },
+    "type": "噴火に関する火山観測報",
+    "title": "火山名　桜島　噴火に関する火山観測報",
+    "status": "通常",
+    "infoType": "発表",
+    "editorialOffice": "福岡管区気象台",
+    "publishingOffice": [
+        "福岡管区気象台",
+        "鹿児島地方気象台"
+    ],
+    "pressDateTime": "2017-01-02T11:40:10Z",
+    "reportDateTime": "2017-01-02T20:40:00+09:00",
+    "targetDateTime": "2017-01-02T20:34:00+09:00",
+    "eventId": "20170102204000_506",
+    "serialNo": "1",
+    "infoKind": "噴火に関する火山観測報",
+    "infoKindVersion": "1.0_0",
+    "headline": "火　　山：桜島\n日　　時：2017年01月02日20時34分（021134UTC）\n現　　象：噴火",
+    "body": {
+        "target": {
+            "code": "506",
+            "name": "桜島",
+            "coordinate": {
+                "latitude": {
+                    "text": "31˚34.63'N",
+                    "value": "31.5772"
+                },
+                "longitude": {
+                    "text": "130˚39.53'E",
+                    "value": "130.6588"
+                },
+                "height": {
+                    "type": "高さ",
+                    "unit": "m",
+                    "value": "1060"
+                }
+            },
+            "crater": {
+                "name": "昭和火口"
+            },
+            "kind": {
+                "code": "52",
+                "name": "噴火"
+            }
+        },
+        "eruption": {
+            "eventDateTime": {
+                "value": "2017-01-02T20:34:00+09:00",
+                "validFormat": "yyyy-mm-ddThh:mm"
+            },
+            "colorPlume": {
+                "heightAboveCrater": {
+                    "type": "火口上噴煙高度",
+                    "unit": "m",
+                    "value": "8000"
+                },
+                "heightSeaLevel": {
+                    "type": "海抜噴煙高度",
+                    "unit": "ft",
+                    "value": "29600"
+                },
+                "direction": {
+                    "type": "噴煙の流向",
+                    "unit": "漢字",
+                    "value": "南東"
+                }
+            },
+            "otherObservation": "現在の噴煙量：中量\n高層風　2410Z\n850-00000\n700-31010\n500-31020\n火口：昭和火口"
+        }
+    }
+}

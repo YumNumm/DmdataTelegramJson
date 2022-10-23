@@ -1,0 +1,194 @@
+{
+    "_originalId": "TELEGRAM_ID",
+    "_schema": {
+        "type": "tsunami-information",
+        "version": "1.0.0"
+    },
+    "type": "沖合の津波観測に関する情報",
+    "title": "沖合の津波観測に関する情報",
+    "status": "通常",
+    "infoType": "発表",
+    "editorialOffice": "大阪管区気象台",
+    "publishingOffice": [
+        "気象庁"
+    ],
+    "pressDateTime": "2011-03-11T05:55:00Z",
+    "reportDateTime": "2011-03-11T14:55:00+09:00",
+    "targetDateTime": "2011-03-11T14:52:00+09:00",
+    "eventId": "20110311144640",
+    "serialNo": "2",
+    "infoKind": "津波情報",
+    "infoKindVersion": "1.0_1",
+    "headline": "高い津波を沖合で観測しました。",
+    "body": {
+        "tsunami": {
+            "observations": [
+                {
+                    "code": null,
+                    "name": null,
+                    "stations": [
+                        {
+                            "code": "20190",
+                            "name": "青森八戸沖",
+                            "sensor": "ＧＰＳ波浪計",
+                            "firstHeight": {
+                                "arrivalTime": "2011-03-11T14:51:00+09:00",
+                                "initial": "押し",
+                                "revise": "追加"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2011-03-11T14:52:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "1.0",
+                                    "unit": "m"
+                                },
+                                "condition": "重要",
+                                "revise": "追加"
+                            }
+                        },
+                        {
+                            "code": "21090",
+                            "name": "岩手釜石沖",
+                            "sensor": "ＧＰＳ波浪計",
+                            "firstHeight": {
+                                "arrivalTime": "2011-03-11T14:50:00+09:00",
+                                "initial": "引き"
+                            },
+                            "maxHeight": {
+                                "condition": "観測中"
+                            }
+                        },
+                        {
+                            "code": "21091",
+                            "name": "岩手宮古沖",
+                            "sensor": "ＧＰＳ波浪計",
+                            "firstHeight": {
+                                "arrivalTime": "2011-03-11T14:50:00+09:00",
+                                "initial": "引き"
+                            },
+                            "maxHeight": {
+                                "condition": "観測中"
+                            }
+                        },
+                        {
+                            "code": "21050",
+                            "name": "岩手沖９０ｋｍＡ",
+                            "sensor": "水圧計",
+                            "firstHeight": {
+                                "arrivalTime": "2011-03-11T14:48:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2011-03-11T14:52:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "0.5",
+                                    "unit": "m",
+                                    "condition": "上昇中"
+                                },
+                                "condition": "重要",
+                                "revise": "更新"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "estimations": [
+                {
+                    "code": "201",
+                    "name": "青森県太平洋沿岸",
+                    "firstHeight": {
+                        "arrivalTime": "2011-03-11T14:56:00+09:00",
+                        "condition": "早いところでは既に津波到達と推定",
+                        "revise": "追加"
+                    },
+                    "maxHeight": {
+                        "dateTime": "2011-03-11T14:57:00+09:00",
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": null,
+                            "condition": "巨大"
+                        },
+                        "condition": "重要",
+                        "revise": "追加"
+                    }
+                },
+                {
+                    "code": "210",
+                    "name": "岩手県",
+                    "firstHeight": {
+                        "arrivalTime": "2011-03-11T14:55:00+09:00",
+                        "condition": "早いところでは既に津波到達と推定"
+                    },
+                    "maxHeight": {
+                        "dateTime": "2011-03-11T15:02:00+09:00",
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": null,
+                            "condition": "巨大"
+                        },
+                        "revise": "更新"
+                    }
+                }
+            ]
+        },
+        "earthquakes": [
+            {
+                "originTime": "2011-03-11T14:46:00+09:00",
+                "arrivalTime": "2011-03-11T14:46:00+09:00",
+                "hypocenter": {
+                    "code": "288",
+                    "name": "三陸沖",
+                    "coordinate": {
+                        "latitude": {
+                            "text": "38.0˚N",
+                            "value": "38.0000"
+                        },
+                        "longitude": {
+                            "text": "142.9˚E",
+                            "value": "142.9000"
+                        },
+                        "height": {
+                            "type": "高さ",
+                            "unit": "m",
+                            "value": "-10000"
+                        },
+                        "geodeticSystem": "日本測地系"
+                    },
+                    "depth": {
+                        "type": "深さ",
+                        "unit": "km",
+                        "value": "10"
+                    },
+                    "auxiliary": {
+                        "text": "牡鹿半島の東南東１３０ｋｍ付近",
+                        "code": "202",
+                        "name": "牡鹿半島",
+                        "direction": "東南東",
+                        "distance": {
+                            "unit": "km",
+                            "value": "130"
+                        }
+                    }
+                },
+                "magnitude": {
+                    "type": "マグニチュード",
+                    "value": null,
+                    "unit": "Mj",
+                    "condition": "Ｍ８を超える巨大地震"
+                }
+            }
+        ],
+        "comments": {
+            "warning": {
+                "text": "沖合での観測値であり、沿岸では津波はさらに高くなります。",
+                "codes": [
+                    "0115"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "_originalId": "TELEGRAM_ID",
+    "_schema": {
+        "type": "weather-early",
+        "version": "1.0.0"
+    },
+    "type": "早期天候情報",
+    "title": "雪に関する早期天候情報（東北地方）",
+    "status": "通常",
+    "infoType": "発表",
+    "editorialOffice": "仙台管区気象台",
+    "publishingOffice": [
+        "仙台管区気象台"
+    ],
+    "pressDateTime": "2017-11-20T05:21:57Z",
+    "reportDateTime": "2017-11-20T14:30:00+09:00",
+    "targetDateTime": "2017-11-26T00:00:00+09:00",
+    "targetDateTimeDubious": "頃",
+    "targetDuration": "P5D",
+    "validDateTime": "2017-11-25T14:30:00+09:00",
+    "eventId": null,
+    "serialNo": null,
+    "infoKind": "早期天候情報",
+    "infoKindVersion": "1.0_0",
+    "headline": null,
+    "body": {
+        "target": {
+            "code": "010200",
+            "name": "東北地方"
+        },
+        "targetTime": {
+            "dateTime": {
+                "value": "2017-11-26T00:00:00+09:00",
+                "validFormat": "yyyy-mm-dd",
+                "precision": "P3D"
+            },
+            "duration": "P5D"
+        },
+        "mainTexts": [
+            {
+                "text": "　東北地方では、１１月２６日頃から、東北日本海側を中心に、青森県下北、岩手県内陸、宮城県西部でも、降雪量が平年よりかなり多くなる可能性があります。\n　除雪などの対応に留意してください。今後の気象情報に注意してください。\n　なお、今後１週目から２週目にかけて、東北地方では、気温の低い状態が続くでしょう。\n＜参考＞\nこの期間の主な地点の５日間降雪量の平年値は、以下のとおりです。\n地点　平年値\n青森　１８センチ\n弘前　１４センチ\n酸ケ湯　６０センチ\n秋田　６センチ\n横手　１４センチ\n山形　６センチ\n酒田　４センチ\n肘折　４２センチ\n米沢　９センチ\n若松　５センチ\n猪苗代　１１センチ\n盛岡　６センチ\n湯田　２９センチ\n駒ノ湯　１９センチ\n新川　４センチ",
+                "zones": [
+                    {
+                        "code": "010200",
+                        "name": "東北地方"
+                    }
+                ]
+            }
+        ],
+        "early": [
+            {
+                "type": "大雪",
+                "forecasts": {
+                    "probabilityAboveNormal": {
+                        "unit": "%",
+                        "value": "30",
+                        "bound": "以上"
+                    },
+                    "thresholdAboveNormal": {
+                        "unit": "%",
+                        "value": "292",
+                        "bound": "以上"
+                    }
+                },
+                "zones": [
+                    {
+                        "code": "010201",
+                        "name": "東北日本海側"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "_originalId": "TELEGRAM_ID",
+    "_schema": {
+        "type": "volcano-information",
+        "version": "1.0.0"
+    },
+    "type": "噴火に関する火山観測報",
+    "title": "火山名　霧島山（御鉢）　噴火に関する火山観測報",
+    "status": "通常",
+    "infoType": "発表",
+    "editorialOffice": "福岡管区気象台",
+    "publishingOffice": [
+        "福岡管区気象台",
+        "鹿児島地方気象台"
+    ],
+    "pressDateTime": "2017-01-04T00:02:15Z",
+    "reportDateTime": "2017-01-04T09:02:00+09:00",
+    "targetDateTime": "2017-01-04T09:00:00+09:00",
+    "eventId": "20170104090200_550",
+    "serialNo": "1",
+    "infoKind": "噴火に関する火山観測報",
+    "infoKindVersion": "1.0_0",
+    "headline": "火　　山：霧島山（御鉢）\n日　　時：2017年01月04日09時00分（040000UTC）\n現　　象：噴火",
+    "body": {
+        "target": {
+            "code": "550",
+            "name": "霧島山（御鉢）",
+            "coordinate": {
+                "latitude": {
+                    "text": "31˚56.05'N",
+                    "value": "31.9342"
+                },
+                "longitude": {
+                    "text": "130˚51.70'E",
+                    "value": "130.8617"
+                },
+                "height": {
+                    "type": "高さ",
+                    "unit": "m",
+                    "value": "1700"
+                }
+            },
+            "kind": {
+                "code": "52",
+                "name": "噴火"
+            }
+        },
+        "eruption": {
+            "eventDateTime": {
+                "value": "2017-01-04T09:00:00+09:00",
+                "validFormat": "yyyy-mm-ddThh:mm"
+            },
+            "colorPlume": {
+                "heightAboveCrater": {
+                    "type": "火口上噴煙高度",
+                    "unit": "m",
+                    "value": "8000"
+                },
+                "heightSeaLevel": {
+                    "type": "海抜噴煙高度",
+                    "unit": "ft",
+                    "value": "32000"
+                },
+                "direction": {
+                    "type": "噴煙の流向",
+                    "unit": "漢字",
+                    "value": "南東"
+                }
+            },
+            "otherObservation": "現在の噴煙量：中量\n高層風　031810Z\n850-00000\n700-31010\n500-31020\n火口：御鉢火口"
+        }
+    }
+}

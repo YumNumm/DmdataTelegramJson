@@ -1,0 +1,87 @@
+{
+    "_originalId": "TELEGRAM_ID",
+    "_schema": {
+        "type": "volcano-information",
+        "version": "1.0.0"
+    },
+    "type": "噴火速報",
+    "title": "火山名　御嶽山　噴火速報",
+    "status": "通常",
+    "infoType": "発表",
+    "editorialOffice": "気象庁本庁",
+    "publishingOffice": [
+        "気象庁地震火山部"
+    ],
+    "pressDateTime": "2014-09-27T03:00:12Z",
+    "reportDateTime": "2014-09-27T12:00:00+09:00",
+    "targetDateTime": "2014-09-27T11:53:00+09:00",
+    "targetDateTimeDubious": "頃",
+    "eventId": "20140927120000_312",
+    "serialNo": null,
+    "infoKind": "噴火速報",
+    "infoKindVersion": "1.2_0",
+    "headline": "＜御嶽山で噴火が発生したもよう＞",
+    "body": {
+        "target": {
+            "code": "312",
+            "name": "御嶽山",
+            "kind": {
+                "code": "62",
+                "name": "噴火したもよう"
+            }
+        },
+        "cities": [
+            {
+                "code": "2042900",
+                "name": "長野県王滝村",
+                "kinds": [
+                    {
+                        "code": "62",
+                        "name": "噴火したもよう"
+                    }
+                ]
+            },
+            {
+                "code": "2043200",
+                "name": "長野県木曽町",
+                "kinds": [
+                    {
+                        "code": "62",
+                        "name": "噴火したもよう"
+                    }
+                ]
+            },
+            {
+                "code": "2120300",
+                "name": "岐阜県高山市",
+                "kinds": [
+                    {
+                        "code": "62",
+                        "name": "噴火したもよう"
+                    }
+                ]
+            },
+            {
+                "code": "2122000",
+                "name": "岐阜県下呂市",
+                "kinds": [
+                    {
+                        "code": "62",
+                        "name": "噴火したもよう"
+                    }
+                ]
+            }
+        ],
+        "eruption": {
+            "eventDateTime": {
+                "value": "2014-09-27T11:53:00+09:00",
+                "validFormat": "yyyy-mm-ddThh:mm",
+                "dubious": "頃"
+            }
+        },
+        "comments": {
+            "headline": "＜御嶽山で噴火が発生したもよう＞",
+            "activity": " 御嶽山で、平成２６年９月２７日１１時５３分頃、噴火が発生したもよう。"
+        }
+    }
+}

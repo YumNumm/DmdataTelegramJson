@@ -1,0 +1,24 @@
+{
+    "_originalId": "TELEGRAM_ID",
+    "_schema": {
+        "type": "earthquake-information",
+        "version": "1.0.0"
+    },
+    "type": "震源・震度に関する情報",
+    "title": "震源・震度情報",
+    "status": "通常",
+    "infoType": "取消",
+    "editorialOffice": "気象庁本庁",
+    "publishingOffice": ["気象庁"],
+    "pressDateTime": "2008-06-14T00:06:34Z",
+    "reportDateTime": "2008-06-14T09:06:00+09:00",
+    "targetDateTime": "2008-06-14T09:06:00+09:00",
+    "eventId": "20080614084350",
+    "serialNo": "3",
+    "infoKind": "地震情報",
+    "infoKindVersion": "1.0_1",
+    "headline": "震源・震度情報を取り消します。",
+    "body": {
+        "text": "先ほどの、震源・震度情報を取り消します。"
+    }
+}

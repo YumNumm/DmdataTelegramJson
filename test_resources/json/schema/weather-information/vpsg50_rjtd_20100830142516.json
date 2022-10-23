@@ -1,0 +1,27 @@
+{
+    "_originalId": "TELEGRAM_ID",
+    "_schema": {
+        "type": "weather-information",
+        "version": "1.0.0"
+    },
+    "type": "スモッグ気象情報",
+    "title": "スモッグ気象情報（硫黄酸化物）",
+    "status": "通常",
+    "infoType": "発表",
+    "editorialOffice": "気象庁本庁",
+    "publishingOffice": [
+        "気象庁予報部"
+    ],
+    "pressDateTime": "2010-08-30T05:25:16Z",
+    "reportDateTime": "2010-08-30T14:25:00+09:00",
+    "targetDateTime": "2010-08-30T14:25:00+09:00",
+    "eventId": "JPTK100016",
+    "serialNo": "11",
+    "infoKind": "同一現象用平文情報",
+    "infoKindVersion": "1.0_0",
+    "headline": "関東地方では、硫黄酸化物の濃度が高くなっている所があります。ＸＸＸからの火山ガスの影響とみられます。",
+    "body": {
+        "notice": null,
+        "comment": "　現在、神奈川県と千葉県の一部で、硫黄酸化物の濃度が高くなっている所\nがあります。\n\n　これらの地域では南よりの風となっており、今後、濃度の高い地域が北へ\n広がるおそれもあります。\n　このような状態は、しばらく続く可能性があります。\n　刺激臭を感じた場合には、室内に入り窓を閉めるなど、十分注意してくだ\nさい。"
+    }
+}

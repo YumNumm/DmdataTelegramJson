@@ -1,0 +1,262 @@
+{
+    "_originalId": "TELEGRAM_ID",
+    "_schema": {
+        "type": "weather-typhoon",
+        "version": "1.0.0"
+    },
+    "type": "台風解析・予報情報（５日予報）（Ｈ３０）",
+    "title": "台風解析・予報情報",
+    "status": "通常",
+    "infoType": "発表",
+    "editorialOffice": "気象庁本庁",
+    "publishingOffice": [
+        "気象庁予報部"
+    ],
+    "pressDateTime": "2017-09-16T08:40:19Z",
+    "reportDateTime": "2017-09-16T17:40:00+09:00",
+    "targetDateTime": "2017-09-16T17:00:00+09:00",
+    "targetDuration": "PT120H",
+    "eventId": "TC1725",
+    "serialNo": "91",
+    "infoKind": "台風解析・予報情報（５日予報）",
+    "infoKindVersion": "1.0_1",
+    "headline": null,
+    "body": {
+        "typhoon": {
+            "tcNumber": "TC201725",
+            "name": {
+                "text": "TALIM",
+                "kana": "タリム",
+                "number": "201718"
+            },
+            "remark": null
+        },
+        "forecasts": [
+            {
+                "type": "実況",
+                "elapsedTime": "PT0H",
+                "dateTime": "2017-09-16T17:00:00+09:00",
+                "classification": {
+                    "category": "TY",
+                    "name": "台風",
+                    "area": "大型",
+                    "intensity": "強い"
+                },
+                "center": {
+                    "location": "東シナ海",
+                    "coordinate": {
+                        "latitude": {
+                            "text": "29˚10'N",
+                            "value": "29.1667"
+                        },
+                        "longitude": {
+                            "text": "127˚05'E",
+                            "value": "127.0833"
+                        },
+                        "condition": "ほぼ正確"
+                    },
+                    "direction": {
+                        "type": "移動方向",
+                        "unit": "１６方位漢字",
+                        "value": "東北東",
+                        "azimuth": "67.5"
+                    },
+                    "speed": {
+                        "type": "移動速度",
+                        "unit": "km/h",
+                        "value": null,
+                        "condition": "ゆっくり"
+                    },
+                    "pressure": {
+                        "type": "中心気圧",
+                        "unit": "hPa",
+                        "value": "965"
+                    }
+                },
+                "wind": {
+                    "average": {
+                        "type": "最大風速",
+                        "unit": "m/s",
+                        "value": "35",
+                        "condition": "中心付近"
+                    },
+                    "instantaneous": {
+                        "type": "最大瞬間風速",
+                        "unit": "m/s",
+                        "value": "50"
+                    },
+                    "area": {
+                        "storm": [
+                            {
+                                "direction": {
+                                    "type": "方向",
+                                    "unit": "８方位漢字",
+                                    "value": "北東",
+                                    "azimuth": "45"
+                                },
+                                "radius": {
+                                    "type": "半径",
+                                    "unit": "km",
+                                    "value": "200"
+                                }
+                            },
+                            {
+                                "direction": {
+                                    "type": "方向",
+                                    "unit": "８方位漢字",
+                                    "value": "南西",
+                                    "azimuth": "225"
+                                },
+                                "radius": {
+                                    "type": "半径",
+                                    "unit": "km",
+                                    "value": "130"
+                                }
+                            }
+                        ],
+                        "strong": [
+                            {
+                                "direction": {
+                                    "type": "方向",
+                                    "unit": "８方位漢字",
+                                    "value": "北東",
+                                    "azimuth": "45"
+                                },
+                                "radius": {
+                                    "type": "半径",
+                                    "unit": "km",
+                                    "value": "560"
+                                }
+                            },
+                            {
+                                "direction": {
+                                    "type": "方向",
+                                    "unit": "８方位漢字",
+                                    "value": "南西",
+                                    "azimuth": "225"
+                                },
+                                "radius": {
+                                    "type": "半径",
+                                    "unit": "km",
+                                    "value": "440"
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "type": "推定",
+                "elapsedTime": "PT1H",
+                "dateTime": "2017-09-16T18:00:00+09:00",
+                "classification": {
+                    "category": "TY",
+                    "name": "台風",
+                    "area": "大型",
+                    "intensity": "強い"
+                },
+                "center": {
+                    "location": "東シナ海",
+                    "coordinate": {
+                        "latitude": {
+                            "text": "29˚10'N",
+                            "value": "29.1667"
+                        },
+                        "longitude": {
+                            "text": "127˚10'E",
+                            "value": "127.1667"
+                        }
+                    },
+                    "direction": {
+                        "type": "移動方向",
+                        "unit": "１６方位漢字",
+                        "value": "東北東",
+                        "azimuth": "67.5"
+                    },
+                    "speed": {
+                        "type": "移動速度",
+                        "unit": "km/h",
+                        "value": null,
+                        "condition": "ゆっくり"
+                    },
+                    "pressure": {
+                        "type": "中心気圧",
+                        "unit": "hPa",
+                        "value": "965"
+                    }
+                },
+                "wind": {
+                    "average": {
+                        "type": "最大風速",
+                        "unit": "m/s",
+                        "value": "35",
+                        "condition": "中心付近"
+                    },
+                    "instantaneous": {
+                        "type": "最大瞬間風速",
+                        "unit": "m/s",
+                        "value": "50"
+                    },
+                    "area": {
+                        "storm": [
+                            {
+                                "direction": {
+                                    "type": "方向",
+                                    "unit": "８方位漢字",
+                                    "value": "北東",
+                                    "azimuth": "45"
+                                },
+                                "radius": {
+                                    "type": "半径",
+                                    "unit": "km",
+                                    "value": "200"
+                                }
+                            },
+                            {
+                                "direction": {
+                                    "type": "方向",
+                                    "unit": "８方位漢字",
+                                    "value": "南西",
+                                    "azimuth": "225"
+                                },
+                                "radius": {
+                                    "type": "半径",
+                                    "unit": "km",
+                                    "value": "130"
+                                }
+                            }
+                        ],
+                        "strong": [
+                            {
+                                "direction": {
+                                    "type": "方向",
+                                    "unit": "８方位漢字",
+                                    "value": "北東",
+                                    "azimuth": "45"
+                                },
+                                "radius": {
+                                    "type": "半径",
+                                    "unit": "km",
+                                    "value": "560"
+                                }
+                            },
+                            {
+                                "direction": {
+                                    "type": "方向",
+                                    "unit": "８方位漢字",
+                                    "value": "南西",
+                                    "azimuth": "225"
+                                },
+                                "radius": {
+                                    "type": "半径",
+                                    "unit": "km",
+                                    "value": "440"
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

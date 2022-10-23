@@ -1,0 +1,143 @@
+{
+    "_originalId": "TELEGRAM_ID",
+    "_schema": {
+        "type": "tsunami-information",
+        "version": "1.0.0"
+    },
+    "type": "津波警報・注意報・予報a",
+    "title": "津波予報",
+    "status": "訓練",
+    "infoType": "発表",
+    "editorialOffice": "気象庁本庁",
+    "publishingOffice": [
+        "気象庁"
+    ],
+    "pressDateTime": "2018-12-04T10:30:00Z",
+    "reportDateTime": "2018-12-04T19:30:00+09:00",
+    "targetDateTime": "2018-12-04T19:30:00+09:00",
+    "eventId": "20181204180000",
+    "serialNo": null,
+    "infoKind": "津波警報・注意報・予報",
+    "infoKindVersion": "1.0_1",
+    "headline": "＊＊＊これは訓練です＊＊＊\n津波注意報を解除しました。",
+    "body": {
+        "tsunami": {
+            "forecasts": [
+                {
+                    "code": "311",
+                    "name": "千葉県内房",
+                    "kind": {
+                        "code": "60",
+                        "name": "津波注意報解除",
+                        "lastKind": {
+                            "code": "62",
+                            "name": "津波注意報"
+                        }
+                    }
+                },
+                {
+                    "code": "312",
+                    "name": "東京湾内湾",
+                    "kind": {
+                        "code": "60",
+                        "name": "津波注意報解除",
+                        "lastKind": {
+                            "code": "62",
+                            "name": "津波注意報"
+                        }
+                    }
+                },
+                {
+                    "code": "320",
+                    "name": "伊豆諸島",
+                    "kind": {
+                        "code": "60",
+                        "name": "津波注意報解除",
+                        "lastKind": {
+                            "code": "62",
+                            "name": "津波注意報"
+                        }
+                    }
+                },
+                {
+                    "code": "330",
+                    "name": "相模湾・三浦半島",
+                    "kind": {
+                        "code": "60",
+                        "name": "津波注意報解除",
+                        "lastKind": {
+                            "code": "62",
+                            "name": "津波注意報"
+                        }
+                    }
+                },
+                {
+                    "code": "380",
+                    "name": "静岡県",
+                    "kind": {
+                        "code": "60",
+                        "name": "津波注意報解除",
+                        "lastKind": {
+                            "code": "62",
+                            "name": "津波注意報"
+                        }
+                    }
+                }
+            ]
+        },
+        "earthquakes": [
+            {
+                "originTime": "2018-12-04T18:00:00+09:00",
+                "arrivalTime": "2018-12-04T18:00:00+09:00",
+                "hypocenter": {
+                    "code": "350",
+                    "name": "東京都２３区",
+                    "coordinate": {
+                        "latitude": {
+                            "text": "35.6˚N",
+                            "value": "35.6000"
+                        },
+                        "longitude": {
+                            "text": "139.7˚E",
+                            "value": "139.7000"
+                        },
+                        "height": {
+                            "type": "高さ",
+                            "unit": "m",
+                            "value": "-30000"
+                        },
+                        "geodeticSystem": "日本測地系"
+                    },
+                    "depth": {
+                        "type": "深さ",
+                        "unit": "km",
+                        "value": "30"
+                    },
+                    "auxiliary": {
+                        "text": "館山の北北西７０ｋｍ付近",
+                        "code": "301",
+                        "name": "館山",
+                        "direction": "北北西",
+                        "distance": {
+                            "unit": "km",
+                            "value": "70"
+                        }
+                    }
+                },
+                "magnitude": {
+                    "type": "マグニチュード",
+                    "value": "7.3",
+                    "unit": "Mj"
+                }
+            }
+        ],
+        "comments": {
+            "warning": {
+                "text": "現在、大津波警報・津波警報・津波注意報を発表している沿岸はありません。",
+                "codes": [
+                    "0107"
+                ]
+            }
+        }
+    }
+}

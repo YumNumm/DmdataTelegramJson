@@ -1,0 +1,241 @@
+{
+    "_originalId": "TELEGRAM_ID",
+    "_schema": {
+        "type": "weather-typhoon",
+        "version": "1.0.0"
+    },
+    "type": "台風解析・予報情報（５日予報）（Ｈ３０）",
+    "title": "台風解析・予報情報",
+    "status": "通常",
+    "infoType": "発表",
+    "editorialOffice": "気象庁本庁",
+    "publishingOffice": [
+        "気象庁予報部"
+    ],
+    "pressDateTime": "2017-09-08T19:29:07Z",
+    "reportDateTime": "2017-09-09T04:30:00+09:00",
+    "targetDateTime": "2017-09-09T03:00:00+09:00",
+    "targetDuration": "PT120H",
+    "eventId": "TC1725",
+    "serialNo": "1",
+    "infoKind": "台風解析・予報情報（５日予報）",
+    "infoKindVersion": "1.0_1",
+    "headline": null,
+    "body": {
+        "typhoon": {
+            "tcNumber": "TC201725",
+            "name": {
+                "text": null,
+                "kana": null,
+                "number": null
+            },
+            "remark": "台風発生予想"
+        },
+        "forecasts": [
+            {
+                "type": "実況",
+                "elapsedTime": "PT0H",
+                "dateTime": "2017-09-09T03:00:00+09:00",
+                "classification": {
+                    "category": "TD",
+                    "name": "熱帯低気圧",
+                    "area": null,
+                    "intensity": null
+                },
+                "center": {
+                    "location": "マリアナ諸島",
+                    "coordinate": {
+                        "latitude": {
+                            "text": "12˚35'N",
+                            "value": "12.5833"
+                        },
+                        "longitude": {
+                            "text": "146˚50'E",
+                            "value": "146.8333"
+                        },
+                        "condition": "不確実"
+                    },
+                    "direction": {
+                        "type": "移動方向",
+                        "unit": "１６方位漢字",
+                        "value": "西北西",
+                        "azimuth": "292.5"
+                    },
+                    "speed": {
+                        "type": "移動速度",
+                        "unit": "km/h",
+                        "value": "30"
+                    },
+                    "pressure": {
+                        "type": "中心気圧",
+                        "unit": "hPa",
+                        "value": "1006"
+                    }
+                },
+                "wind": {
+                    "average": {
+                        "type": "最大風速",
+                        "unit": "m/s",
+                        "value": "15",
+                        "condition": "中心付近"
+                    },
+                    "instantaneous": {
+                        "type": "最大瞬間風速",
+                        "unit": "m/s",
+                        "value": "23"
+                    },
+                    "area": {
+                        "storm": [],
+                        "strong": []
+                    }
+                }
+            },
+            {
+                "type": "予報",
+                "elapsedTime": "PT12H",
+                "dateTime": "2017-09-09T15:00:00+09:00",
+                "classification": {
+                    "category": "TD",
+                    "name": "熱帯低気圧",
+                    "intensity": null
+                },
+                "center": {
+                    "location": "マリアナ諸島",
+                    "probabilityCircle": {
+                        "basePoint": {
+                            "latitude": {
+                                "text": "14˚20'N",
+                                "value": "14.3333"
+                            },
+                            "longitude": {
+                                "text": "144˚50'E",
+                                "value": "144.8333"
+                            }
+                        },
+                        "axes": [
+                            {
+                                "direction": {
+                                    "type": "方向",
+                                    "unit": "８方位漢字",
+                                    "value": null,
+                                    "azimuth": null,
+                                    "condition": "全域"
+                                },
+                                "radius": {
+                                    "type": "７０パーセント確率半径",
+                                    "unit": "km",
+                                    "value": "110"
+                                }
+                            }
+                        ]
+                    },
+                    "direction": {
+                        "type": "移動方向",
+                        "unit": "１６方位漢字",
+                        "value": "北西",
+                        "azimuth": "315"
+                    },
+                    "speed": {
+                        "type": "移動速度",
+                        "unit": "km/h",
+                        "value": "25"
+                    },
+                    "pressure": {
+                        "type": "中心気圧",
+                        "unit": "hPa",
+                        "value": "1004"
+                    }
+                },
+                "wind": {
+                    "average": {
+                        "type": "最大風速",
+                        "unit": "m/s",
+                        "value": "15",
+                        "condition": "中心付近"
+                    },
+                    "instantaneous": {
+                        "type": "最大瞬間風速",
+                        "unit": "m/s",
+                        "value": "23"
+                    },
+                    "area": {
+                        "stormWarning": []
+                    }
+                }
+            },
+            {
+                "type": "予報",
+                "elapsedTime": "PT24H",
+                "dateTime": "2017-09-10T03:00:00+09:00",
+                "classification": {
+                    "category": "TS",
+                    "name": "台風",
+                    "intensity": null
+                },
+                "center": {
+                    "location": "マリアナ諸島",
+                    "probabilityCircle": {
+                        "basePoint": {
+                            "latitude": {
+                                "text": "16˚00'N",
+                                "value": "16.0000"
+                            },
+                            "longitude": {
+                                "text": "142˚40'E",
+                                "value": "142.6667"
+                            }
+                        },
+                        "axes": [
+                            {
+                                "direction": {
+                                    "type": "方向",
+                                    "unit": "８方位漢字",
+                                    "value": null,
+                                    "azimuth": null,
+                                    "condition": "全域"
+                                },
+                                "radius": {
+                                    "type": "７０パーセント確率半径",
+                                    "unit": "km",
+                                    "value": "200"
+                                }
+                            }
+                        ]
+                    },
+                    "direction": {
+                        "type": "移動方向",
+                        "unit": "１６方位漢字",
+                        "value": "北西",
+                        "azimuth": "315"
+                    },
+                    "speed": {
+                        "type": "移動速度",
+                        "unit": "km/h",
+                        "value": "25"
+                    },
+                    "pressure": {
+                        "type": "中心気圧",
+                        "unit": "hPa",
+                        "value": "1000"
+                    }
+                },
+                "wind": {
+                    "average": {
+                        "type": "最大風速",
+                        "unit": "m/s",
+                        "value": "18",
+                        "condition": "中心付近"
+                    },
+                    "instantaneous": {
+                        "type": "最大瞬間風速",
+                        "unit": "m/s",
+                        "value": "25"
+                    },
+                    "area": {
+                        "stormWarning": []
+                    }
+                }
+            }
+        ]
+    }
+}

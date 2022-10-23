@@ -1,0 +1,63 @@
+{
+    "_originalId": "TELEGRAM_ID",
+    "_schema": {
+        "type": "earthquake-information",
+        "version": "1.0.0"
+    },
+    "type": "震源に関する情報",
+    "title": "震源に関する情報",
+    "status": "通常",
+    "infoType": "発表",
+    "editorialOffice": "気象庁本庁",
+    "publishingOffice": ["気象庁"],
+    "pressDateTime": "2021-02-13T14:11:44Z",
+    "reportDateTime": "2021-02-13T23:11:00+09:00",
+    "targetDateTime": "2021-02-13T23:11:00+09:00",
+    "eventId": "20210213230800",
+    "serialNo": null,
+    "infoKind": "震源速報",
+    "infoKindVersion": "1.0_1",
+    "headline": "きょう１３日２３時０８分ころ、地震がありました。",
+    "body": {
+        "earthquake": {
+            "originTime": "2021-02-13T23:07:00+09:00",
+            "arrivalTime": "2021-02-13T23:08:00+09:00",
+            "hypocenter": {
+                "name": "福島県沖",
+                "code": "289",
+                "coordinate": {
+                    "latitude": {
+                        "text": "37.7˚N",
+                        "value": "37.7000"
+                    },
+                    "longitude": {
+                        "text": "141.8˚E",
+                        "value": "141.8000"
+                    },
+                    "height": {
+                        "type": "高さ",
+                        "value": "-60000",
+                        "unit": "m"
+                    },
+                    "geodeticSystem": "日本測地系"
+                },
+                "depth": {
+                    "type": "深さ",
+                    "value": "60",
+                    "unit": "km"
+                }
+            },
+            "magnitude": {
+                "type": "マグニチュード",
+                "unit": "Mj",
+                "value": "7.1"
+            }
+        },
+        "comments": {
+            "forecast": {
+                "text": "この地震により、日本の沿岸では若干の海面変動があるかもしれませんが、被害の心配はありません。",
+                "codes": ["0212"]
+            }
+        }
+    }
+}

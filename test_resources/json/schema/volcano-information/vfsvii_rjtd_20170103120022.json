@@ -1,0 +1,74 @@
+{
+    "_originalId": "TELEGRAM_ID",
+    "_schema": {
+        "type": "volcano-information",
+        "version": "1.0.0"
+    },
+    "type": "火山現象に関する海上警報・海上予報",
+    "title": "火山名  桜島  噴火警報",
+    "status": "通常",
+    "infoType": "発表",
+    "editorialOffice": "気象庁本庁",
+    "publishingOffice": [
+        "気象庁地震火山部"
+    ],
+    "pressDateTime": "2017-01-03T03:00:22Z",
+    "reportDateTime": "2017-01-03T12:00:00+09:00",
+    "targetDateTime": "2017-01-03T09:00:00+09:00",
+    "eventId": "506",
+    "serialNo": null,
+    "infoKind": "火山現象に関する海上警報・海上予報",
+    "infoKindVersion": "1.0_0",
+    "headline": "火山名  桜島  噴火警報",
+    "body": {
+        "target": {
+            "code": "506",
+            "name": "桜島",
+            "coordinate": {
+                "latitude": {
+                    "text": "31˚34.63'N",
+                    "value": "31.5772"
+                },
+                "longitude": {
+                    "text": "130˚39.53'E",
+                    "value": "130.6588"
+                },
+                "height": {
+                    "type": "高さ",
+                    "unit": "m",
+                    "value": "1060"
+                }
+            },
+            "kind": {
+                "code": "36",
+                "name": "周辺海域警戒",
+                "condition": "引上げ",
+                "lastKind": {
+                    "code": "35",
+                    "name": "活火山であることに留意（海底火山）"
+                }
+            }
+        },
+        "oceanZones": [
+            {
+                "code": "5200",
+                "name": "九州南方海上及び日向灘",
+                "kinds": [
+                    {
+                        "code": "31",
+                        "name": "海上警報（噴火警報）",
+                        "condition": "発表",
+                        "lastKind": {
+                            "code": "33",
+                            "name": "海上予報（噴火予報）"
+                        }
+                    }
+                ]
+            }
+        ],
+        "comments": {
+            "headline": "火山名：桜島　噴火警報",
+            "prevention": "沿岸部に噴火の影響が及ぶおそれ　周辺海域警戒"
+        }
+    }
+}

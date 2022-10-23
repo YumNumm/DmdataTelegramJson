@@ -1,0 +1,4527 @@
+{
+    "_originalId": "TELEGRAM_ID",
+    "_schema": {
+        "type": "tsunami-information",
+        "version": "1.0.0"
+    },
+    "type": "津波情報a",
+    "title": "津波観測に関する情報",
+    "status": "訓練",
+    "infoType": "発表",
+    "editorialOffice": "気象庁本庁",
+    "publishingOffice": [
+        "気象庁"
+    ],
+    "pressDateTime": "2016-09-01T00:10:00Z",
+    "reportDateTime": "2016-09-01T09:10:00+09:00",
+    "targetDateTime": "2016-09-01T09:10:00+09:00",
+    "eventId": "20160901071000",
+    "serialNo": "6",
+    "infoKind": "津波情報",
+    "infoKindVersion": "1.0_1",
+    "headline": "＊＊＊これは訓練です＊＊＊\n　１日０９時１０分現在の、津波の観測値をお知らせします。",
+    "body": {
+        "tsunami": {
+            "forecasts": [
+                {
+                    "code": "300",
+                    "name": "茨城県",
+                    "kind": {
+                        "code": "52",
+                        "name": "大津波警報",
+                        "lastKind": {
+                            "code": "53",
+                            "name": "大津波警報：発表"
+                        }
+                    },
+                    "firstHeight": {
+                        "condition": "第１波の到達を確認",
+                        "revise": "更新"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "5"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "30001",
+                            "name": "大洗",
+                            "highTideDateTime": "2016-09-01T16:28:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認",
+                                "revise": "更新"
+                            }
+                        },
+                        {
+                            "code": "30020",
+                            "name": "神栖市鹿島港",
+                            "highTideDateTime": "2016-09-01T16:31:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認",
+                                "revise": "更新"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "310",
+                    "name": "千葉県九十九里・外房",
+                    "kind": {
+                        "code": "52",
+                        "name": "大津波警報",
+                        "lastKind": {
+                            "code": "53",
+                            "name": "大津波警報：発表"
+                        }
+                    },
+                    "firstHeight": {
+                        "condition": "第１波の到達を確認",
+                        "revise": "更新"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "10"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "31001",
+                            "name": "銚子",
+                            "highTideDateTime": "2016-09-01T16:36:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認",
+                                "revise": "更新"
+                            }
+                        },
+                        {
+                            "code": "31002",
+                            "name": "勝浦市興津",
+                            "highTideDateTime": "2016-09-01T16:55:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:40:00+09:00"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "311",
+                    "name": "千葉県内房",
+                    "kind": {
+                        "code": "52",
+                        "name": "大津波警報",
+                        "lastKind": {
+                            "code": "53",
+                            "name": "大津波警報：発表"
+                        }
+                    },
+                    "firstHeight": {
+                        "condition": "第１波の到達を確認"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "over": true,
+                            "value": "10"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "31101",
+                            "name": "館山市布良",
+                            "highTideDateTime": "2016-09-01T16:59:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "320",
+                    "name": "伊豆諸島",
+                    "kind": {
+                        "code": "52",
+                        "name": "大津波警報",
+                        "lastKind": {
+                            "code": "53",
+                            "name": "大津波警報：発表"
+                        }
+                    },
+                    "firstHeight": {
+                        "condition": "第１波の到達を確認"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "over": true,
+                            "value": "10"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "32001",
+                            "name": "伊豆大島岡田",
+                            "highTideDateTime": "2016-09-01T17:10:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        },
+                        {
+                            "code": "32002",
+                            "name": "三宅島坪田",
+                            "highTideDateTime": "2016-09-01T04:23:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        },
+                        {
+                            "code": "32003",
+                            "name": "八丈島八重根",
+                            "highTideDateTime": "2016-09-01T04:39:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        },
+                        {
+                            "code": "32004",
+                            "name": "神津島神津島港",
+                            "highTideDateTime": "2016-09-01T04:48:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        },
+                        {
+                            "code": "32005",
+                            "name": "三宅島阿古",
+                            "highTideDateTime": "2016-09-01T04:28:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        },
+                        {
+                            "code": "32006",
+                            "name": "八丈島神湊",
+                            "highTideDateTime": "2016-09-01T04:37:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "321",
+                    "name": "小笠原諸島",
+                    "kind": {
+                        "code": "52",
+                        "name": "大津波警報",
+                        "lastKind": {
+                            "code": "53",
+                            "name": "大津波警報：発表"
+                        }
+                    },
+                    "firstHeight": {
+                        "condition": "第１波の到達を確認",
+                        "revise": "更新"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "over": true,
+                            "value": "10"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "32101",
+                            "name": "父島二見",
+                            "highTideDateTime": "2016-09-01T18:16:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認",
+                                "revise": "更新"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "330",
+                    "name": "相模湾・三浦半島",
+                    "kind": {
+                        "code": "52",
+                        "name": "大津波警報",
+                        "lastKind": {
+                            "code": "53",
+                            "name": "大津波警報：発表"
+                        }
+                    },
+                    "firstHeight": {
+                        "condition": "第１波の到達を確認"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "10"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "33000",
+                            "name": "小田原",
+                            "highTideDateTime": "2016-09-01T17:12:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        },
+                        {
+                            "code": "33001",
+                            "name": "三浦市三崎漁港",
+                            "highTideDateTime": "2016-09-01T17:12:00+09:00",
+                            "firstHeight": {
+                                "condition": "津波到達中と推測"
+                            }
+                        },
+                        {
+                            "code": "33030",
+                            "name": "三浦市油壺",
+                            "highTideDateTime": "2016-09-01T17:12:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "380",
+                    "name": "静岡県",
+                    "kind": {
+                        "code": "52",
+                        "name": "大津波警報",
+                        "lastKind": {
+                            "code": "53",
+                            "name": "大津波警報：発表"
+                        }
+                    },
+                    "firstHeight": {
+                        "condition": "第１波の到達を確認"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "over": true,
+                            "value": "10"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "38001",
+                            "name": "沼津市内浦",
+                            "highTideDateTime": "2016-09-01T05:01:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        },
+                        {
+                            "code": "38002",
+                            "name": "清水",
+                            "highTideDateTime": "2016-09-01T04:58:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        },
+                        {
+                            "code": "38004",
+                            "name": "南伊豆町石廊崎",
+                            "highTideDateTime": "2016-09-01T04:49:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        },
+                        {
+                            "code": "38005",
+                            "name": "御前崎",
+                            "highTideDateTime": "2016-09-01T04:57:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        },
+                        {
+                            "code": "38006",
+                            "name": "舞阪",
+                            "highTideDateTime": "2016-09-01T05:22:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        },
+                        {
+                            "code": "38020",
+                            "name": "下田港",
+                            "highTideDateTime": "2016-09-01T04:39:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        },
+                        {
+                            "code": "38030",
+                            "name": "伊東",
+                            "highTideDateTime": "2016-09-01T17:16:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        },
+                        {
+                            "code": "38031",
+                            "name": "西伊豆町田子",
+                            "highTideDateTime": "2016-09-01T04:55:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        },
+                        {
+                            "code": "38032",
+                            "name": "焼津",
+                            "highTideDateTime": "2016-09-01T04:54:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "390",
+                    "name": "愛知県外海",
+                    "kind": {
+                        "code": "52",
+                        "name": "大津波警報",
+                        "lastKind": {
+                            "code": "53",
+                            "name": "大津波警報：発表"
+                        }
+                    },
+                    "firstHeight": {
+                        "condition": "第１波の到達を確認"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "over": true,
+                            "value": "10"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "39001",
+                            "name": "田原市赤羽根",
+                            "highTideDateTime": "2016-09-01T05:07:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "391",
+                    "name": "伊勢・三河湾",
+                    "kind": {
+                        "code": "52",
+                        "name": "大津波警報",
+                        "lastKind": {
+                            "code": "53",
+                            "name": "大津波警報：発表"
+                        }
+                    },
+                    "firstHeight": {
+                        "condition": "第１波の到達を確認"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "10"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "39101",
+                            "name": "名古屋",
+                            "highTideDateTime": "2016-09-01T05:38:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        },
+                        {
+                            "code": "39102",
+                            "name": "半田市衣浦",
+                            "highTideDateTime": "2016-09-01T05:34:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        },
+                        {
+                            "code": "39103",
+                            "name": "四日市",
+                            "highTideDateTime": "2016-09-01T05:36:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        },
+                        {
+                            "code": "39120",
+                            "name": "豊橋市三河港",
+                            "highTideDateTime": "2016-09-01T05:32:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "400",
+                    "name": "三重県南部",
+                    "kind": {
+                        "code": "52",
+                        "name": "大津波警報",
+                        "lastKind": {
+                            "code": "53",
+                            "name": "大津波警報：発表"
+                        }
+                    },
+                    "firstHeight": {
+                        "condition": "第１波の到達を確認"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "over": true,
+                            "value": "10"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "40001",
+                            "name": "鳥羽",
+                            "highTideDateTime": "2016-09-01T05:35:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        },
+                        {
+                            "code": "40002",
+                            "name": "尾鷲",
+                            "highTideDateTime": "2016-09-01T05:14:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        },
+                        {
+                            "code": "40003",
+                            "name": "熊野市遊木",
+                            "highTideDateTime": "2016-09-01T05:12:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "510",
+                    "name": "大阪府",
+                    "kind": {
+                        "code": "52",
+                        "name": "大津波警報",
+                        "lastKind": {
+                            "code": "53",
+                            "name": "大津波警報：発表"
+                        }
+                    },
+                    "firstHeight": {
+                        "condition": "第１波の到達を確認",
+                        "revise": "更新"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "5"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "51001",
+                            "name": "大阪天保山",
+                            "highTideDateTime": "2016-09-01T06:21:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認",
+                                "revise": "更新"
+                            }
+                        },
+                        {
+                            "code": "51002",
+                            "name": "岬町淡輪",
+                            "highTideDateTime": "2016-09-01T06:11:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認",
+                                "revise": "更新"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "521",
+                    "name": "兵庫県瀬戸内海沿岸",
+                    "kind": {
+                        "code": "52",
+                        "name": "大津波警報",
+                        "lastKind": {
+                            "code": "53",
+                            "name": "大津波警報：発表"
+                        }
+                    },
+                    "firstHeight": {
+                        "condition": "第１波の到達を確認",
+                        "revise": "更新"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "5"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "52101",
+                            "name": "神戸",
+                            "highTideDateTime": "2016-09-01T06:23:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認",
+                                "revise": "更新"
+                            }
+                        },
+                        {
+                            "code": "52102",
+                            "name": "姫路",
+                            "highTideDateTime": "2016-09-01T09:39:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認",
+                                "revise": "更新"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "522",
+                    "name": "淡路島南部",
+                    "kind": {
+                        "code": "52",
+                        "name": "大津波警報",
+                        "lastKind": {
+                            "code": "53",
+                            "name": "大津波警報：発表"
+                        }
+                    },
+                    "firstHeight": {
+                        "condition": "第１波の到達を確認"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "10"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "52202",
+                            "name": "洲本",
+                            "highTideDateTime": "2016-09-01T06:00:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "530",
+                    "name": "和歌山県",
+                    "kind": {
+                        "code": "52",
+                        "name": "大津波警報",
+                        "lastKind": {
+                            "code": "53",
+                            "name": "大津波警報：発表"
+                        }
+                    },
+                    "firstHeight": {
+                        "condition": "第１波の到達を確認"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "over": true,
+                            "value": "10"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "53001",
+                            "name": "那智勝浦町浦神",
+                            "highTideDateTime": "2016-09-01T05:21:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        },
+                        {
+                            "code": "53002",
+                            "name": "串本町袋港",
+                            "highTideDateTime": "2016-09-01T05:24:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        },
+                        {
+                            "code": "53004",
+                            "name": "和歌山",
+                            "highTideDateTime": "2016-09-01T05:51:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        },
+                        {
+                            "code": "53006",
+                            "name": "御坊市祓井戸",
+                            "highTideDateTime": "2016-09-01T05:28:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        },
+                        {
+                            "code": "53007",
+                            "name": "白浜町堅田",
+                            "highTideDateTime": "2016-09-01T05:25:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "580",
+                    "name": "徳島県",
+                    "kind": {
+                        "code": "52",
+                        "name": "大津波警報",
+                        "lastKind": {
+                            "code": "53",
+                            "name": "大津波警報：発表"
+                        }
+                    },
+                    "firstHeight": {
+                        "condition": "第１波の到達を確認"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "over": true,
+                            "value": "10"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "58001",
+                            "name": "小松島",
+                            "highTideDateTime": "2016-09-01T05:41:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        },
+                        {
+                            "code": "58002",
+                            "name": "徳島由岐",
+                            "highTideDateTime": "2016-09-01T05:27:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "590",
+                    "name": "香川県",
+                    "kind": {
+                        "code": "52",
+                        "name": "大津波警報",
+                        "lastKind": {
+                            "code": "53",
+                            "name": "大津波警報：発表"
+                        }
+                    },
+                    "firstHeight": {
+                        "condition": "第１波の到達を確認",
+                        "revise": "更新"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "5"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "59001",
+                            "name": "高松",
+                            "highTideDateTime": "2016-09-01T10:42:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認",
+                                "revise": "更新"
+                            }
+                        },
+                        {
+                            "code": "59020",
+                            "name": "坂出市与島港",
+                            "highTideDateTime": "2016-09-01T10:48:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:10:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "59022",
+                            "name": "多度津港",
+                            "highTideDateTime": "2016-09-01T11:06:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:50:00+09:00"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "600",
+                    "name": "愛媛県宇和海沿岸",
+                    "kind": {
+                        "code": "52",
+                        "name": "大津波警報",
+                        "lastKind": {
+                            "code": "53",
+                            "name": "大津波警報：発表"
+                        }
+                    },
+                    "firstHeight": {
+                        "condition": "第１波の到達を確認"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "over": true,
+                            "value": "10"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "60001",
+                            "name": "宇和島",
+                            "highTideDateTime": "2016-09-01T06:50:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "601",
+                    "name": "愛媛県瀬戸内海沿岸",
+                    "kind": {
+                        "code": "52",
+                        "name": "大津波警報",
+                        "lastKind": {
+                            "code": "53",
+                            "name": "大津波警報：発表"
+                        }
+                    },
+                    "firstHeight": {
+                        "condition": "第１波の到達を確認",
+                        "revise": "更新"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "5"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "60101",
+                            "name": "松山",
+                            "highTideDateTime": "2016-09-01T08:55:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認",
+                                "revise": "更新"
+                            }
+                        },
+                        {
+                            "code": "60121",
+                            "name": "今治市馬島",
+                            "highTideDateTime": "2016-09-01T10:28:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:40:00+09:00"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "610",
+                    "name": "高知県",
+                    "kind": {
+                        "code": "52",
+                        "name": "大津波警報",
+                        "lastKind": {
+                            "code": "53",
+                            "name": "大津波警報：発表"
+                        }
+                    },
+                    "firstHeight": {
+                        "condition": "第１波の到達を確認"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "over": true,
+                            "value": "10"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "61001",
+                            "name": "室戸市室戸岬",
+                            "highTideDateTime": "2016-09-01T05:32:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        },
+                        {
+                            "code": "61002",
+                            "name": "高知",
+                            "highTideDateTime": "2016-09-01T05:34:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        },
+                        {
+                            "code": "61003",
+                            "name": "土佐清水",
+                            "highTideDateTime": "2016-09-01T05:40:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        },
+                        {
+                            "code": "61020",
+                            "name": "須崎港",
+                            "highTideDateTime": "2016-09-01T05:34:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "701",
+                    "name": "山口県瀬戸内海沿岸",
+                    "kind": {
+                        "code": "52",
+                        "name": "大津波警報",
+                        "lastKind": {
+                            "code": "53",
+                            "name": "大津波警報：発表"
+                        }
+                    },
+                    "firstHeight": {
+                        "arrivalTime": "2016-09-01T07:40:00+09:00"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "5"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "70101",
+                            "name": "下関市彦島弟子待",
+                            "highTideDateTime": "2016-09-01T09:24:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T09:00:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "70102",
+                            "name": "徳山",
+                            "highTideDateTime": "2016-09-01T08:26:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:00:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "70120",
+                            "name": "宇部港",
+                            "highTideDateTime": "2016-09-01T08:38:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:30:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "70121",
+                            "name": "三田尻中関港",
+                            "highTideDateTime": "2016-09-01T08:28:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:10:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "70122",
+                            "name": "下関港長府",
+                            "highTideDateTime": "2016-09-01T08:48:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T09:00:00+09:00"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "750",
+                    "name": "大分県瀬戸内海沿岸",
+                    "kind": {
+                        "code": "52",
+                        "name": "大津波警報",
+                        "lastKind": {
+                            "code": "53",
+                            "name": "大津波警報：発表"
+                        }
+                    },
+                    "firstHeight": {
+                        "condition": "第１波の到達を確認",
+                        "revise": "更新"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "10"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "75001",
+                            "name": "大分",
+                            "highTideDateTime": "2016-09-01T08:00:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認",
+                                "revise": "更新"
+                            }
+                        },
+                        {
+                            "code": "75020",
+                            "name": "別府港",
+                            "highTideDateTime": "2016-09-01T07:58:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認",
+                                "revise": "更新"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "751",
+                    "name": "大分県豊後水道沿岸",
+                    "kind": {
+                        "code": "52",
+                        "name": "大津波警報",
+                        "lastKind": {
+                            "code": "53",
+                            "name": "大津波警報：発表"
+                        }
+                    },
+                    "firstHeight": {
+                        "condition": "第１波の到達を確認"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "over": true,
+                            "value": "10"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "75100",
+                            "name": "佐伯市松浦",
+                            "highTideDateTime": "2016-09-01T06:34:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "760",
+                    "name": "宮崎県",
+                    "kind": {
+                        "code": "52",
+                        "name": "大津波警報",
+                        "lastKind": {
+                            "code": "53",
+                            "name": "大津波警報：発表"
+                        }
+                    },
+                    "firstHeight": {
+                        "condition": "第１波の到達を確認"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "over": true,
+                            "value": "10"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "76001",
+                            "name": "日向市細島",
+                            "highTideDateTime": "2016-09-01T05:50:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        },
+                        {
+                            "code": "76002",
+                            "name": "日南市油津",
+                            "highTideDateTime": "2016-09-01T05:45:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        },
+                        {
+                            "code": "76020",
+                            "name": "宮崎港",
+                            "highTideDateTime": "2016-09-01T05:43:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "770",
+                    "name": "鹿児島県東部",
+                    "kind": {
+                        "code": "52",
+                        "name": "大津波警報",
+                        "lastKind": {
+                            "code": "53",
+                            "name": "大津波警報：発表"
+                        }
+                    },
+                    "firstHeight": {
+                        "condition": "第１波の到達を確認"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "10"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "77002",
+                            "name": "南大隅町大泊",
+                            "highTideDateTime": "2016-09-01T06:30:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        },
+                        {
+                            "code": "77020",
+                            "name": "志布志港",
+                            "highTideDateTime": "2016-09-01T05:54:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "771",
+                    "name": "種子島・屋久島地方",
+                    "kind": {
+                        "code": "52",
+                        "name": "大津波警報",
+                        "lastKind": {
+                            "code": "53",
+                            "name": "大津波警報：発表"
+                        }
+                    },
+                    "firstHeight": {
+                        "condition": "第１波の到達を確認"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "over": true,
+                            "value": "10"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "77102",
+                            "name": "種子島西之表",
+                            "highTideDateTime": "2016-09-01T06:31:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        },
+                        {
+                            "code": "77103",
+                            "name": "種子島熊野",
+                            "highTideDateTime": "2016-09-01T05:56:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "772",
+                    "name": "奄美群島・トカラ列島",
+                    "kind": {
+                        "code": "52",
+                        "name": "大津波警報",
+                        "lastKind": {
+                            "code": "53",
+                            "name": "大津波警報：発表"
+                        }
+                    },
+                    "firstHeight": {
+                        "condition": "第１波の到達を確認"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "10"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "77203",
+                            "name": "中之島",
+                            "highTideDateTime": "2016-09-01T06:38:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        },
+                        {
+                            "code": "77204",
+                            "name": "奄美市小湊",
+                            "highTideDateTime": "2016-09-01T06:12:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認",
+                                "revise": "更新"
+                            }
+                        },
+                        {
+                            "code": "77205",
+                            "name": "奄美市名瀬",
+                            "highTideDateTime": "2016-09-01T06:44:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認",
+                                "revise": "更新"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "773",
+                    "name": "鹿児島県西部",
+                    "kind": {
+                        "code": "52",
+                        "name": "大津波警報",
+                        "lastKind": {
+                            "code": "53",
+                            "name": "大津波警報：発表"
+                        }
+                    },
+                    "firstHeight": {
+                        "condition": "第１波の到達を確認",
+                        "revise": "更新"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "5"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "77302",
+                            "name": "枕崎",
+                            "highTideDateTime": "2016-09-01T06:53:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認",
+                                "revise": "更新"
+                            }
+                        },
+                        {
+                            "code": "77303",
+                            "name": "鹿児島",
+                            "highTideDateTime": "2016-09-01T06:51:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認",
+                                "revise": "更新"
+                            }
+                        },
+                        {
+                            "code": "77330",
+                            "name": "阿久根",
+                            "highTideDateTime": "2016-09-01T07:27:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認",
+                                "revise": "更新"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "800",
+                    "name": "沖縄本島地方",
+                    "kind": {
+                        "code": "52",
+                        "name": "大津波警報",
+                        "lastKind": {
+                            "code": "53",
+                            "name": "大津波警報：発表"
+                        }
+                    },
+                    "firstHeight": {
+                        "condition": "第１波の到達を確認",
+                        "revise": "更新"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "5"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "80001",
+                            "name": "那覇",
+                            "highTideDateTime": "2016-09-01T06:53:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認",
+                                "revise": "更新"
+                            }
+                        },
+                        {
+                            "code": "80002",
+                            "name": "久米島",
+                            "highTideDateTime": "2016-09-01T06:54:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:30:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "80030",
+                            "name": "南城市安座真",
+                            "highTideDateTime": "2016-09-01T06:25:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認",
+                                "revise": "更新"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "801",
+                    "name": "大東島地方",
+                    "kind": {
+                        "code": "52",
+                        "name": "大津波警報",
+                        "lastKind": {
+                            "code": "53",
+                            "name": "大津波警報：発表"
+                        }
+                    },
+                    "firstHeight": {
+                        "arrivalTime": "2016-09-01T07:50:00+09:00"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "5"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "80102",
+                            "name": "南大東漁港",
+                            "highTideDateTime": "2016-09-01T06:20:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:50:00+09:00"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "100",
+                    "name": "北海道太平洋沿岸東部",
+                    "kind": {
+                        "code": "51",
+                        "name": "津波警報",
+                        "lastKind": {
+                            "code": "51",
+                            "name": "津波警報"
+                        }
+                    },
+                    "firstHeight": {
+                        "arrivalTime": "2016-09-01T09:00:00+09:00"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "3"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "10001",
+                            "name": "釧路",
+                            "highTideDateTime": "2016-09-01T15:46:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T09:00:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "10002",
+                            "name": "根室市花咲",
+                            "highTideDateTime": "2016-09-01T15:34:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T09:00:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "10020",
+                            "name": "根室港",
+                            "highTideDateTime": "2016-09-01T15:33:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T09:50:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "10021",
+                            "name": "浜中町霧多布港",
+                            "highTideDateTime": "2016-09-01T15:30:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T09:00:00+09:00"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "101",
+                    "name": "北海道太平洋沿岸中部",
+                    "kind": {
+                        "code": "51",
+                        "name": "津波警報",
+                        "lastKind": {
+                            "code": "51",
+                            "name": "津波警報"
+                        }
+                    },
+                    "firstHeight": {
+                        "arrivalTime": "2016-09-01T09:00:00+09:00"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "3"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "10101",
+                            "name": "浦河",
+                            "highTideDateTime": "2016-09-01T15:51:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T09:00:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "10102",
+                            "name": "十勝港",
+                            "highTideDateTime": "2016-09-01T15:38:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T09:00:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "10103",
+                            "name": "えりも町庶野",
+                            "highTideDateTime": "2016-09-01T15:46:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T09:00:00+09:00"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "102",
+                    "name": "北海道太平洋沿岸西部",
+                    "kind": {
+                        "code": "51",
+                        "name": "津波警報",
+                        "lastKind": {
+                            "code": "51",
+                            "name": "津波警報"
+                        }
+                    },
+                    "firstHeight": {
+                        "arrivalTime": "2016-09-01T09:10:00+09:00"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "3"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "10202",
+                            "name": "函館",
+                            "highTideDateTime": "2016-09-01T15:46:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T09:30:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "10203",
+                            "name": "苫小牧西港",
+                            "highTideDateTime": "2016-09-01T15:48:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T09:20:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "10204",
+                            "name": "福島町吉岡",
+                            "highTideDateTime": "2016-09-01T16:28:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T09:40:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "10221",
+                            "name": "苫小牧東港",
+                            "highTideDateTime": "2016-09-01T15:49:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T09:10:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "10222",
+                            "name": "白老港",
+                            "highTideDateTime": "2016-09-01T15:46:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T09:20:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "10223",
+                            "name": "渡島森港",
+                            "highTideDateTime": "2016-09-01T14:55:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T09:40:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "10224",
+                            "name": "室蘭港",
+                            "highTideDateTime": "2016-09-01T14:45:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T09:30:00+09:00"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "201",
+                    "name": "青森県太平洋沿岸",
+                    "kind": {
+                        "code": "51",
+                        "name": "津波警報",
+                        "lastKind": {
+                            "code": "51",
+                            "name": "津波警報"
+                        }
+                    },
+                    "firstHeight": {
+                        "arrivalTime": "2016-09-01T09:00:00+09:00"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "3"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "20102",
+                            "name": "むつ市関根浜",
+                            "highTideDateTime": "2016-09-01T15:40:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T09:10:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "20120",
+                            "name": "むつ小川原港",
+                            "highTideDateTime": "2016-09-01T15:45:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T09:00:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "20121",
+                            "name": "八戸港",
+                            "highTideDateTime": "2016-09-01T15:43:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T09:00:00+09:00"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "210",
+                    "name": "岩手県",
+                    "kind": {
+                        "code": "51",
+                        "name": "津波警報",
+                        "lastKind": {
+                            "code": "51",
+                            "name": "津波警報"
+                        }
+                    },
+                    "firstHeight": {
+                        "arrivalTime": "2016-09-01T08:40:00+09:00"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "3"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "21001",
+                            "name": "宮古",
+                            "highTideDateTime": "2016-09-01T15:56:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:40:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "21002",
+                            "name": "大船渡",
+                            "highTideDateTime": "2016-09-01T15:57:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:40:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "21003",
+                            "name": "釜石",
+                            "highTideDateTime": "2016-09-01T15:57:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:40:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "21020",
+                            "name": "久慈港",
+                            "highTideDateTime": "2016-09-01T15:48:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:50:00+09:00"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "220",
+                    "name": "宮城県",
+                    "kind": {
+                        "code": "51",
+                        "name": "津波警報",
+                        "lastKind": {
+                            "code": "51",
+                            "name": "津波警報"
+                        }
+                    },
+                    "firstHeight": {
+                        "arrivalTime": "2016-09-01T08:30:00+09:00"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "3"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "22002",
+                            "name": "石巻市鮎川",
+                            "highTideDateTime": "2016-09-01T16:05:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T09:00:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "22021",
+                            "name": "仙台港",
+                            "highTideDateTime": "2016-09-01T16:07:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:50:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "22022",
+                            "name": "石巻港",
+                            "highTideDateTime": "2016-09-01T16:07:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T09:00:00+09:00"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "250",
+                    "name": "福島県",
+                    "kind": {
+                        "code": "51",
+                        "name": "津波警報",
+                        "lastKind": {
+                            "code": "51",
+                            "name": "津波警報"
+                        }
+                    },
+                    "firstHeight": {
+                        "arrivalTime": "2016-09-01T08:20:00+09:00"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "3"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "25002",
+                            "name": "いわき市小名浜",
+                            "highTideDateTime": "2016-09-01T16:22:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:20:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "25030",
+                            "name": "相馬",
+                            "highTideDateTime": "2016-09-01T16:13:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:50:00+09:00"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "312",
+                    "name": "東京湾内湾",
+                    "kind": {
+                        "code": "51",
+                        "name": "津波警報",
+                        "lastKind": {
+                            "code": "51",
+                            "name": "津波警報"
+                        }
+                    },
+                    "firstHeight": {
+                        "condition": "第１波の到達を確認"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "3"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "31202",
+                            "name": "東京晴海",
+                            "highTideDateTime": "2016-09-01T17:21:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認",
+                                "revise": "更新"
+                            }
+                        },
+                        {
+                            "code": "31204",
+                            "name": "横須賀",
+                            "highTideDateTime": "2016-09-01T17:19:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        },
+                        {
+                            "code": "31205",
+                            "name": "千葉",
+                            "highTideDateTime": "2016-09-01T17:18:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認",
+                                "revise": "更新"
+                            }
+                        },
+                        {
+                            "code": "31206",
+                            "name": "横浜",
+                            "highTideDateTime": "2016-09-01T17:21:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "560",
+                    "name": "岡山県",
+                    "kind": {
+                        "code": "51",
+                        "name": "津波警報",
+                        "lastKind": {
+                            "code": "51",
+                            "name": "津波警報"
+                        }
+                    },
+                    "firstHeight": {
+                        "condition": "第１波の到達を確認",
+                        "revise": "更新"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "3"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "56001",
+                            "name": "玉野市宇野",
+                            "highTideDateTime": "2016-09-01T10:45:00+09:00",
+                            "firstHeight": {
+                                "condition": "第１波の到達を確認",
+                                "revise": "更新"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "570",
+                    "name": "広島県",
+                    "kind": {
+                        "code": "51",
+                        "name": "津波警報",
+                        "lastKind": {
+                            "code": "51",
+                            "name": "津波警報"
+                        }
+                    },
+                    "firstHeight": {
+                        "arrivalTime": "2016-09-01T07:50:00+09:00"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "3"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "57001",
+                            "name": "広島",
+                            "highTideDateTime": "2016-09-01T09:30:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:40:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "57002",
+                            "name": "呉",
+                            "highTideDateTime": "2016-09-01T09:33:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:10:00+09:00"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "710",
+                    "name": "福岡県瀬戸内海沿岸",
+                    "kind": {
+                        "code": "51",
+                        "name": "津波警報",
+                        "lastKind": {
+                            "code": "51",
+                            "name": "津波警報"
+                        }
+                    },
+                    "firstHeight": {
+                        "arrivalTime": "2016-09-01T08:50:00+09:00"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "3"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "71002",
+                            "name": "北九州市門司",
+                            "highTideDateTime": "2016-09-01T09:00:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:50:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "71021",
+                            "name": "苅田港",
+                            "highTideDateTime": "2016-09-01T08:46:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:50:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "71022",
+                            "name": "北九州港青浜",
+                            "highTideDateTime": "2016-09-01T08:46:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:50:00+09:00"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "712",
+                    "name": "有明・八代海",
+                    "kind": {
+                        "code": "51",
+                        "name": "津波警報",
+                        "lastKind": {
+                            "code": "51",
+                            "name": "津波警報"
+                        }
+                    },
+                    "firstHeight": {
+                        "arrivalTime": "2016-09-01T09:00:00+09:00"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "3"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "71201",
+                            "name": "大牟田市三池",
+                            "highTideDateTime": "2016-09-01T08:55:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T10:10:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "71202",
+                            "name": "太良町大浦野崎",
+                            "highTideDateTime": "2016-09-01T09:00:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T10:10:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "71203",
+                            "name": "三角",
+                            "highTideDateTime": "2016-09-01T08:40:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T09:40:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "71220",
+                            "name": "八代港",
+                            "highTideDateTime": "2016-09-01T08:40:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T09:40:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "71221",
+                            "name": "天草市本渡港",
+                            "highTideDateTime": "2016-09-01T08:34:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T09:20:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "71222",
+                            "name": "熊本港",
+                            "highTideDateTime": "2016-09-01T08:51:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T09:40:00+09:00"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "730",
+                    "name": "長崎県西方",
+                    "kind": {
+                        "code": "51",
+                        "name": "津波警報",
+                        "lastKind": {
+                            "code": "51",
+                            "name": "津波警報"
+                        }
+                    },
+                    "firstHeight": {
+                        "arrivalTime": "2016-09-01T08:50:00+09:00"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "3"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "73001",
+                            "name": "長崎",
+                            "highTideDateTime": "2016-09-01T07:45:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T09:10:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "73002",
+                            "name": "口之津",
+                            "highTideDateTime": "2016-09-01T08:39:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T09:10:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "73003",
+                            "name": "福江島福江港",
+                            "highTideDateTime": "2016-09-01T07:52:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T09:00:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "73004",
+                            "name": "佐世保",
+                            "highTideDateTime": "2016-09-01T08:07:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T09:30:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "73020",
+                            "name": "長崎港皇后",
+                            "highTideDateTime": "2016-09-01T07:46:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T09:10:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "73021",
+                            "name": "平戸市田平港",
+                            "highTideDateTime": "2016-09-01T08:32:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T10:10:00+09:00"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "740",
+                    "name": "熊本県天草灘沿岸",
+                    "kind": {
+                        "code": "51",
+                        "name": "津波警報",
+                        "lastKind": {
+                            "code": "51",
+                            "name": "津波警報"
+                        }
+                    },
+                    "firstHeight": {
+                        "arrivalTime": "2016-09-01T08:50:00+09:00"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "3"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "74000",
+                            "name": "苓北町都呂々",
+                            "highTideDateTime": "2016-09-01T07:37:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T09:10:00+09:00"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "802",
+                    "name": "宮古島・八重山地方",
+                    "kind": {
+                        "code": "51",
+                        "name": "津波警報",
+                        "lastKind": {
+                            "code": "51",
+                            "name": "津波警報"
+                        }
+                    },
+                    "firstHeight": {
+                        "arrivalTime": "2016-09-01T08:40:00+09:00"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "3"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "80203",
+                            "name": "西表島",
+                            "highTideDateTime": "2016-09-01T06:52:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T09:00:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "80204",
+                            "name": "与那国島久部良",
+                            "highTideDateTime": "2016-09-01T06:54:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T09:00:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "80205",
+                            "name": "石垣島石垣港",
+                            "highTideDateTime": "2016-09-01T06:52:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:40:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "80206",
+                            "name": "宮古島平良",
+                            "highTideDateTime": "2016-09-01T07:04:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:50:00+09:00"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "110",
+                    "name": "北海道日本海沿岸北部",
+                    "kind": {
+                        "code": "62",
+                        "name": "津波注意報",
+                        "lastKind": {
+                            "code": "62",
+                            "name": "津波注意報"
+                        }
+                    },
+                    "firstHeight": {
+                        "arrivalTime": "2016-09-01T10:40:00+09:00"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "1"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "11001",
+                            "name": "稚内",
+                            "highTideDateTime": "2016-09-01T15:22:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T11:40:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "11002",
+                            "name": "留萌",
+                            "highTideDateTime": "2016-09-01T15:23:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T11:10:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "11003",
+                            "name": "小樽",
+                            "highTideDateTime": "2016-09-01T15:12:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T11:00:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "11022",
+                            "name": "石狩湾新港",
+                            "highTideDateTime": "2016-09-01T15:16:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T11:00:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "11023",
+                            "name": "利尻島沓形港",
+                            "highTideDateTime": "2016-09-01T15:48:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T11:10:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "11024",
+                            "name": "羽幌港",
+                            "highTideDateTime": "2016-09-01T15:32:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T11:30:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "11030",
+                            "name": "小樽市忍路",
+                            "highTideDateTime": "2016-09-01T15:07:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T10:50:00+09:00"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "111",
+                    "name": "北海道日本海沿岸南部",
+                    "kind": {
+                        "code": "62",
+                        "name": "津波注意報",
+                        "lastKind": {
+                            "code": "62",
+                            "name": "津波注意報"
+                        }
+                    },
+                    "firstHeight": {
+                        "arrivalTime": "2016-09-01T09:50:00+09:00"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "1"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "11101",
+                            "name": "寿都",
+                            "highTideDateTime": "2016-09-01T15:24:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T10:30:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "11102",
+                            "name": "江差",
+                            "highTideDateTime": "2016-09-01T14:30:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T10:10:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "11121",
+                            "name": "瀬棚港",
+                            "highTideDateTime": "2016-09-01T14:54:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T10:20:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "11122",
+                            "name": "岩内港",
+                            "highTideDateTime": "2016-09-01T15:13:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T10:30:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "11123",
+                            "name": "奥尻島奥尻港",
+                            "highTideDateTime": "2016-09-01T14:55:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T10:20:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "11130",
+                            "name": "奥尻島松江",
+                            "highTideDateTime": "2016-09-01T15:01:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T10:10:00+09:00"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "120",
+                    "name": "オホーツク海沿岸",
+                    "kind": {
+                        "code": "62",
+                        "name": "津波注意報",
+                        "lastKind": {
+                            "code": "62",
+                            "name": "津波注意報"
+                        }
+                    },
+                    "firstHeight": {
+                        "arrivalTime": "2016-09-01T10:10:00+09:00"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "1"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "12001",
+                            "name": "網走",
+                            "highTideDateTime": "2016-09-01T15:16:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T10:20:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "12003",
+                            "name": "枝幸港",
+                            "highTideDateTime": "2016-09-01T15:27:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T11:00:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "12020",
+                            "name": "紋別港",
+                            "highTideDateTime": "2016-09-01T15:27:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T10:40:00+09:00"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "200",
+                    "name": "青森県日本海沿岸",
+                    "kind": {
+                        "code": "62",
+                        "name": "津波注意報",
+                        "lastKind": {
+                            "code": "62",
+                            "name": "津波注意報"
+                        }
+                    },
+                    "firstHeight": {
+                        "arrivalTime": "2016-09-01T09:30:00+09:00"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "1"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "20001",
+                            "name": "深浦",
+                            "highTideDateTime": "2016-09-01T14:24:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T10:10:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "20002",
+                            "name": "竜飛",
+                            "highTideDateTime": "2016-09-01T15:58:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T09:40:00+09:00"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "202",
+                    "name": "陸奥湾",
+                    "kind": {
+                        "code": "62",
+                        "name": "津波注意報",
+                        "lastKind": {
+                            "code": "62",
+                            "name": "津波注意報"
+                        }
+                    },
+                    "firstHeight": {
+                        "arrivalTime": "2016-09-01T10:00:00+09:00"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "1"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "20201",
+                            "name": "青森",
+                            "highTideDateTime": "2016-09-01T15:32:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T10:00:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "20202",
+                            "name": "むつ市大湊",
+                            "highTideDateTime": "2016-09-01T15:32:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T10:20:00+09:00"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "230",
+                    "name": "秋田県",
+                    "kind": {
+                        "code": "62",
+                        "name": "津波注意報",
+                        "lastKind": {
+                            "code": "62",
+                            "name": "津波注意報"
+                        }
+                    },
+                    "firstHeight": {
+                        "arrivalTime": "2016-09-01T10:20:00+09:00"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "1"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "23001",
+                            "name": "秋田",
+                            "highTideDateTime": "2016-09-01T14:22:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T10:30:00+09:00"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "240",
+                    "name": "山形県",
+                    "kind": {
+                        "code": "62",
+                        "name": "津波注意報",
+                        "lastKind": {
+                            "code": "62",
+                            "name": "津波注意報"
+                        }
+                    },
+                    "firstHeight": {
+                        "arrivalTime": "2016-09-01T10:30:00+09:00"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "1"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "24001",
+                            "name": "酒田",
+                            "highTideDateTime": "2016-09-01T14:13:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T10:40:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "24030",
+                            "name": "飛島",
+                            "highTideDateTime": "2016-09-01T14:16:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T10:30:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "24031",
+                            "name": "鶴岡市鼠ケ関",
+                            "highTideDateTime": "2016-09-01T14:12:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T10:50:00+09:00"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "340",
+                    "name": "新潟県上中下越",
+                    "kind": {
+                        "code": "62",
+                        "name": "津波注意報",
+                        "lastKind": {
+                            "code": "62",
+                            "name": "津波注意報"
+                        }
+                    },
+                    "firstHeight": {
+                        "arrivalTime": "2016-09-01T10:50:00+09:00"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "1"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "34001",
+                            "name": "新潟",
+                            "highTideDateTime": "2016-09-01T14:06:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T11:10:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "34003",
+                            "name": "粟島",
+                            "highTideDateTime": "2016-09-01T14:09:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T10:50:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "34030",
+                            "name": "柏崎市鯨波",
+                            "highTideDateTime": "2016-09-01T14:03:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T11:00:00+09:00"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "341",
+                    "name": "佐渡",
+                    "kind": {
+                        "code": "62",
+                        "name": "津波注意報",
+                        "lastKind": {
+                            "code": "62",
+                            "name": "津波注意報"
+                        }
+                    },
+                    "firstHeight": {
+                        "arrivalTime": "2016-09-01T10:50:00+09:00"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "1"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "34103",
+                            "name": "佐渡市鷲崎",
+                            "highTideDateTime": "2016-09-01T14:10:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T10:50:00+09:00"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "350",
+                    "name": "富山県",
+                    "kind": {
+                        "code": "62",
+                        "name": "津波注意報",
+                        "lastKind": {
+                            "code": "62",
+                            "name": "津波注意報"
+                        }
+                    },
+                    "firstHeight": {
+                        "arrivalTime": "2016-09-01T11:00:00+09:00"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "1"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "35001",
+                            "name": "富山",
+                            "highTideDateTime": "2016-09-01T14:02:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T11:10:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "35021",
+                            "name": "伏木富山港新湊",
+                            "highTideDateTime": "2016-09-01T14:03:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T11:10:00+09:00"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "360",
+                    "name": "石川県能登",
+                    "kind": {
+                        "code": "62",
+                        "name": "津波注意報",
+                        "lastKind": {
+                            "code": "62",
+                            "name": "津波注意報"
+                        }
+                    },
+                    "firstHeight": {
+                        "arrivalTime": "2016-09-01T11:00:00+09:00"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "1"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "36001",
+                            "name": "珠洲市長橋",
+                            "highTideDateTime": "2016-09-01T13:59:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T11:10:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "36020",
+                            "name": "輪島港",
+                            "highTideDateTime": "2016-09-01T13:57:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T11:20:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "36021",
+                            "name": "七尾港",
+                            "highTideDateTime": "2016-09-01T14:07:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T11:10:00+09:00"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "361",
+                    "name": "石川県加賀",
+                    "kind": {
+                        "code": "62",
+                        "name": "津波注意報",
+                        "lastKind": {
+                            "code": "62",
+                            "name": "津波注意報"
+                        }
+                    },
+                    "firstHeight": {
+                        "arrivalTime": "2016-09-01T11:20:00+09:00"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "1"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "36101",
+                            "name": "金沢",
+                            "highTideDateTime": "2016-09-01T13:52:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T11:20:00+09:00"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "370",
+                    "name": "福井県",
+                    "kind": {
+                        "code": "62",
+                        "name": "津波注意報",
+                        "lastKind": {
+                            "code": "62",
+                            "name": "津波注意報"
+                        }
+                    },
+                    "firstHeight": {
+                        "arrivalTime": "2016-09-01T11:30:00+09:00"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "1"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "37003",
+                            "name": "坂井市三国",
+                            "highTideDateTime": "2016-09-01T14:07:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T11:30:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "37020",
+                            "name": "敦賀港",
+                            "highTideDateTime": "2016-09-01T13:50:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T11:40:00+09:00"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "500",
+                    "name": "京都府",
+                    "kind": {
+                        "code": "62",
+                        "name": "津波注意報",
+                        "lastKind": {
+                            "code": "62",
+                            "name": "津波注意報"
+                        }
+                    },
+                    "firstHeight": {
+                        "arrivalTime": "2016-09-01T11:40:00+09:00"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "1"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "50001",
+                            "name": "舞鶴",
+                            "highTideDateTime": "2016-09-01T13:50:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T11:50:00+09:00"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "520",
+                    "name": "兵庫県北部",
+                    "kind": {
+                        "code": "62",
+                        "name": "津波注意報",
+                        "lastKind": {
+                            "code": "62",
+                            "name": "津波注意報"
+                        }
+                    },
+                    "firstHeight": {
+                        "arrivalTime": "2016-09-01T11:40:00+09:00"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "1"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "52001",
+                            "name": "豊岡市津居山",
+                            "highTideDateTime": "2016-09-01T13:48:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T11:40:00+09:00"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "540",
+                    "name": "鳥取県",
+                    "kind": {
+                        "code": "62",
+                        "name": "津波注意報",
+                        "lastKind": {
+                            "code": "62",
+                            "name": "津波注意報"
+                        }
+                    },
+                    "firstHeight": {
+                        "arrivalTime": "2016-09-01T11:40:00+09:00"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "1"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "54001",
+                            "name": "境港市境",
+                            "highTideDateTime": "2016-09-01T14:09:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T12:00:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "54030",
+                            "name": "岩美町田後",
+                            "highTideDateTime": "2016-09-01T13:44:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T11:40:00+09:00"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "550",
+                    "name": "島根県出雲・石見",
+                    "kind": {
+                        "code": "62",
+                        "name": "津波注意報",
+                        "lastKind": {
+                            "code": "62",
+                            "name": "津波注意報"
+                        }
+                    },
+                    "firstHeight": {
+                        "arrivalTime": "2016-09-01T11:20:00+09:00"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "1"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "55001",
+                            "name": "浜田",
+                            "highTideDateTime": "2016-09-01T11:42:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T11:30:00+09:00"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "551",
+                    "name": "隠岐",
+                    "kind": {
+                        "code": "62",
+                        "name": "津波注意報",
+                        "lastKind": {
+                            "code": "62",
+                            "name": "津波注意報"
+                        }
+                    },
+                    "firstHeight": {
+                        "arrivalTime": "2016-09-01T11:30:00+09:00"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "1"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "55101",
+                            "name": "隠岐西郷",
+                            "highTideDateTime": "2016-09-01T13:50:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T11:40:00+09:00"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "700",
+                    "name": "山口県日本海沿岸",
+                    "kind": {
+                        "code": "62",
+                        "name": "津波注意報",
+                        "lastKind": {
+                            "code": "62",
+                            "name": "津波注意報"
+                        }
+                    },
+                    "firstHeight": {
+                        "arrivalTime": "2016-09-01T10:00:00+09:00"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "1"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "70021",
+                            "name": "下関市南風泊港",
+                            "highTideDateTime": "2016-09-01T09:57:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T10:00:00+09:00"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "711",
+                    "name": "福岡県日本海沿岸",
+                    "kind": {
+                        "code": "62",
+                        "name": "津波注意報",
+                        "lastKind": {
+                            "code": "62",
+                            "name": "津波注意報"
+                        }
+                    },
+                    "firstHeight": {
+                        "arrivalTime": "2016-09-01T10:00:00+09:00"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "1"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "71101",
+                            "name": "福岡市博多",
+                            "highTideDateTime": "2016-09-01T09:38:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T10:50:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "71120",
+                            "name": "北九州港日明",
+                            "highTideDateTime": "2016-09-01T09:48:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T10:10:00+09:00"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "720",
+                    "name": "佐賀県北部",
+                    "kind": {
+                        "code": "62",
+                        "name": "津波注意報",
+                        "lastKind": {
+                            "code": "62",
+                            "name": "津波注意報"
+                        }
+                    },
+                    "firstHeight": {
+                        "arrivalTime": "2016-09-01T10:20:00+09:00"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "1"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "72020",
+                            "name": "唐津港",
+                            "highTideDateTime": "2016-09-01T09:26:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T10:40:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "72030",
+                            "name": "玄海町仮屋",
+                            "highTideDateTime": "2016-09-01T09:14:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T10:20:00+09:00"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "731",
+                    "name": "壱岐・対馬",
+                    "kind": {
+                        "code": "62",
+                        "name": "津波注意報",
+                        "lastKind": {
+                            "code": "62",
+                            "name": "津波注意報"
+                        }
+                    },
+                    "firstHeight": {
+                        "arrivalTime": "2016-09-01T10:10:00+09:00"
+                    },
+                    "maxHeight": {
+                        "height": {
+                            "type": "津波の高さ",
+                            "unit": "m",
+                            "value": "1"
+                        }
+                    },
+                    "stations": [
+                        {
+                            "code": "73102",
+                            "name": "対馬比田勝",
+                            "highTideDateTime": "2016-09-01T09:01:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T11:00:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "73110",
+                            "name": "対馬市厳原",
+                            "highTideDateTime": "2016-09-01T08:52:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T10:30:00+09:00"
+                            }
+                        },
+                        {
+                            "code": "73120",
+                            "name": "壱岐島郷ノ浦港",
+                            "highTideDateTime": "2016-09-01T09:08:00+09:00",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T10:10:00+09:00"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "observations": [
+                {
+                    "code": "300",
+                    "name": "茨城県",
+                    "stations": [
+                        {
+                            "code": "30001",
+                            "name": "大洗",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:37:00+09:00",
+                                "initial": "押し",
+                                "revise": "追加"
+                            },
+                            "maxHeight": {
+                                "condition": "観測中",
+                                "revise": "追加"
+                            }
+                        },
+                        {
+                            "code": "30020",
+                            "name": "神栖市鹿島港",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:35:00+09:00",
+                                "initial": "押し",
+                                "revise": "追加"
+                            },
+                            "maxHeight": {
+                                "condition": "観測中",
+                                "revise": "追加"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "310",
+                    "name": "千葉県九十九里・外房",
+                    "stations": [
+                        {
+                            "code": "31001",
+                            "name": "銚子",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:19:00+09:00",
+                                "initial": "押し",
+                                "revise": "追加"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T08:25:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "2.4",
+                                    "unit": "m"
+                                },
+                                "revise": "追加"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "311",
+                    "name": "千葉県内房",
+                    "stations": [
+                        {
+                            "code": "31101",
+                            "name": "館山市布良",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:41:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T08:51:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "5.3",
+                                    "unit": "m",
+                                    "condition": "上昇中"
+                                },
+                                "revise": "更新"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "312",
+                    "name": "東京湾内湾",
+                    "stations": [
+                        {
+                            "code": "31202",
+                            "name": "東京晴海",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:28:00+09:00",
+                                "initial": "押し",
+                                "revise": "追加"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T09:09:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "1.0",
+                                    "unit": "m"
+                                },
+                                "revise": "追加"
+                            }
+                        },
+                        {
+                            "code": "31204",
+                            "name": "横須賀",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:52:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T08:03:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "1.1",
+                                    "unit": "m"
+                                }
+                            }
+                        },
+                        {
+                            "code": "31205",
+                            "name": "千葉",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:23:00+09:00",
+                                "initial": "押し",
+                                "revise": "追加"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T09:08:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "1.1",
+                                    "unit": "m"
+                                },
+                                "revise": "追加"
+                            }
+                        },
+                        {
+                            "code": "31206",
+                            "name": "横浜",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:04:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T08:33:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "1.3",
+                                    "unit": "m",
+                                    "condition": "上昇中"
+                                },
+                                "revise": "更新"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "320",
+                    "name": "伊豆諸島",
+                    "stations": [
+                        {
+                            "code": "32001",
+                            "name": "伊豆大島岡田",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:32:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T07:38:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "4.7",
+                                    "unit": "m"
+                                }
+                            }
+                        },
+                        {
+                            "code": "32002",
+                            "name": "三宅島坪田",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:29:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T07:32:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "3.4",
+                                    "unit": "m"
+                                }
+                            }
+                        },
+                        {
+                            "code": "32004",
+                            "name": "神津島神津島港",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:21:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T07:22:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "2.8",
+                                    "over": true,
+                                    "unit": "m"
+                                }
+                            }
+                        },
+                        {
+                            "code": "32005",
+                            "name": "三宅島阿古",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:27:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T07:31:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "2.8",
+                                    "over": true,
+                                    "unit": "m"
+                                }
+                            }
+                        },
+                        {
+                            "code": "32003",
+                            "name": "八丈島八重根",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:33:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T07:37:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "11.8",
+                                    "unit": "m"
+                                }
+                            }
+                        },
+                        {
+                            "code": "32006",
+                            "name": "八丈島神湊",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:35:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T07:37:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "2.8",
+                                    "over": true,
+                                    "unit": "m"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "321",
+                    "name": "小笠原諸島",
+                    "stations": [
+                        {
+                            "code": "32101",
+                            "name": "父島二見",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:39:00+09:00",
+                                "initial": "押し",
+                                "revise": "追加"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T08:44:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "1.7",
+                                    "unit": "m"
+                                },
+                                "revise": "追加"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "330",
+                    "name": "相模湾・三浦半島",
+                    "stations": [
+                        {
+                            "code": "33030",
+                            "name": "三浦市油壺",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:38:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T07:40:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "1.7",
+                                    "unit": "m"
+                                }
+                            }
+                        },
+                        {
+                            "code": "33000",
+                            "name": "小田原",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:36:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T07:45:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "1.7",
+                                    "unit": "m"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "380",
+                    "name": "静岡県",
+                    "stations": [
+                        {
+                            "code": "38001",
+                            "name": "沼津市内浦",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:19:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T07:32:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "7.4",
+                                    "unit": "m"
+                                }
+                            }
+                        },
+                        {
+                            "code": "38002",
+                            "name": "清水",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:12:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T07:26:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "3.1",
+                                    "unit": "m"
+                                }
+                            }
+                        },
+                        {
+                            "code": "38004",
+                            "name": "南伊豆町石廊崎",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:14:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T07:18:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "8.1",
+                                    "unit": "m"
+                                }
+                            }
+                        },
+                        {
+                            "code": "38005",
+                            "name": "御前崎",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:11:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T07:21:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "6.3",
+                                    "unit": "m"
+                                }
+                            }
+                        },
+                        {
+                            "code": "38006",
+                            "name": "舞阪",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:13:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T07:34:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "8.2",
+                                    "unit": "m"
+                                }
+                            }
+                        },
+                        {
+                            "code": "38020",
+                            "name": "下田港",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:24:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T07:27:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "2.8",
+                                    "over": true,
+                                    "unit": "m"
+                                }
+                            }
+                        },
+                        {
+                            "code": "38030",
+                            "name": "伊東",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:30:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T07:31:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "2.8",
+                                    "over": true,
+                                    "unit": "m"
+                                }
+                            }
+                        },
+                        {
+                            "code": "38031",
+                            "name": "西伊豆町田子",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:14:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T07:15:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "2.8",
+                                    "over": true,
+                                    "unit": "m"
+                                }
+                            }
+                        },
+                        {
+                            "code": "38032",
+                            "name": "焼津",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:13:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T07:17:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "2.8",
+                                    "over": true,
+                                    "unit": "m"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "390",
+                    "name": "愛知県外海",
+                    "stations": [
+                        {
+                            "code": "39001",
+                            "name": "田原市赤羽根",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:16:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T07:43:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "7.4",
+                                    "unit": "m"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "391",
+                    "name": "伊勢・三河湾",
+                    "stations": [
+                        {
+                            "code": "39101",
+                            "name": "名古屋",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:42:00+09:00",
+                                "initial": "引き"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T09:05:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "3.1",
+                                    "unit": "m",
+                                    "condition": "上昇中"
+                                },
+                                "condition": "重要",
+                                "revise": "更新"
+                            }
+                        },
+                        {
+                            "code": "39102",
+                            "name": "半田市衣浦",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:44:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T08:28:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "2.1",
+                                    "unit": "m",
+                                    "condition": "上昇中"
+                                },
+                                "revise": "更新"
+                            }
+                        },
+                        {
+                            "code": "39103",
+                            "name": "四日市",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:45:00+09:00",
+                                "initial": "引き"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T08:38:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "2.5",
+                                    "unit": "m",
+                                    "condition": "上昇中"
+                                },
+                                "revise": "更新"
+                            }
+                        },
+                        {
+                            "code": "39120",
+                            "name": "豊橋市三河港",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:02:00+09:00",
+                                "initial": "引き"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T08:58:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "2.3",
+                                    "unit": "m",
+                                    "condition": "上昇中"
+                                },
+                                "revise": "更新"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "400",
+                    "name": "三重県南部",
+                    "stations": [
+                        {
+                            "code": "40001",
+                            "name": "鳥羽",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:18:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T09:05:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "4.7",
+                                    "unit": "m",
+                                    "condition": "上昇中"
+                                },
+                                "revise": "更新"
+                            }
+                        },
+                        {
+                            "code": "40002",
+                            "name": "尾鷲",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:18:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T08:07:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "7.0",
+                                    "unit": "m",
+                                    "condition": "上昇中"
+                                },
+                                "revise": "更新"
+                            }
+                        },
+                        {
+                            "code": "40003",
+                            "name": "熊野市遊木",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:14:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T07:17:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "2.8",
+                                    "over": true,
+                                    "unit": "m"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "510",
+                    "name": "大阪府",
+                    "stations": [
+                        {
+                            "code": "51002",
+                            "name": "岬町淡輪",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:15:00+09:00",
+                                "initial": "押し",
+                                "revise": "追加"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T08:34:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "1.7",
+                                    "unit": "m"
+                                },
+                                "revise": "追加"
+                            }
+                        },
+                        {
+                            "code": "51001",
+                            "name": "大阪天保山",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:28:00+09:00",
+                                "initial": "引き",
+                                "revise": "追加"
+                            },
+                            "maxHeight": {
+                                "condition": "観測中",
+                                "revise": "追加"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "521",
+                    "name": "兵庫県瀬戸内海沿岸",
+                    "stations": [
+                        {
+                            "code": "52101",
+                            "name": "神戸",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:32:00+09:00",
+                                "initial": "押し",
+                                "revise": "追加"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T08:51:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "1.9",
+                                    "unit": "m"
+                                },
+                                "revise": "追加"
+                            }
+                        },
+                        {
+                            "code": "52102",
+                            "name": "姫路",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:54:00+09:00",
+                                "initial": "押し",
+                                "revise": "追加"
+                            },
+                            "maxHeight": {
+                                "condition": "観測中",
+                                "revise": "追加"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "522",
+                    "name": "淡路島南部",
+                    "stations": [
+                        {
+                            "code": "52202",
+                            "name": "洲本",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:57:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T08:22:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "1.7",
+                                    "unit": "m",
+                                    "condition": "上昇中"
+                                },
+                                "revise": "更新"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "530",
+                    "name": "和歌山県",
+                    "stations": [
+                        {
+                            "code": "53001",
+                            "name": "那智勝浦町浦神",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:13:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T07:18:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "5.1",
+                                    "unit": "m"
+                                }
+                            }
+                        },
+                        {
+                            "code": "53002",
+                            "name": "串本町袋港",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:15:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T07:41:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "6.3",
+                                    "unit": "m"
+                                }
+                            }
+                        },
+                        {
+                            "code": "53007",
+                            "name": "白浜町堅田",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:14:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T07:37:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "4.3",
+                                    "unit": "m"
+                                }
+                            }
+                        },
+                        {
+                            "code": "53006",
+                            "name": "御坊市祓井戸",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:19:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T07:33:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "2.8",
+                                    "over": true,
+                                    "unit": "m"
+                                }
+                            }
+                        },
+                        {
+                            "code": "53004",
+                            "name": "和歌山",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:47:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T08:15:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "3.6",
+                                    "unit": "m",
+                                    "condition": "上昇中"
+                                },
+                                "revise": "更新"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "560",
+                    "name": "岡山県",
+                    "stations": [
+                        {
+                            "code": "56001",
+                            "name": "玉野市宇野",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:45:00+09:00",
+                                "initial": "引き",
+                                "revise": "追加"
+                            },
+                            "maxHeight": {
+                                "condition": "観測中",
+                                "revise": "追加"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "580",
+                    "name": "徳島県",
+                    "stations": [
+                        {
+                            "code": "58001",
+                            "name": "小松島",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:46:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T08:02:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "2.9",
+                                    "unit": "m"
+                                }
+                            }
+                        },
+                        {
+                            "code": "58002",
+                            "name": "徳島由岐",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:23:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T07:37:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "4.4",
+                                    "unit": "m"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "590",
+                    "name": "香川県",
+                    "stations": [
+                        {
+                            "code": "59001",
+                            "name": "高松",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T09:02:00+09:00",
+                                "initial": "押し",
+                                "revise": "追加"
+                            },
+                            "maxHeight": {
+                                "condition": "観測中",
+                                "revise": "追加"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "600",
+                    "name": "愛媛県宇和海沿岸",
+                    "stations": [
+                        {
+                            "code": "60001",
+                            "name": "宇和島",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:03:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T08:21:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "3.4",
+                                    "unit": "m",
+                                    "condition": "上昇中"
+                                },
+                                "condition": "重要",
+                                "revise": "更新"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "601",
+                    "name": "愛媛県瀬戸内海沿岸",
+                    "stations": [
+                        {
+                            "code": "60101",
+                            "name": "松山",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T09:00:00+09:00",
+                                "initial": "押し",
+                                "revise": "追加"
+                            },
+                            "maxHeight": {
+                                "condition": "観測中",
+                                "revise": "追加"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "610",
+                    "name": "高知県",
+                    "stations": [
+                        {
+                            "code": "61001",
+                            "name": "室戸市室戸岬",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:14:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T08:06:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "5.3",
+                                    "unit": "m",
+                                    "condition": "上昇中"
+                                },
+                                "revise": "更新"
+                            }
+                        },
+                        {
+                            "code": "61002",
+                            "name": "高知",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:15:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T07:45:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "5.3",
+                                    "unit": "m"
+                                }
+                            }
+                        },
+                        {
+                            "code": "61020",
+                            "name": "須崎港",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:23:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T07:34:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "2.8",
+                                    "over": true,
+                                    "unit": "m"
+                                }
+                            }
+                        },
+                        {
+                            "code": "61003",
+                            "name": "土佐清水",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:17:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T08:52:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "6.0",
+                                    "unit": "m",
+                                    "condition": "上昇中"
+                                },
+                                "revise": "更新"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "750",
+                    "name": "大分県瀬戸内海沿岸",
+                    "stations": [
+                        {
+                            "code": "75001",
+                            "name": "大分",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:18:00+09:00",
+                                "initial": "押し",
+                                "revise": "追加"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T08:45:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "2.8",
+                                    "over": true,
+                                    "unit": "m"
+                                },
+                                "condition": "重要",
+                                "revise": "追加"
+                            }
+                        },
+                        {
+                            "code": "75020",
+                            "name": "別府港",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:20:00+09:00",
+                                "initial": "押し",
+                                "revise": "追加"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T08:44:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "2.8",
+                                    "over": true,
+                                    "unit": "m"
+                                },
+                                "condition": "重要",
+                                "revise": "追加"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "751",
+                    "name": "大分県豊後水道沿岸",
+                    "stations": [
+                        {
+                            "code": "75100",
+                            "name": "佐伯市松浦",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:44:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T07:59:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "3.9",
+                                    "unit": "m"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "760",
+                    "name": "宮崎県",
+                    "stations": [
+                        {
+                            "code": "76001",
+                            "name": "日向市細島",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:30:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T07:41:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "5.9",
+                                    "unit": "m"
+                                }
+                            }
+                        },
+                        {
+                            "code": "76002",
+                            "name": "日南市油津",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:26:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T07:40:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "4.6",
+                                    "unit": "m"
+                                }
+                            }
+                        },
+                        {
+                            "code": "76020",
+                            "name": "宮崎港",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:33:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T07:43:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "7.4",
+                                    "unit": "m"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "770",
+                    "name": "鹿児島県東部",
+                    "stations": [
+                        {
+                            "code": "77002",
+                            "name": "南大隅町大泊",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:55:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T08:04:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "3.0",
+                                    "unit": "m"
+                                }
+                            }
+                        },
+                        {
+                            "code": "77020",
+                            "name": "志布志港",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:43:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T07:56:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "3.5",
+                                    "unit": "m"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "771",
+                    "name": "種子島・屋久島地方",
+                    "stations": [
+                        {
+                            "code": "77102",
+                            "name": "種子島西之表",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:47:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T08:18:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "1.6",
+                                    "unit": "m",
+                                    "condition": "上昇中"
+                                },
+                                "revise": "更新"
+                            }
+                        },
+                        {
+                            "code": "77103",
+                            "name": "種子島熊野",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:26:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T07:41:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "2.0",
+                                    "unit": "m"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "772",
+                    "name": "奄美群島・トカラ列島",
+                    "stations": [
+                        {
+                            "code": "77203",
+                            "name": "中之島",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T07:58:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T08:04:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "1.0",
+                                    "unit": "m"
+                                }
+                            }
+                        },
+                        {
+                            "code": "77204",
+                            "name": "奄美市小湊",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:09:00+09:00",
+                                "initial": "押し",
+                                "revise": "追加"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T08:17:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "1.4",
+                                    "unit": "m"
+                                },
+                                "revise": "追加"
+                            }
+                        },
+                        {
+                            "code": "77205",
+                            "name": "奄美市名瀬",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:12:00+09:00",
+                                "initial": "押し",
+                                "revise": "追加"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2016-09-01T08:23:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "1.5",
+                                    "unit": "m"
+                                },
+                                "revise": "追加"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "773",
+                    "name": "鹿児島県西部",
+                    "stations": [
+                        {
+                            "code": "77302",
+                            "name": "枕崎",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:13:00+09:00",
+                                "initial": "押し",
+                                "revise": "追加"
+                            },
+                            "maxHeight": {
+                                "condition": "観測中",
+                                "revise": "追加"
+                            }
+                        },
+                        {
+                            "code": "77303",
+                            "name": "鹿児島",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:37:00+09:00",
+                                "initial": "押し",
+                                "revise": "追加"
+                            },
+                            "maxHeight": {
+                                "condition": "観測中",
+                                "revise": "追加"
+                            }
+                        },
+                        {
+                            "code": "77330",
+                            "name": "阿久根",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:58:00+09:00",
+                                "initial": "押し",
+                                "revise": "追加"
+                            },
+                            "maxHeight": {
+                                "condition": "観測中",
+                                "revise": "追加"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "800",
+                    "name": "沖縄本島地方",
+                    "stations": [
+                        {
+                            "code": "80001",
+                            "name": "那覇",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:47:00+09:00",
+                                "initial": "押し",
+                                "revise": "追加"
+                            },
+                            "maxHeight": {
+                                "condition": "観測中",
+                                "revise": "追加"
+                            }
+                        },
+                        {
+                            "code": "80030",
+                            "name": "南城市安座真",
+                            "firstHeight": {
+                                "arrivalTime": "2016-09-01T08:38:00+09:00",
+                                "initial": "押し",
+                                "revise": "追加"
+                            },
+                            "maxHeight": {
+                                "condition": "観測中",
+                                "revise": "追加"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "earthquakes": [
+            {
+                "originTime": "2016-09-01T07:10:00+09:00",
+                "arrivalTime": "2016-09-01T07:10:00+09:00",
+                "hypocenter": {
+                    "code": "689",
+                    "name": "和歌山県南方沖",
+                    "coordinate": {
+                        "latitude": {
+                            "text": "33.2˚N",
+                            "value": "33.2000"
+                        },
+                        "longitude": {
+                            "text": "136.0˚E",
+                            "value": "136.0000"
+                        },
+                        "height": {
+                            "type": "高さ",
+                            "unit": "m",
+                            "value": "-10000"
+                        },
+                        "geodeticSystem": "日本測地系"
+                    },
+                    "depth": {
+                        "type": "深さ",
+                        "unit": "km",
+                        "value": "10"
+                    },
+                    "auxiliary": {
+                        "text": "潮岬の南東３０ｋｍ付近",
+                        "code": "502",
+                        "name": "潮岬",
+                        "direction": "南東",
+                        "distance": {
+                            "unit": "km",
+                            "value": "30"
+                        }
+                    }
+                },
+                "magnitude": {
+                    "type": "マグニチュード",
+                    "value": "9.1",
+                    "unit": "Mj"
+                }
+            }
+        ],
+        "comments": {
+            "warning": {
+                "text": "津波による潮位変化が観測されてから最大波が観測されるまでに数時間以上かかることがあります。\n　\n場所によっては、観測した津波の高さよりさらに大きな津波が到達しているおそれがあります。\n　\n今後、津波の高さは更に高くなることも考えられます。",
+                "codes": [
+                    "0114",
+                    "0111",
+                    "0112"
+                ]
+            }
+        }
+    }
+}

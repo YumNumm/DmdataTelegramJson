@@ -1,0 +1,36 @@
+name: Dart Test
+
+# ref: https://qiita.com/blendthink/items/48e6c4b2c0f016da8c72
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v2
+
+      # https://github.com/kuhnroyal/flutter-fvm-config-action
+      - name: Fetch flutter config
+        uses: kuhnroyal/flutter-fvm-config-action@v1
+
+      # https://github.com/subosito/flutter-action
+      - name: Set up flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: ${{ env.FLUTTER_CHANNEL }}
+          cache: true
+          cache-key: ${{ env.FLUTTER_VERSION }}-${{ env.FLUTTER_CHANNEL }}
+
+      - name: dart version
+        run: dart --version
+
+      - name: dart Test
+        run: dart test

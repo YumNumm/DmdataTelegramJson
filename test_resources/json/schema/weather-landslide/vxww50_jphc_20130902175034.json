@@ -1,0 +1,341 @@
+{
+    "_originalId": "TELEGRAM_ID",
+    "_schema": {
+        "type": "weather-landslide",
+        "version": "1.0.0"
+    },
+    "type": "土砂災害警戒情報",
+    "title": "岡山県土砂災害警戒情報",
+    "status": "通常",
+    "infoType": "発表",
+    "editorialOffice": "岡山地方気象台",
+    "publishingOffice": [
+        "岡山県",
+        "岡山地方気象台"
+    ],
+    "pressDateTime": "2013-09-02T08:50:34Z",
+    "reportDateTime": "2013-09-02T17:50:00+09:00",
+    "targetDateTime": "2013-09-02T17:50:00+09:00",
+    "eventId": "岡山県土砂災害警戒情報",
+    "serialNo": "2",
+    "infoKind": "土砂災害警戒情報",
+    "infoKindVersion": "1.0_0",
+    "headline": "＜全警戒解除＞\n大雨が弱まり、多発的な土砂災害が発生するおそれは少なくなりました。",
+    "body": {
+        "target": {
+            "code": "330000",
+            "name": "岡山県"
+        },
+        "cities": [
+            {
+                "code": "3310000",
+                "name": "岡山市",
+                "kinds": [
+                    {
+                        "code": "0",
+                        "name": "なし",
+                        "status": "なし"
+                    }
+                ]
+            },
+            {
+                "code": "3320200",
+                "name": "倉敷市",
+                "kinds": [
+                    {
+                        "code": "0",
+                        "name": "なし",
+                        "status": "なし"
+                    }
+                ]
+            },
+            {
+                "code": "3320300",
+                "name": "津山市",
+                "kinds": [
+                    {
+                        "code": "0",
+                        "name": "なし",
+                        "status": "なし"
+                    }
+                ]
+            },
+            {
+                "code": "3320400",
+                "name": "玉野市",
+                "kinds": [
+                    {
+                        "code": "0",
+                        "name": "なし",
+                        "status": "なし"
+                    }
+                ]
+            },
+            {
+                "code": "3320500",
+                "name": "笠岡市",
+                "kinds": [
+                    {
+                        "code": "0",
+                        "name": "なし",
+                        "status": "なし"
+                    }
+                ]
+            },
+            {
+                "code": "3320700",
+                "name": "井原市",
+                "kinds": [
+                    {
+                        "code": "0",
+                        "name": "なし",
+                        "status": "なし"
+                    }
+                ]
+            },
+            {
+                "code": "3320800",
+                "name": "総社市",
+                "kinds": [
+                    {
+                        "code": "0",
+                        "name": "なし",
+                        "status": "なし"
+                    }
+                ]
+            },
+            {
+                "code": "3320900",
+                "name": "高梁市",
+                "kinds": [
+                    {
+                        "code": "1",
+                        "name": "解除",
+                        "status": "解除"
+                    }
+                ]
+            },
+            {
+                "code": "3321000",
+                "name": "新見市",
+                "kinds": [
+                    {
+                        "code": "0",
+                        "name": "なし",
+                        "status": "なし"
+                    }
+                ]
+            },
+            {
+                "code": "3321100",
+                "name": "備前市",
+                "kinds": [
+                    {
+                        "code": "0",
+                        "name": "なし",
+                        "status": "なし"
+                    }
+                ]
+            },
+            {
+                "code": "3321200",
+                "name": "瀬戸内市",
+                "kinds": [
+                    {
+                        "code": "0",
+                        "name": "なし",
+                        "status": "なし"
+                    }
+                ]
+            },
+            {
+                "code": "3321300",
+                "name": "赤磐市",
+                "kinds": [
+                    {
+                        "code": "0",
+                        "name": "なし",
+                        "status": "なし"
+                    }
+                ]
+            },
+            {
+                "code": "3321400",
+                "name": "真庭市",
+                "kinds": [
+                    {
+                        "code": "0",
+                        "name": "なし",
+                        "status": "なし"
+                    }
+                ]
+            },
+            {
+                "code": "3321500",
+                "name": "美作市",
+                "kinds": [
+                    {
+                        "code": "0",
+                        "name": "なし",
+                        "status": "なし"
+                    }
+                ]
+            },
+            {
+                "code": "3321600",
+                "name": "浅口市",
+                "kinds": [
+                    {
+                        "code": "0",
+                        "name": "なし",
+                        "status": "なし"
+                    }
+                ]
+            },
+            {
+                "code": "3334600",
+                "name": "和気町",
+                "kinds": [
+                    {
+                        "code": "0",
+                        "name": "なし",
+                        "status": "なし"
+                    }
+                ]
+            },
+            {
+                "code": "3342300",
+                "name": "早島町",
+                "kinds": [
+                    {
+                        "code": "0",
+                        "name": "なし",
+                        "status": "なし"
+                    }
+                ]
+            },
+            {
+                "code": "3344500",
+                "name": "里庄町",
+                "kinds": [
+                    {
+                        "code": "0",
+                        "name": "なし",
+                        "status": "なし"
+                    }
+                ]
+            },
+            {
+                "code": "3346100",
+                "name": "矢掛町",
+                "kinds": [
+                    {
+                        "code": "0",
+                        "name": "なし",
+                        "status": "なし"
+                    }
+                ]
+            },
+            {
+                "code": "3358600",
+                "name": "新庄村",
+                "kinds": [
+                    {
+                        "code": "0",
+                        "name": "なし",
+                        "status": "なし"
+                    }
+                ]
+            },
+            {
+                "code": "3360600",
+                "name": "鏡野町",
+                "kinds": [
+                    {
+                        "code": "0",
+                        "name": "なし",
+                        "status": "なし"
+                    }
+                ]
+            },
+            {
+                "code": "3362200",
+                "name": "勝央町",
+                "kinds": [
+                    {
+                        "code": "0",
+                        "name": "なし",
+                        "status": "なし"
+                    }
+                ]
+            },
+            {
+                "code": "3362300",
+                "name": "奈義町",
+                "kinds": [
+                    {
+                        "code": "0",
+                        "name": "なし",
+                        "status": "なし"
+                    }
+                ]
+            },
+            {
+                "code": "3364300",
+                "name": "西粟倉村",
+                "kinds": [
+                    {
+                        "code": "0",
+                        "name": "なし",
+                        "status": "なし"
+                    }
+                ]
+            },
+            {
+                "code": "3366300",
+                "name": "久米南町",
+                "kinds": [
+                    {
+                        "code": "0",
+                        "name": "なし",
+                        "status": "なし"
+                    }
+                ]
+            },
+            {
+                "code": "3366600",
+                "name": "美咲町",
+                "kinds": [
+                    {
+                        "code": "0",
+                        "name": "なし",
+                        "status": "なし"
+                    }
+                ]
+            },
+            {
+                "code": "3368100",
+                "name": "吉備中央町",
+                "kinds": [
+                    {
+                        "code": "0",
+                        "name": "なし",
+                        "status": "なし"
+                    }
+                ]
+            }
+        ],
+        "offices": [
+            {
+                "type": "都道府県",
+                "name": "岡山県",
+                "contact": "086-226-7482（岡山県土木部防災砂防課）"
+            },
+            {
+                "type": "気象庁",
+                "name": "岡山地方気象台",
+                "contact": "086-223-1331（岡山地方気象台）"
+            }
+        ]
+    }
+}

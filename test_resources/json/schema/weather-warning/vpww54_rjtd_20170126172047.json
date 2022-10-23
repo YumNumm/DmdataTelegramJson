@@ -1,0 +1,1641 @@
+{
+    "_originalId": "TELEGRAM_ID",
+    "_schema": {
+        "type": "weather-warning",
+        "version": "1.0.0"
+    },
+    "type": "気象警報・注意報（Ｈ２７）",
+    "title": "東京都気象警報・注意報",
+    "status": "通常",
+    "infoType": "発表",
+    "editorialOffice": "気象庁本庁",
+    "publishingOffice": [
+        "気象庁予報部"
+    ],
+    "pressDateTime": "2017-01-26T08:20:47Z",
+    "reportDateTime": "2017-01-26T17:20:00+09:00",
+    "targetDateTime": "2017-01-26T17:20:00+09:00",
+    "eventId": null,
+    "serialNo": null,
+    "infoKind": "気象警報・注意報",
+    "infoKindVersion": "1.2_0",
+    "headline": "【特別警報（大雨）】２３区西部、多摩西部に特別警報を発表しています。土砂災害や河川の増水に最大級の警戒をしてください。",
+    "body": {
+        "prefectures": [
+            {
+                "code": "130000",
+                "name": "東京都",
+                "kinds": [
+                    {
+                        "code": "33",
+                        "name": "大雨特別警報",
+                        "status": "発表",
+                        "attentions": [
+                            "土砂災害警戒",
+                            "浸水警戒"
+                        ],
+                        "condition": "土砂災害"
+                    },
+                    {
+                        "code": "04",
+                        "name": "洪水警報",
+                        "status": "発表",
+                        "additions": [
+                            "氾濫"
+                        ]
+                    }
+                ],
+                "changeStatus": "警報・注意報種別に変化有",
+                "fullStatus": "一部",
+                "editingMark": false
+            }
+        ],
+        "regions": [
+            {
+                "code": "130010",
+                "name": "東京地方",
+                "kinds": [
+                    {
+                        "code": "33",
+                        "name": "大雨特別警報",
+                        "status": "発表",
+                        "attentions": [
+                            "土砂災害警戒",
+                            "浸水警戒"
+                        ],
+                        "condition": "土砂災害"
+                    },
+                    {
+                        "code": "04",
+                        "name": "洪水警報",
+                        "status": "発表",
+                        "additions": [
+                            "氾濫"
+                        ]
+                    }
+                ],
+                "changeStatus": "警報・注意報種別に変化有",
+                "fullStatus": "一部",
+                "editingMark": false
+            },
+            {
+                "code": "130020",
+                "name": "伊豆諸島北部",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "130030",
+                "name": "伊豆諸島南部",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "130040",
+                "name": "小笠原諸島",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            }
+        ],
+        "areas": [
+            {
+                "code": "130011",
+                "name": "２３区西部",
+                "kinds": [
+                    {
+                        "code": "33",
+                        "name": "大雨特別警報",
+                        "status": "発表",
+                        "attentions": [
+                            "土砂災害警戒"
+                        ],
+                        "condition": "土砂災害"
+                    }
+                ],
+                "changeStatus": "警報・注意報種別に変化有",
+                "fullStatus": "一部",
+                "editingMark": true
+            },
+            {
+                "code": "130012",
+                "name": "２３区東部",
+                "kinds": [
+                    {
+                        "code": "03",
+                        "name": "大雨警報",
+                        "status": "発表",
+                        "attentions": [
+                            "浸水警戒"
+                        ],
+                        "condition": "浸水害"
+                    },
+                    {
+                        "code": "04",
+                        "name": "洪水警報",
+                        "status": "発表",
+                        "additions": [
+                            "氾濫"
+                        ]
+                    }
+                ],
+                "changeStatus": "警報・注意報種別に変化有",
+                "fullStatus": "一部",
+                "editingMark": true
+            },
+            {
+                "code": "130013",
+                "name": "多摩北部",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "130014",
+                "name": "多摩西部",
+                "kinds": [
+                    {
+                        "code": "33",
+                        "name": "大雨特別警報",
+                        "status": "発表",
+                        "attentions": [
+                            "土砂災害警戒",
+                            "浸水警戒"
+                        ],
+                        "condition": "土砂災害"
+                    },
+                    {
+                        "code": "04",
+                        "name": "洪水警報",
+                        "status": "発表",
+                        "additions": [
+                            "氾濫"
+                        ]
+                    }
+                ],
+                "changeStatus": "警報・注意報種別に変化有",
+                "fullStatus": "一部",
+                "editingMark": true
+            },
+            {
+                "code": "130015",
+                "name": "多摩南部",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "130021",
+                "name": "大島",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "130022",
+                "name": "新島",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "130031",
+                "name": "八丈島",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "130032",
+                "name": "三宅島",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "130040",
+                "name": "小笠原諸島",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            }
+        ],
+        "cities": [
+            {
+                "code": "1310100",
+                "name": "千代田区",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1310200",
+                "name": "中央区",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1310300",
+                "name": "港区",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1310400",
+                "name": "新宿区",
+                "kinds": [
+                    {
+                        "code": "33",
+                        "name": "大雨特別警報",
+                        "status": "発表",
+                        "attentions": [
+                            "土砂災害警戒"
+                        ],
+                        "condition": "土砂災害"
+                    }
+                ],
+                "changeStatus": "警報・注意報種別に変化有"
+            },
+            {
+                "code": "1310500",
+                "name": "文京区",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1310600",
+                "name": "台東区",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1310700",
+                "name": "墨田区",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1310800",
+                "name": "江東区",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1310900",
+                "name": "品川区",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1311000",
+                "name": "目黒区",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1311100",
+                "name": "大田区",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1311200",
+                "name": "世田谷区",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1311300",
+                "name": "渋谷区",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1311400",
+                "name": "中野区",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1311500",
+                "name": "杉並区",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1311600",
+                "name": "豊島区",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1311700",
+                "name": "北区",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1311800",
+                "name": "荒川区",
+                "kinds": [
+                    {
+                        "code": "03",
+                        "name": "大雨警報",
+                        "status": "発表",
+                        "attentions": [
+                            "浸水警戒"
+                        ],
+                        "condition": "浸水害"
+                    },
+                    {
+                        "code": "04",
+                        "name": "洪水警報",
+                        "status": "発表",
+                        "additions": [
+                            "氾濫"
+                        ]
+                    }
+                ],
+                "changeStatus": "警報・注意報種別に変化有"
+            },
+            {
+                "code": "1311900",
+                "name": "板橋区",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1312000",
+                "name": "練馬区",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1312100",
+                "name": "足立区",
+                "kinds": [
+                    {
+                        "code": "03",
+                        "name": "大雨警報",
+                        "status": "発表",
+                        "attentions": [
+                            "浸水警戒"
+                        ],
+                        "condition": "浸水害"
+                    },
+                    {
+                        "code": "04",
+                        "name": "洪水警報",
+                        "status": "発表",
+                        "additions": [
+                            "氾濫"
+                        ]
+                    }
+                ],
+                "changeStatus": "警報・注意報種別に変化有"
+            },
+            {
+                "code": "1312200",
+                "name": "葛飾区",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1312300",
+                "name": "江戸川区",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1320100",
+                "name": "八王子市",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1320200",
+                "name": "立川市",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1320300",
+                "name": "武蔵野市",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1320400",
+                "name": "三鷹市",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1320500",
+                "name": "青梅市",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1320600",
+                "name": "府中市",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1320700",
+                "name": "昭島市",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1320800",
+                "name": "調布市",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1320900",
+                "name": "町田市",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1321000",
+                "name": "小金井市",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1321100",
+                "name": "小平市",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1321200",
+                "name": "日野市",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1321300",
+                "name": "東村山市",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1321400",
+                "name": "国分寺市",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1321500",
+                "name": "国立市",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1321800",
+                "name": "福生市",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1321900",
+                "name": "狛江市",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1322000",
+                "name": "東大和市",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1322100",
+                "name": "清瀬市",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1322200",
+                "name": "東久留米市",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1322300",
+                "name": "武蔵村山市",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1322400",
+                "name": "多摩市",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1322500",
+                "name": "稲城市",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1322700",
+                "name": "羽村市",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1322800",
+                "name": "あきる野市",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1322900",
+                "name": "西東京市",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1330300",
+                "name": "瑞穂町",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1330500",
+                "name": "日の出町",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1330700",
+                "name": "檜原村",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1330800",
+                "name": "奥多摩町",
+                "kinds": [
+                    {
+                        "code": "33",
+                        "name": "大雨特別警報",
+                        "status": "発表",
+                        "attentions": [
+                            "土砂災害警戒",
+                            "浸水警戒"
+                        ],
+                        "condition": "土砂災害"
+                    },
+                    {
+                        "code": "04",
+                        "name": "洪水警報",
+                        "status": "発表",
+                        "additions": [
+                            "氾濫"
+                        ]
+                    }
+                ],
+                "changeStatus": "警報・注意報種別に変化有"
+            },
+            {
+                "code": "1336100",
+                "name": "大島町",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1336200",
+                "name": "利島村",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1336300",
+                "name": "新島村",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1336400",
+                "name": "神津島村",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1338100",
+                "name": "三宅村",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1338200",
+                "name": "御蔵島村",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1340100",
+                "name": "八丈町",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1340200",
+                "name": "青ヶ島村",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            },
+            {
+                "code": "1342100",
+                "name": "小笠原村",
+                "kinds": [],
+                "condition": "発表警報・注意報はなし"
+            }
+        ],
+        "timeSeries": [
+            {
+                "timeDefines": [
+                    {
+                        "timeId": "1",
+                        "dateTime": "2017-01-26T15:00:00+09:00",
+                        "duration": "PT3H",
+                        "name": "２６日夕方"
+                    },
+                    {
+                        "timeId": "2",
+                        "dateTime": "2017-01-26T18:00:00+09:00",
+                        "duration": "PT3H",
+                        "name": "２６日夜のはじめ頃"
+                    },
+                    {
+                        "timeId": "3",
+                        "dateTime": "2017-01-26T21:00:00+09:00",
+                        "duration": "PT3H",
+                        "name": "２６日夜遅く"
+                    },
+                    {
+                        "timeId": "4",
+                        "dateTime": "2017-01-27T00:00:00+09:00",
+                        "duration": "PT3H",
+                        "name": "２７日未明"
+                    },
+                    {
+                        "timeId": "5",
+                        "dateTime": "2017-01-27T03:00:00+09:00",
+                        "duration": "PT3H",
+                        "name": "２７日明け方"
+                    },
+                    {
+                        "timeId": "6",
+                        "dateTime": "2017-01-27T06:00:00+09:00",
+                        "duration": "PT3H",
+                        "name": "２７日朝"
+                    },
+                    {
+                        "timeId": "7",
+                        "dateTime": "2017-01-27T09:00:00+09:00",
+                        "duration": "PT3H",
+                        "name": "２７日昼前"
+                    },
+                    {
+                        "timeId": "8",
+                        "dateTime": "2017-01-27T12:00:00+09:00",
+                        "duration": "PT3H",
+                        "name": "２７日昼過ぎ"
+                    },
+                    {
+                        "timeId": "9",
+                        "dateTime": "2017-01-27T15:00:00+09:00",
+                        "duration": "PT3H",
+                        "name": "２７日夕方"
+                    }
+                ],
+                "items": [
+                    {
+                        "code": "1310400",
+                        "name": "新宿区",
+                        "kinds": [
+                            {
+                                "code": "33",
+                                "name": "大雨特別警報",
+                                "riskDegrees": [
+                                    {
+                                        "type": "土砂災害危険度",
+                                        "locals": [
+                                            {
+                                                "name": null,
+                                                "significances": [
+                                                    {
+                                                        "refId": "1",
+                                                        "code": "50",
+                                                        "name": "特別警報級"
+                                                    },
+                                                    {
+                                                        "refId": "2",
+                                                        "code": "50",
+                                                        "name": "特別警報級"
+                                                    },
+                                                    {
+                                                        "refId": "3",
+                                                        "code": "50",
+                                                        "name": "特別警報級"
+                                                    },
+                                                    {
+                                                        "refId": "4",
+                                                        "code": "50",
+                                                        "name": "特別警報級"
+                                                    },
+                                                    {
+                                                        "refId": "5",
+                                                        "code": "50",
+                                                        "name": "特別警報級"
+                                                    },
+                                                    {
+                                                        "refId": "6",
+                                                        "code": "50",
+                                                        "name": "特別警報級"
+                                                    },
+                                                    {
+                                                        "refId": "7",
+                                                        "code": "50",
+                                                        "name": "特別警報級"
+                                                    },
+                                                    {
+                                                        "refId": "8",
+                                                        "code": "50",
+                                                        "name": "特別警報級"
+                                                    },
+                                                    {
+                                                        "refId": "9",
+                                                        "code": "50",
+                                                        "name": "特別警報級"
+                                                    }
+                                                ],
+                                                "attentions": [
+                                                    "土砂災害警戒"
+                                                ],
+                                                "future": {
+                                                    "code": "50",
+                                                    "name": "特別警報級",
+                                                    "sentence": "以後も特別警報級"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "code": "1311800",
+                        "name": "荒川区",
+                        "kinds": [
+                            {
+                                "code": "03",
+                                "name": "大雨警報",
+                                "riskDegrees": [
+                                    {
+                                        "type": "浸水害危険度",
+                                        "locals": [
+                                            {
+                                                "name": null,
+                                                "significances": [
+                                                    {
+                                                        "refId": "1",
+                                                        "code": "30",
+                                                        "name": "警報級"
+                                                    },
+                                                    {
+                                                        "refId": "2",
+                                                        "code": "30",
+                                                        "name": "警報級"
+                                                    },
+                                                    {
+                                                        "refId": "3",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    },
+                                                    {
+                                                        "refId": "4",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    },
+                                                    {
+                                                        "refId": "5",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    },
+                                                    {
+                                                        "refId": "6",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    },
+                                                    {
+                                                        "refId": "7",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    },
+                                                    {
+                                                        "refId": "8",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    },
+                                                    {
+                                                        "refId": "9",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    }
+                                                ],
+                                                "attentions": [
+                                                    "浸水警戒"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "quantitative": [
+                                    {
+                                        "type": "１時間最大雨量",
+                                        "forecastType": "timeline",
+                                        "locals": [
+                                            {
+                                                "name": null,
+                                                "forecasts": [
+                                                    {
+                                                        "refId": "1",
+                                                        "unit": "mm",
+                                                        "value": "100"
+                                                    },
+                                                    {
+                                                        "refId": "2",
+                                                        "unit": "mm",
+                                                        "value": "100"
+                                                    },
+                                                    {
+                                                        "refId": "3",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    },
+                                                    {
+                                                        "refId": "4",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    },
+                                                    {
+                                                        "refId": "5",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    },
+                                                    {
+                                                        "refId": "6",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    },
+                                                    {
+                                                        "refId": "7",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    },
+                                                    {
+                                                        "refId": "8",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    },
+                                                    {
+                                                        "refId": "9",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "３時間最大雨量",
+                                        "forecastType": "timeline",
+                                        "locals": [
+                                            {
+                                                "name": null,
+                                                "forecasts": [
+                                                    {
+                                                        "refId": "1",
+                                                        "unit": "mm",
+                                                        "value": "100"
+                                                    },
+                                                    {
+                                                        "refId": "2",
+                                                        "unit": "mm",
+                                                        "value": "100"
+                                                    },
+                                                    {
+                                                        "refId": "3",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    },
+                                                    {
+                                                        "refId": "4",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    },
+                                                    {
+                                                        "refId": "5",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    },
+                                                    {
+                                                        "refId": "6",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    },
+                                                    {
+                                                        "refId": "7",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    },
+                                                    {
+                                                        "refId": "8",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    },
+                                                    {
+                                                        "refId": "9",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "code": "04",
+                                "name": "洪水警報",
+                                "riskDegrees": [
+                                    {
+                                        "type": "洪水害危険度",
+                                        "locals": [
+                                            {
+                                                "name": null,
+                                                "significances": [
+                                                    {
+                                                        "refId": "1",
+                                                        "code": "30",
+                                                        "name": "警報級"
+                                                    },
+                                                    {
+                                                        "refId": "2",
+                                                        "code": "30",
+                                                        "name": "警報級"
+                                                    },
+                                                    {
+                                                        "refId": "3",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    },
+                                                    {
+                                                        "refId": "4",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    },
+                                                    {
+                                                        "refId": "5",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    },
+                                                    {
+                                                        "refId": "6",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    },
+                                                    {
+                                                        "refId": "7",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    },
+                                                    {
+                                                        "refId": "8",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    },
+                                                    {
+                                                        "refId": "9",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    }
+                                                ],
+                                                "additions": [
+                                                    "氾濫"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "code": "1312100",
+                        "name": "足立区",
+                        "kinds": [
+                            {
+                                "code": "03",
+                                "name": "大雨警報",
+                                "riskDegrees": [
+                                    {
+                                        "type": "浸水害危険度",
+                                        "locals": [
+                                            {
+                                                "name": null,
+                                                "significances": [
+                                                    {
+                                                        "refId": "1",
+                                                        "code": "30",
+                                                        "name": "警報級"
+                                                    },
+                                                    {
+                                                        "refId": "2",
+                                                        "code": "30",
+                                                        "name": "警報級"
+                                                    },
+                                                    {
+                                                        "refId": "3",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    },
+                                                    {
+                                                        "refId": "4",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    },
+                                                    {
+                                                        "refId": "5",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    },
+                                                    {
+                                                        "refId": "6",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    },
+                                                    {
+                                                        "refId": "7",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    },
+                                                    {
+                                                        "refId": "8",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    },
+                                                    {
+                                                        "refId": "9",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    }
+                                                ],
+                                                "attentions": [
+                                                    "浸水警戒"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "quantitative": [
+                                    {
+                                        "type": "１時間最大雨量",
+                                        "forecastType": "timeline",
+                                        "locals": [
+                                            {
+                                                "name": null,
+                                                "forecasts": [
+                                                    {
+                                                        "refId": "1",
+                                                        "unit": "mm",
+                                                        "value": "100"
+                                                    },
+                                                    {
+                                                        "refId": "2",
+                                                        "unit": "mm",
+                                                        "value": "100"
+                                                    },
+                                                    {
+                                                        "refId": "3",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    },
+                                                    {
+                                                        "refId": "4",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    },
+                                                    {
+                                                        "refId": "5",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    },
+                                                    {
+                                                        "refId": "6",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    },
+                                                    {
+                                                        "refId": "7",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    },
+                                                    {
+                                                        "refId": "8",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    },
+                                                    {
+                                                        "refId": "9",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "３時間最大雨量",
+                                        "forecastType": "timeline",
+                                        "locals": [
+                                            {
+                                                "name": null,
+                                                "forecasts": [
+                                                    {
+                                                        "refId": "1",
+                                                        "unit": "mm",
+                                                        "value": "100"
+                                                    },
+                                                    {
+                                                        "refId": "2",
+                                                        "unit": "mm",
+                                                        "value": "100"
+                                                    },
+                                                    {
+                                                        "refId": "3",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    },
+                                                    {
+                                                        "refId": "4",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    },
+                                                    {
+                                                        "refId": "5",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    },
+                                                    {
+                                                        "refId": "6",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    },
+                                                    {
+                                                        "refId": "7",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    },
+                                                    {
+                                                        "refId": "8",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    },
+                                                    {
+                                                        "refId": "9",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "code": "04",
+                                "name": "洪水警報",
+                                "riskDegrees": [
+                                    {
+                                        "type": "洪水害危険度",
+                                        "locals": [
+                                            {
+                                                "name": null,
+                                                "significances": [
+                                                    {
+                                                        "refId": "1",
+                                                        "code": "30",
+                                                        "name": "警報級"
+                                                    },
+                                                    {
+                                                        "refId": "2",
+                                                        "code": "30",
+                                                        "name": "警報級"
+                                                    },
+                                                    {
+                                                        "refId": "3",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    },
+                                                    {
+                                                        "refId": "4",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    },
+                                                    {
+                                                        "refId": "5",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    },
+                                                    {
+                                                        "refId": "6",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    },
+                                                    {
+                                                        "refId": "7",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    },
+                                                    {
+                                                        "refId": "8",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    },
+                                                    {
+                                                        "refId": "9",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    }
+                                                ],
+                                                "additions": [
+                                                    "氾濫"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "code": "1330800",
+                        "name": "奥多摩町",
+                        "kinds": [
+                            {
+                                "code": "33",
+                                "name": "大雨特別警報",
+                                "riskDegrees": [
+                                    {
+                                        "type": "土砂災害危険度",
+                                        "locals": [
+                                            {
+                                                "name": null,
+                                                "significances": [
+                                                    {
+                                                        "refId": "1",
+                                                        "code": "50",
+                                                        "name": "特別警報級"
+                                                    },
+                                                    {
+                                                        "refId": "2",
+                                                        "code": "50",
+                                                        "name": "特別警報級"
+                                                    },
+                                                    {
+                                                        "refId": "3",
+                                                        "code": "50",
+                                                        "name": "特別警報級"
+                                                    },
+                                                    {
+                                                        "refId": "4",
+                                                        "code": "50",
+                                                        "name": "特別警報級"
+                                                    },
+                                                    {
+                                                        "refId": "5",
+                                                        "code": "50",
+                                                        "name": "特別警報級"
+                                                    },
+                                                    {
+                                                        "refId": "6",
+                                                        "code": "50",
+                                                        "name": "特別警報級"
+                                                    },
+                                                    {
+                                                        "refId": "7",
+                                                        "code": "50",
+                                                        "name": "特別警報級"
+                                                    },
+                                                    {
+                                                        "refId": "8",
+                                                        "code": "50",
+                                                        "name": "特別警報級"
+                                                    },
+                                                    {
+                                                        "refId": "9",
+                                                        "code": "50",
+                                                        "name": "特別警報級"
+                                                    }
+                                                ],
+                                                "attentions": [
+                                                    "土砂災害警戒"
+                                                ],
+                                                "future": {
+                                                    "code": "50",
+                                                    "name": "特別警報級",
+                                                    "sentence": "以後も特別警報級"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "浸水害危険度",
+                                        "locals": [
+                                            {
+                                                "name": null,
+                                                "significances": [
+                                                    {
+                                                        "refId": "1",
+                                                        "code": "30",
+                                                        "name": "警報級"
+                                                    },
+                                                    {
+                                                        "refId": "2",
+                                                        "code": "30",
+                                                        "name": "警報級"
+                                                    },
+                                                    {
+                                                        "refId": "3",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    },
+                                                    {
+                                                        "refId": "4",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    },
+                                                    {
+                                                        "refId": "5",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    },
+                                                    {
+                                                        "refId": "6",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    },
+                                                    {
+                                                        "refId": "7",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    },
+                                                    {
+                                                        "refId": "8",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    },
+                                                    {
+                                                        "refId": "9",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    }
+                                                ],
+                                                "attentions": [
+                                                    "浸水警戒"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "quantitative": [
+                                    {
+                                        "type": "１時間最大雨量",
+                                        "forecastType": "timeline",
+                                        "locals": [
+                                            {
+                                                "name": null,
+                                                "forecasts": [
+                                                    {
+                                                        "refId": "1",
+                                                        "unit": "mm",
+                                                        "value": "100"
+                                                    },
+                                                    {
+                                                        "refId": "2",
+                                                        "unit": "mm",
+                                                        "value": "100"
+                                                    },
+                                                    {
+                                                        "refId": "3",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    },
+                                                    {
+                                                        "refId": "4",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    },
+                                                    {
+                                                        "refId": "5",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    },
+                                                    {
+                                                        "refId": "6",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    },
+                                                    {
+                                                        "refId": "7",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    },
+                                                    {
+                                                        "refId": "8",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    },
+                                                    {
+                                                        "refId": "9",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "３時間最大雨量",
+                                        "forecastType": "timeline",
+                                        "locals": [
+                                            {
+                                                "name": null,
+                                                "forecasts": [
+                                                    {
+                                                        "refId": "1",
+                                                        "unit": "mm",
+                                                        "value": "100"
+                                                    },
+                                                    {
+                                                        "refId": "2",
+                                                        "unit": "mm",
+                                                        "value": "100"
+                                                    },
+                                                    {
+                                                        "refId": "3",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    },
+                                                    {
+                                                        "refId": "4",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    },
+                                                    {
+                                                        "refId": "5",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    },
+                                                    {
+                                                        "refId": "6",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    },
+                                                    {
+                                                        "refId": "7",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    },
+                                                    {
+                                                        "refId": "8",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    },
+                                                    {
+                                                        "refId": "9",
+                                                        "unit": "mm",
+                                                        "value": null,
+                                                        "condition": "値なし"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "code": "04",
+                                "name": "洪水警報",
+                                "riskDegrees": [
+                                    {
+                                        "type": "洪水害危険度",
+                                        "locals": [
+                                            {
+                                                "name": null,
+                                                "significances": [
+                                                    {
+                                                        "refId": "1",
+                                                        "code": "30",
+                                                        "name": "警報級"
+                                                    },
+                                                    {
+                                                        "refId": "2",
+                                                        "code": "30",
+                                                        "name": "警報級"
+                                                    },
+                                                    {
+                                                        "refId": "3",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    },
+                                                    {
+                                                        "refId": "4",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    },
+                                                    {
+                                                        "refId": "5",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    },
+                                                    {
+                                                        "refId": "6",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    },
+                                                    {
+                                                        "refId": "7",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    },
+                                                    {
+                                                        "refId": "8",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    },
+                                                    {
+                                                        "refId": "9",
+                                                        "code": "00",
+                                                        "name": "注意報級未満"
+                                                    }
+                                                ],
+                                                "additions": [
+                                                    "氾濫"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

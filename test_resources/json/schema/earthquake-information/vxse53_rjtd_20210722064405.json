@@ -1,0 +1,64 @@
+{
+    "_originalId": "TELEGRAM_ID",
+    "_schema": {
+        "type": "earthquake-information",
+        "version": "1.0.0"
+    },
+    "type": "震源・震度に関する情報",
+    "title": "遠地地震に関する情報",
+    "status": "通常",
+    "infoType": "発表",
+    "editorialOffice": "気象庁本庁",
+    "publishingOffice": ["気象庁"],
+    "pressDateTime": "2021-07-21T21:44:05Z",
+    "reportDateTime": "2021-07-22T06:44:00+09:00",
+    "targetDateTime": "2021-07-22T06:44:00+09:00",
+    "eventId": "20210722061500",
+    "serialNo": "1",
+    "infoKind": "地震情報",
+    "infoKindVersion": "1.0_1",
+    "headline": "２２日０６時１５分ころ、海外で規模の大きな地震がありました。",
+    "body": {
+        "earthquake": {
+            "originTime": "2021-07-22T06:15:00+09:00",
+            "arrivalTime": "2021-07-22T06:15:00+09:00",
+            "hypocenter": {
+                "name": "中米",
+                "code": "945",
+                "coordinate": {
+                    "latitude": {
+                        "text": "7.4˚N",
+                        "value": "7.4000"
+                    },
+                    "longitude": {
+                        "text": "82.5˚W",
+                        "value": "-82.5000"
+                    }
+                },
+                "depth": {
+                    "type": "深さ",
+                    "value": null,
+                    "unit": "km",
+                    "condition": "不明"
+                },
+                "detailed": {
+                    "code": "1083",
+                    "name": "パナマ南方"
+                },
+                "source": "ＰＴＷＣ"
+            },
+            "magnitude": {
+                "type": "マグニチュード",
+                "unit": "M",
+                "value": "7.0"
+            }
+        },
+        "comments": {
+            "free": "ＰＴＷＣでは２２日６時２４分に津波情報を発表しています。",
+            "forecast": {
+                "text": "震源の近傍で津波発生の可能性があります。\nこの地震による日本への津波の影響はありません。",
+                "codes": ["0226", "0230"]
+            }
+        }
+    }
+}

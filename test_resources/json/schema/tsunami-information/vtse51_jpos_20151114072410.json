@@ -1,0 +1,188 @@
+{
+    "_originalId": "TELEGRAM_ID",
+    "_schema": {
+        "type": "tsunami-information",
+        "version": "1.0.0"
+    },
+    "type": "津波情報a",
+    "title": "津波観測に関する情報",
+    "status": "通常",
+    "infoType": "発表",
+    "editorialOffice": "大阪管区気象台",
+    "publishingOffice": [
+        "気象庁"
+    ],
+    "pressDateTime": "2015-11-13T22:24:10Z",
+    "reportDateTime": "2015-11-14T07:24:00+09:00",
+    "targetDateTime": "2015-11-14T07:10:00+09:00",
+    "eventId": "20151114055157 20151114061750",
+    "serialNo": "3",
+    "infoKind": "津波情報",
+    "infoKindVersion": "1.0_1",
+    "headline": "１４日０７時１０分現在の、津波の観測値をお知らせします。",
+    "body": {
+        "tsunami": {
+            "forecasts": [
+                {
+                    "code": "771",
+                    "name": "種子島・屋久島地方",
+                    "kind": {
+                        "code": "60",
+                        "name": "津波注意報解除",
+                        "lastKind": {
+                            "code": "62",
+                            "name": "津波注意報"
+                        }
+                    }
+                },
+                {
+                    "code": "772",
+                    "name": "奄美群島・トカラ列島",
+                    "kind": {
+                        "code": "60",
+                        "name": "津波注意報解除",
+                        "lastKind": {
+                            "code": "62",
+                            "name": "津波注意報"
+                        }
+                    }
+                },
+                {
+                    "code": "773",
+                    "name": "鹿児島県西部",
+                    "kind": {
+                        "code": "60",
+                        "name": "津波注意報解除",
+                        "lastKind": {
+                            "code": "62",
+                            "name": "津波注意報"
+                        }
+                    }
+                }
+            ],
+            "observations": [
+                {
+                    "code": "772",
+                    "name": "奄美群島・トカラ列島",
+                    "stations": [
+                        {
+                            "code": "77203",
+                            "name": "中之島",
+                            "firstHeight": {
+                                "arrivalTime": "2015-11-14T06:26:00+09:00",
+                                "initial": "押し"
+                            },
+                            "maxHeight": {
+                                "dateTime": "2015-11-14T06:45:00+09:00",
+                                "height": {
+                                    "type": "これまでの最大波の高さ",
+                                    "value": "0.3",
+                                    "unit": "m"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "earthquakes": [
+            {
+                "originTime": "2015-11-14T05:51:00+09:00",
+                "arrivalTime": "2015-11-14T05:51:00+09:00",
+                "hypocenter": {
+                    "code": "797",
+                    "name": "薩摩半島西方沖",
+                    "coordinate": {
+                        "latitude": {
+                            "text": "30.9˚N",
+                            "value": "30.9000"
+                        },
+                        "longitude": {
+                            "text": "128.7˚E",
+                            "value": "128.7000"
+                        },
+                        "height": {
+                            "type": "高さ",
+                            "unit": "m",
+                            "value": "-10000"
+                        },
+                        "geodeticSystem": "日本測地系"
+                    },
+                    "depth": {
+                        "type": "深さ",
+                        "unit": "km",
+                        "value": "10"
+                    },
+                    "auxiliary": {
+                        "text": "枕崎の西南西１６０ｋｍ付近",
+                        "code": "701",
+                        "name": "枕崎",
+                        "direction": "西南西",
+                        "distance": {
+                            "unit": "km",
+                            "value": "160"
+                        }
+                    }
+                },
+                "magnitude": {
+                    "type": "マグニチュード",
+                    "value": "7.0",
+                    "unit": "Mj"
+                }
+            },
+            {
+                "originTime": "2015-11-14T06:17:00+09:00",
+                "arrivalTime": "2015-11-14T06:17:00+09:00",
+                "hypocenter": {
+                    "code": "797",
+                    "name": "薩摩半島西方沖",
+                    "coordinate": {
+                        "latitude": {
+                            "text": "30.9˚N",
+                            "value": "30.9000"
+                        },
+                        "longitude": {
+                            "text": "128.6˚E",
+                            "value": "128.6000"
+                        },
+                        "height": {
+                            "type": "高さ",
+                            "unit": "m",
+                            "value": "-10000"
+                        },
+                        "geodeticSystem": "日本測地系"
+                    },
+                    "depth": {
+                        "type": "深さ",
+                        "unit": "km",
+                        "value": "10"
+                    },
+                    "auxiliary": {
+                        "text": "枕崎の西南西１７０ｋｍ付近",
+                        "code": "701",
+                        "name": "枕崎",
+                        "direction": "西南西",
+                        "distance": {
+                            "unit": "km",
+                            "value": "170"
+                        }
+                    }
+                },
+                "magnitude": {
+                    "type": "マグニチュード",
+                    "value": "5.1",
+                    "unit": "Mj"
+                }
+            }
+        ],
+        "comments": {
+            "warning": {
+                "text": "場所によっては、観測した津波の高さよりさらに大きな津波が到達しているおそれがあります。\n　\n現在、大津波警報・津波警報・津波注意報を発表している沿岸はありません。",
+                "codes": [
+                    "0111",
+                    "0107"
+                ]
+            }
+        }
+    }
+}

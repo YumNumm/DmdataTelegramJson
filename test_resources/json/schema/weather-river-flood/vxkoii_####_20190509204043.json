@@ -1,0 +1,521 @@
+{
+    "_originalId": "TELEGRAM_ID",
+    "_schema": {
+        "type": "weather-river-flood",
+        "version": "1.0.0"
+    },
+    "type": "指定河川洪水予報",
+    "title": "○○川上流氾濫注意情報",
+    "status": "通常",
+    "infoType": "発表",
+    "editorialOffice": "○○地方気象台",
+    "publishingOffice": [
+        "○○河川事務所",
+        "○○地方気象台",
+        "△△地方気象台"
+    ],
+    "pressDateTime": "2019-05-09T11:40:43Z",
+    "reportDateTime": "2019-05-09T20:40:00+09:00",
+    "targetDateTime": "2019-05-09T20:40:00+09:00",
+    "eventId": "830303020300",
+    "serialNo": "1",
+    "infoKind": "指定河川洪水予報",
+    "infoKindVersion": "1.1_1",
+    "headline": "【警戒レベル２相当情報［洪水］】○○川上流では、氾濫注意水位に到達し、今後、水位はさらに上昇する見込み",
+    "body": {
+        "notice": "この電文はテストサンプルです。",
+        "target": {
+            "code": "123456789012",
+            "name": "○○川上流",
+            "kind": {
+                "code": "20",
+                "name": "氾濫注意情報",
+                "condition": "洪水注意報（発表）"
+            }
+        },
+        "mainTexts": [
+            {
+                "text": "【警戒レベル２相当】○○川の□□□水位観測所（○○県□□市□□）では、「氾濫注意水位」に到達し、今後、水位はさらに上昇する見込みです。洪水に関する情報に注意してください。",
+                "rivers": [
+                    {
+                        "code": "1234567890",
+                        "name": "○○川"
+                    }
+                ],
+                "stations": [
+                    {
+                        "code": "12345678901234567",
+                        "name": "□□□水位観測所",
+                        "location": ">○○県□□市□□"
+                    }
+                ]
+            }
+        ],
+        "supposition": {
+            "type": "浸水想定地区",
+            "description": "氾濫による浸水が想定される地区※",
+            "kind": {
+                "code": "1",
+                "name": "浸水想定地区"
+            },
+            "districts": [
+                {
+                    "code": "12345678901234567",
+                    "name": "○○○水位観測所",
+                    "prefecture": {
+                        "code": "00000",
+                        "name": "○○県"
+                    },
+                    "city": {
+                        "code": "0000000",
+                        "name": "○○市"
+                    },
+                    "district": "○○地区 ○○地区 ○○地区"
+                },
+                {
+                    "code": "12345678901234567",
+                    "name": "△△△水位観測所",
+                    "prefecture": {
+                        "code": "00000",
+                        "name": "○○県"
+                    },
+                    "city": {
+                        "code": "0000000",
+                        "name": "△△市"
+                    },
+                    "district": "△△地区 △△地区 △△地区"
+                },
+                {
+                    "code": "12345678901234567",
+                    "name": "△△△水位観測所",
+                    "prefecture": {
+                        "code": "00000",
+                        "name": "○○県"
+                    },
+                    "city": {
+                        "code": "0000000",
+                        "name": "◇◇市"
+                    },
+                    "district": "◇◇地区 ◇◇地区 ◇◇地区"
+                },
+                {
+                    "code": "12345678901234567",
+                    "name": "□□□水位観測所",
+                    "prefecture": {
+                        "code": "00000",
+                        "name": "○○県"
+                    },
+                    "city": {
+                        "code": "0000000",
+                        "name": "□□市"
+                    },
+                    "district": "-"
+                }
+            ]
+        },
+        "rainfall": {
+            "dateTime": "2019-05-09T20:30:00+09:00",
+            "text": "多いところで1時間に60ミリの雨が降っています。\nこの雨は当分この状態が続くでしょう。",
+            "timeSeries": [
+                {
+                    "timeDefines": [
+                        {
+                            "timeId": "1",
+                            "dateTime": "2019-05-07T20:20:00+09:00",
+                            "duration": "PT48H",
+                            "name": "７日２０時２０分から９日２０時２０分までの流域平均雨量"
+                        },
+                        {
+                            "timeId": "2",
+                            "dateTime": "2019-05-09T20:20:00+09:00",
+                            "duration": "PT3H",
+                            "name": "９日２０時２０分から９日２３時２０分までの流域平均雨量の見込み"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "name": "鬼怒川流域",
+                            "forecasts": [
+                                {
+                                    "refId": "1",
+                                    "unit": "mm",
+                                    "value": "220"
+                                },
+                                {
+                                    "refId": "2",
+                                    "unit": "mm",
+                                    "value": "50"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "waterLevel": {
+            "timeSeries": [
+                {
+                    "timeDefines": [
+                        {
+                            "timeId": "1",
+                            "dateTime": "2019-05-09T20:00:00+09:00",
+                            "name": "現況"
+                        },
+                        {
+                            "timeId": "2",
+                            "dateTime": "2019-05-09T21:00:00+09:00",
+                            "name": "１時間後"
+                        },
+                        {
+                            "timeId": "3",
+                            "dateTime": "2019-05-09T22:00:00+09:00",
+                            "name": "２時間後"
+                        },
+                        {
+                            "timeId": "4",
+                            "dateTime": "2019-05-09T23:00:00+09:00",
+                            "name": "３時間後"
+                        },
+                        {
+                            "timeId": "5",
+                            "dateTime": "2019-05-10T00:00:00+09:00",
+                            "name": "４時間後"
+                        },
+                        {
+                            "timeId": "6",
+                            "dateTime": "2019-05-10T01:00:00+09:00",
+                            "name": "５時間後"
+                        },
+                        {
+                            "timeId": "7",
+                            "dateTime": "2019-05-10T02:00:00+09:00",
+                            "name": "６時間後"
+                        }
+                    ],
+                    "items": [
+                        {
+                            "code": "12345678901234567",
+                            "name": "○○○水位観測所",
+                            "location": "○○市○○",
+                            "type": "水位",
+                            "forecasts": [
+                                {
+                                    "refId": "1",
+                                    "unit": "m",
+                                    "value": null,
+                                    "level": null,
+                                    "condition": "欠測"
+                                },
+                                {
+                                    "refId": "2",
+                                    "unit": "m",
+                                    "value": null,
+                                    "level": null,
+                                    "condition": "欠測"
+                                },
+                                {
+                                    "refId": "3",
+                                    "unit": "m",
+                                    "value": null,
+                                    "level": null,
+                                    "condition": "欠測"
+                                },
+                                {
+                                    "refId": "4",
+                                    "unit": "m",
+                                    "value": null,
+                                    "level": null,
+                                    "condition": "欠測"
+                                },
+                                {
+                                    "refId": "5",
+                                    "unit": "m",
+                                    "value": null,
+                                    "level": null,
+                                    "condition": "欠測"
+                                },
+                                {
+                                    "refId": "6",
+                                    "unit": "m",
+                                    "value": null,
+                                    "level": null,
+                                    "condition": "欠測"
+                                },
+                                {
+                                    "refId": "7",
+                                    "unit": "m",
+                                    "value": null,
+                                    "level": null,
+                                    "condition": "欠測"
+                                }
+                            ]
+                        },
+                        {
+                            "code": "12345678901234567",
+                            "name": "△△△水位観測所",
+                            "location": "△△市△△",
+                            "type": "水位",
+                            "forecasts": [
+                                {
+                                    "refId": "1",
+                                    "unit": "m",
+                                    "value": "1.52",
+                                    "level": "2",
+                                    "condition": "正常"
+                                },
+                                {
+                                    "refId": "2",
+                                    "unit": "m",
+                                    "value": "1.52",
+                                    "level": "2",
+                                    "condition": "正常"
+                                },
+                                {
+                                    "refId": "3",
+                                    "unit": "m",
+                                    "value": "1.80",
+                                    "level": "2",
+                                    "condition": "正常"
+                                },
+                                {
+                                    "refId": "4",
+                                    "unit": "m",
+                                    "value": "2.02",
+                                    "level": "2",
+                                    "condition": "正常"
+                                },
+                                {
+                                    "refId": "5",
+                                    "unit": "m",
+                                    "value": "2.02",
+                                    "level": "2",
+                                    "condition": "正常"
+                                },
+                                {
+                                    "refId": "6",
+                                    "unit": "m",
+                                    "value": "2.02",
+                                    "level": "2",
+                                    "condition": "正常"
+                                },
+                                {
+                                    "refId": "7",
+                                    "unit": "m",
+                                    "value": "2.02",
+                                    "level": "2",
+                                    "condition": "正常"
+                                }
+                            ]
+                        },
+                        {
+                            "code": "12345678901234567",
+                            "name": "□□□水位観測所",
+                            "location": "□□市□□",
+                            "type": "水位",
+                            "forecasts": [
+                                {
+                                    "refId": "1",
+                                    "unit": "m",
+                                    "value": null,
+                                    "level": null,
+                                    "condition": "欠測"
+                                },
+                                {
+                                    "refId": "2",
+                                    "unit": "m",
+                                    "value": null,
+                                    "level": null,
+                                    "condition": "欠測"
+                                },
+                                {
+                                    "refId": "3",
+                                    "unit": "m",
+                                    "value": null,
+                                    "level": null,
+                                    "condition": "欠測"
+                                },
+                                {
+                                    "refId": "4",
+                                    "unit": "m",
+                                    "value": null,
+                                    "level": null,
+                                    "condition": "欠測"
+                                },
+                                {
+                                    "refId": "5",
+                                    "unit": "m",
+                                    "value": null,
+                                    "level": null,
+                                    "condition": "欠測"
+                                },
+                                {
+                                    "refId": "6",
+                                    "unit": "m",
+                                    "value": null,
+                                    "level": null,
+                                    "condition": "欠測"
+                                },
+                                {
+                                    "refId": "7",
+                                    "unit": "m",
+                                    "value": null,
+                                    "level": null,
+                                    "condition": "欠測"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "offices": [
+            {
+                "type": "水位関係",
+                "code": "00000",
+                "name": "○○河川事務所",
+                "contact": "国土交通省　○○河川事務所　○○○○課　000-000-0000（内線）000",
+                "url": "https://www.river.go.jp/"
+            },
+            {
+                "type": "気象関係",
+                "code": "00000",
+                "name": "○○地方気象台",
+                "contact": "気象庁　○○地方気象台　000-000-0000（内線）000",
+                "url": "https://www.jma.go.jp/"
+            },
+            {
+                "type": "気象関係",
+                "code": "00000",
+                "name": "△△地方気象台",
+                "contact": "気象庁　△△地方気象台　000-000-0000（内線）000",
+                "url": "https://www.jma.go.jp/"
+            }
+        ],
+        "reference": [
+            {
+                "code": "12345678901234567",
+                "name": "○○○水位観測所",
+                "location": "○○市○○",
+                "district": "○○県○○市○○地区 ○○県○○市○○地区 ○○県○○市○○地区",
+                "sections": [
+                    "○○川\n左岸：○○県○○市から○○県○○市\n右岸：○○県○○市から○○県○○市",
+                    "○×川\n左岸：○○県○○市から○○県○○市\n右岸：○○県○○市から○○県○○市"
+                ],
+                "criteria": [
+                    {
+                        "type": "レベル１水防団待機水位",
+                        "unit": "m",
+                        "value": "142.00",
+                        "condition": "有効"
+                    },
+                    {
+                        "type": "レベル２氾濫注意水位",
+                        "unit": "m",
+                        "value": "142.50",
+                        "condition": "有効"
+                    },
+                    {
+                        "type": "レベル３避難判断水位",
+                        "unit": "m",
+                        "value": "144.60",
+                        "condition": "有効"
+                    },
+                    {
+                        "type": "レベル４氾濫危険水位",
+                        "unit": "m",
+                        "value": "144.90",
+                        "condition": "有効"
+                    },
+                    {
+                        "type": "レベル４計画高水位",
+                        "unit": "m",
+                        "value": "145.10",
+                        "condition": "有効"
+                    }
+                ]
+            },
+            {
+                "code": "12345678901234567",
+                "name": "△△△水位観測所",
+                "location": "△△市△△",
+                "district": "○○県△△市△△地区 ○○県△△市△△地区 ○○県◇◇市◇◇地区 ○○県◇◇市◇◇地区 ○○県◇◇市◇◇地区 ○○県◇◇市◇◇地区",
+                "sections": [
+                    "○○川\n左岸：○○県○○市から○○県○○市\n右岸：○○県○○市から○○県○○市"
+                ],
+                "criteria": [
+                    {
+                        "type": "レベル１水防団待機水位",
+                        "unit": "m",
+                        "value": "45.50",
+                        "condition": "有効"
+                    },
+                    {
+                        "type": "レベル２氾濫注意水位",
+                        "unit": "m",
+                        "value": "46.50",
+                        "condition": "有効"
+                    },
+                    {
+                        "type": "レベル３避難判断水位",
+                        "unit": "m",
+                        "value": "48.00",
+                        "condition": "有効"
+                    },
+                    {
+                        "type": "レベル４氾濫危険水位",
+                        "unit": "m",
+                        "value": "48.60",
+                        "condition": "有効"
+                    },
+                    {
+                        "type": "レベル４計画高水位",
+                        "unit": "m",
+                        "value": null,
+                        "condition": "無効"
+                    }
+                ]
+            },
+            {
+                "code": "12345678901234567",
+                "name": "□□□水位観測所",
+                "location": "□□市□□",
+                "district": "○○県□□市□□地区 ○○県□□市□□地区 ○○県□□市□□地区",
+                "sections": [
+                    "△△川\n左岸：○○県○○市から○○県○○市\n右岸：○○県○○市から○○県○○市"
+                ],
+                "criteria": [
+                    {
+                        "type": "レベル１水防団待機水位",
+                        "unit": "m",
+                        "value": "19.00",
+                        "condition": "有効"
+                    },
+                    {
+                        "type": "レベル２氾濫注意水位",
+                        "unit": "m",
+                        "value": "20.00",
+                        "condition": "有効"
+                    },
+                    {
+                        "type": "レベル３避難判断水位",
+                        "unit": "m",
+                        "value": "21.50",
+                        "condition": "有効"
+                    },
+                    {
+                        "type": "レベル４氾濫危険水位",
+                        "unit": "m",
+                        "value": "23.10",
+                        "condition": "有効"
+                    },
+                    {
+                        "type": "レベル４計画高水位",
+                        "unit": "m",
+                        "value": null,
+                        "condition": "無効"
+                    }
+                ]
+            }
+        ]
+    }
+}
