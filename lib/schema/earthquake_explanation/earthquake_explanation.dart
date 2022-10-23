@@ -10,10 +10,10 @@ part 'earthquake_explanation.g.dart';
 class EarthquakeExplanation {
   EarthquakeExplanation({
     this.naming,
-    required this.text,
+    this.text,
     this.comments,
   });
-  
+
   factory EarthquakeExplanation.fromJson(Map<String, dynamic> json) =>
       _$EarthquakeExplanationFromJson(json);
 
@@ -22,7 +22,7 @@ class EarthquakeExplanation {
   final EarthquakeExplanationNaming? naming;
 
   /// 自由形式で文章を記載する
-  final String text;
+  final String? text;
 
   /// 付加的な情報を文章形式で提供する
   /// 取消時や付加的な情報がない場合は出現しない

@@ -14,7 +14,7 @@ EarthquakeExplanation _$EarthquakeExplanationFromJson(Map json) =>
           ? null
           : EarthquakeExplanationNaming.fromJson(
               Map<String, dynamic>.from(json['naming'] as Map)),
-      text: json['text'] as String,
+      text: json['text'] as String?,
       comments: json['comments'] == null
           ? null
           : EarthquakeExplanationComments.fromJson(
