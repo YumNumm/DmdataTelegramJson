@@ -1,6 +1,7 @@
 name: dmdata_telegram_json
 description: DM-DATA Telegram Json Parser
 version: 0.0.1
+repository: https://github.com/YumNumm/DmdataTelegramJson
 
 environment:
   sdk: ">=2.18.2 <3.0.0"
