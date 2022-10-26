@@ -1,3 +1,11 @@
+## 0.0.4
+
+- `earthquake-component`のEnumにdescriptionフィールドを追加
+
+## 0.0.3
+
+- `eew-information`の実装ミスを修正
+
 ## 0.0.2
 
 - pubspec.yamlの軽微な修正

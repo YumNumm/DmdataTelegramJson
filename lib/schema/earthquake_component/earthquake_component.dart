@@ -74,13 +74,14 @@ class EarthquakeComponentHypocenter {
   Map<String, dynamic> toJson() => _$EarthquakeComponentHypocenterToJson(this);
 }
 
+@JsonEnum(valueField: 'description')
 enum EarthquakeComponentHypocenterSource {
-  @JsonValue('ＵＳＧＳ')
-  usgs,
-  @JsonValue('ＰＴＷＣ')
-  ptwc,
-  @JsonValue('ＷＣＡＴＷＣ')
-  wcatwc,
+  usgs('ＵＳＧＳ'),
+  ptwc('ＰＴＷＣ'),
+  wcatwc('ＷＣＡＴＷＣ');
+
+  const EarthquakeComponentHypocenterSource(this.description);
+  final String description;
 }
 
 /// 空間座標のある一点を表現する。
@@ -181,11 +182,13 @@ class Height {
   Map<String, dynamic> toJson() => _$HeightToJson(this);
 }
 
+@JsonEnum(valueField: 'description')
 enum EarthquakeComponentGeodeticSystem {
-  @JsonValue('世界測地系')
-  worldGeodeticSystem,
-  @JsonValue('日本測地系')
-  japanGeodeticSystem,
+  worldGeodeticSystem('世界測地系'),
+  japanGeodeticSystem('日本測地系');
+
+  const EarthquakeComponentGeodeticSystem(this.description);
+  final String description;
 }
 
 @JsonSerializable(explicitToJson: true)
@@ -216,13 +219,14 @@ class EarthquakeComponentDepth {
   Map<String, dynamic> toJson() => _$EarthquakeComponentDepthToJson(this);
 }
 
+@JsonEnum(valueField: 'description')
 enum EarthquakeComponentDepthCondition {
-  @JsonValue('ごく浅い')
-  shallow,
-  @JsonValue('７００ｋｍ以上')
-  over700km,
-  @JsonValue('不明')
-  unknown,
+  shallow('ごく浅い'),
+  over700km('７００ｋｍ以上'),
+  unknown('不明');
+
+  const EarthquakeComponentDepthCondition(this.description);
+  final String description;
 }
 
 /// 震央地名を補足する詳細震央地名。
@@ -335,9 +339,12 @@ class EarthquakeComponentMagnitude {
   Map<String, dynamic> toJson() => _$EarthquakeComponentMagnitudeToJson(this);
 }
 
+@JsonEnum(valueField: 'description')
 enum EarthquakeComponentMagnitudeCondition {
-  @JsonValue('Ｍ不明')
-  unknown,
+  unknown('Ｍ不明'),
   @JsonValue('Ｍ８を超える巨大地震')
-  overM8,
+  overM8('Ｍ８を超える巨大地震');
+
+  const EarthquakeComponentMagnitudeCondition(this.description);
+  final String description;
 }

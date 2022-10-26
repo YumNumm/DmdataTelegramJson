@@ -30,6 +30,10 @@ EewInformation _$EewInformationFromJson(Map json) => EewInformation(
           : EewIntensity.fromJson(
               Map<String, dynamic>.from(json['intensity'] as Map)),
       text: json['text'] as String?,
+      comments: json['comments'] == null
+          ? null
+          : EewComments.fromJson(
+              Map<String, dynamic>.from(json['comments'] as Map)),
     );
 
 Map<String, dynamic> _$EewInformationToJson(EewInformation instance) =>
@@ -43,6 +47,7 @@ Map<String, dynamic> _$EewInformationToJson(EewInformation instance) =>
       'earthquake': instance.earthquake?.toJson(),
       'intensity': instance.intensity?.toJson(),
       'text': instance.text,
+      'comments': instance.comments?.toJson(),
     };
 
 EewArea _$EewAreaFromJson(Map json) => EewArea(

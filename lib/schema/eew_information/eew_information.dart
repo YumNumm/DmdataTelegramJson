@@ -27,6 +27,7 @@ class EewInformation {
     this.earthquake,
     this.intensity,
     this.text,
+    this.comments,
   });
 
   factory EewInformation.fromJson(Map<String, dynamic> json) =>
@@ -66,6 +67,10 @@ class EewInformation {
   /// 自由形式で文章を記載する
   /// VXSE42時・取消時の理由や、その他の追記事項がある場合に出現
   final String? text;
+
+  /// 付加的な情報を文章形式で提供する
+  /// 取消時や付加的な情報がない場合は出現しない
+  final EewComments? comments;
 
   Map<String, dynamic> toJson() => _$EewInformationToJson(this);
 }
