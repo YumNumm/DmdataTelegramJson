@@ -1,3 +1,7 @@
+## 0.0.7
+
+- ParameterEarthquakeStationV2の実装
+
 ## 0.0.6
 
 - `ParameterEarthquakeStationV2`の仮実装
