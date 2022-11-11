@@ -1,3 +1,11 @@
+## 0.0.6
+
+- `ParameterEarthquakeStationV2`の仮実装
+
+## 0.0.5
+
+- `WebSocketV2Start` と `WebSocketV2Data`の仮実装
+
 ## 0.0.4
 
 - `earthquake-component`のEnumにdescriptionフィールドを追加
