@@ -93,6 +93,8 @@ class TelegramJsonMain {
 
   /// 本体
   final Map<String, dynamic> body;
+
+  Map<String, dynamic> toJson() => _$TelegramJsonMainToJson(this);
 }
 
 /// JSONスキーマ情報(内部利用)

@@ -121,5 +121,3 @@ class WebSocketV2StartResponseWebSocket {
   Map<String, dynamic> toJson() =>
       _$WebSocketV2StartResponseWebSocketToJson(this);
 }
-
-

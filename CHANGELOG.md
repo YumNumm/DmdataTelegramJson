@@ -1,3 +1,8 @@
+## 0.0.8
+
+- `toJson`が不足していた部分を実装
+- `Jmaintensity`を`JmaIntensity`に変更
+
 ## 0.0.7
 
 - ParameterEarthquakeStationV2の実装
