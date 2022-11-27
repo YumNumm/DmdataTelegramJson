@@ -221,31 +221,31 @@ Map<String, dynamic> _$EewIntensityToJson(EewIntensity instance) =>
 
 EewIntensityForecastMaxInt _$EewIntensityForecastMaxIntFromJson(Map json) =>
     EewIntensityForecastMaxInt(
-      from: $enumDecode(_$JmaintensityEnumMap, json['from']),
-      to: $enumDecode(_$JmaintensityEnumMap, json['to']),
+      from: $enumDecode(_$JmaIntensityEnumMap, json['from']),
+      to: $enumDecode(_$JmaIntensityEnumMap, json['to']),
     );
 
 Map<String, dynamic> _$EewIntensityForecastMaxIntToJson(
         EewIntensityForecastMaxInt instance) =>
     <String, dynamic>{
-      'from': _$JmaintensityEnumMap[instance.from]!,
-      'to': _$JmaintensityEnumMap[instance.to]!,
+      'from': _$JmaIntensityEnumMap[instance.from]!,
+      'to': _$JmaIntensityEnumMap[instance.to]!,
     };
 
-const _$JmaintensityEnumMap = {
-  Jmaintensity.unknown: '不明',
-  Jmaintensity.int0: '0',
-  Jmaintensity.int1: '1',
-  Jmaintensity.int2: '2',
-  Jmaintensity.int3: '3',
-  Jmaintensity.int4: '4',
-  Jmaintensity.notRecievedYet: '!5-',
-  Jmaintensity.int5Lower: '5-',
-  Jmaintensity.int5Upper: '5+',
-  Jmaintensity.int6Lower: '6-',
-  Jmaintensity.int6Upper: '6+',
-  Jmaintensity.int7: '7',
-  Jmaintensity.over: 'over',
+const _$JmaIntensityEnumMap = {
+  JmaIntensity.over: 'over',
+  JmaIntensity.unknown: '不明',
+  JmaIntensity.int0: '0',
+  JmaIntensity.int1: '1',
+  JmaIntensity.int2: '2',
+  JmaIntensity.int3: '3',
+  JmaIntensity.int4: '4',
+  JmaIntensity.int5Lower: '5-',
+  JmaIntensity.notRecievedYet: '!5-',
+  JmaIntensity.int5Upper: '5+',
+  JmaIntensity.int6Lower: '6-',
+  JmaIntensity.int6Upper: '6+',
+  JmaIntensity.int7: '7',
 };
 
 EewIntensityForecastMaxLgInt _$EewIntensityForecastMaxLgIntFromJson(Map json) =>

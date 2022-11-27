@@ -37,7 +37,7 @@ Map<String, dynamic> _$EarthquakeInformationToJson(
 EarthquakeInformationIntensity _$EarthquakeInformationIntensityFromJson(
         Map json) =>
     EarthquakeInformationIntensity(
-      maxInt: $enumDecode(_$JmaintensityEnumMap, json['maxInt']),
+      maxInt: $enumDecode(_$JmaIntensityEnumMap, json['maxInt']),
       maxLgInt: $enumDecodeNullable(_$JmaLgIntensityEnumMap, json['maxLgInt']),
       lgCategory: $enumDecodeNullable(
           _$EarthquakeInformationLgCategoryEnumMap, json['lgCategory']),
@@ -62,7 +62,7 @@ EarthquakeInformationIntensity _$EarthquakeInformationIntensityFromJson(
 Map<String, dynamic> _$EarthquakeInformationIntensityToJson(
         EarthquakeInformationIntensity instance) =>
     <String, dynamic>{
-      'maxInt': _$JmaintensityEnumMap[instance.maxInt]!,
+      'maxInt': _$JmaIntensityEnumMap[instance.maxInt]!,
       'maxLgInt': _$JmaLgIntensityEnumMap[instance.maxLgInt],
       'lgCategory':
           _$EarthquakeInformationLgCategoryEnumMap[instance.lgCategory],
@@ -72,20 +72,20 @@ Map<String, dynamic> _$EarthquakeInformationIntensityToJson(
       'stations': instance.stations?.map((e) => e.toJson()).toList(),
     };
 
-const _$JmaintensityEnumMap = {
-  Jmaintensity.unknown: '不明',
-  Jmaintensity.int0: '0',
-  Jmaintensity.int1: '1',
-  Jmaintensity.int2: '2',
-  Jmaintensity.int3: '3',
-  Jmaintensity.int4: '4',
-  Jmaintensity.notRecievedYet: '!5-',
-  Jmaintensity.int5Lower: '5-',
-  Jmaintensity.int5Upper: '5+',
-  Jmaintensity.int6Lower: '6-',
-  Jmaintensity.int6Upper: '6+',
-  Jmaintensity.int7: '7',
-  Jmaintensity.over: 'over',
+const _$JmaIntensityEnumMap = {
+  JmaIntensity.over: 'over',
+  JmaIntensity.unknown: '不明',
+  JmaIntensity.int0: '0',
+  JmaIntensity.int1: '1',
+  JmaIntensity.int2: '2',
+  JmaIntensity.int3: '3',
+  JmaIntensity.int4: '4',
+  JmaIntensity.int5Lower: '5-',
+  JmaIntensity.notRecievedYet: '!5-',
+  JmaIntensity.int5Upper: '5+',
+  JmaIntensity.int6Lower: '6-',
+  JmaIntensity.int6Upper: '6+',
+  JmaIntensity.int7: '7',
 };
 
 const _$JmaLgIntensityEnumMap = {
@@ -110,7 +110,7 @@ EarthquakeInformationPrefecture _$EarthquakeInformationPrefectureFromJson(
     EarthquakeInformationPrefecture(
       code: stringToInt(json['code'] as String),
       name: json['name'] as String,
-      maxInt: $enumDecodeNullable(_$JmaintensityEnumMap, json['maxInt']),
+      maxInt: $enumDecodeNullable(_$JmaIntensityEnumMap, json['maxInt']),
       maxLgInt: $enumDecodeNullable(_$JmaLgIntensityEnumMap, json['maxLgInt']),
       revise: $enumDecodeNullable(
           _$EarthquakeInformationReviseEnumMap, json['revise']),
@@ -121,7 +121,7 @@ Map<String, dynamic> _$EarthquakeInformationPrefectureToJson(
     <String, dynamic>{
       'code': stringFromInt(instance.code),
       'name': instance.name,
-      'maxInt': _$JmaintensityEnumMap[instance.maxInt],
+      'maxInt': _$JmaIntensityEnumMap[instance.maxInt],
       'maxLgInt': _$JmaLgIntensityEnumMap[instance.maxLgInt],
       'revise': _$EarthquakeInformationReviseEnumMap[instance.revise],
     };
@@ -135,7 +135,7 @@ EarthquakeInformationRegion _$EarthquakeInformationRegionFromJson(Map json) =>
     EarthquakeInformationRegion(
       code: stringToInt(json['code'] as String),
       name: json['name'] as String,
-      maxInt: $enumDecodeNullable(_$JmaintensityEnumMap, json['maxInt']),
+      maxInt: $enumDecodeNullable(_$JmaIntensityEnumMap, json['maxInt']),
       maxLgInt: $enumDecodeNullable(_$JmaLgIntensityEnumMap, json['maxLgInt']),
       revise: $enumDecodeNullable(
           _$EarthquakeInformationReviseEnumMap, json['revise']),
@@ -146,7 +146,7 @@ Map<String, dynamic> _$EarthquakeInformationRegionToJson(
     <String, dynamic>{
       'code': stringFromInt(instance.code),
       'name': instance.name,
-      'maxInt': _$JmaintensityEnumMap[instance.maxInt],
+      'maxInt': _$JmaIntensityEnumMap[instance.maxInt],
       'maxLgInt': _$JmaLgIntensityEnumMap[instance.maxLgInt],
       'revise': _$EarthquakeInformationReviseEnumMap[instance.revise],
     };
@@ -155,7 +155,7 @@ EarthquakeInformationCity _$EarthquakeInformationCityFromJson(Map json) =>
     EarthquakeInformationCity(
       code: stringToInt(json['code'] as String),
       name: json['name'] as String,
-      maxInt: $enumDecodeNullable(_$JmaintensityEnumMap, json['maxInt']),
+      maxInt: $enumDecodeNullable(_$JmaIntensityEnumMap, json['maxInt']),
       maxLgInt: $enumDecodeNullable(_$JmaLgIntensityEnumMap, json['maxLgInt']),
       revise: $enumDecodeNullable(
           _$EarthquakeInformationReviseEnumMap, json['revise']),
@@ -167,7 +167,7 @@ Map<String, dynamic> _$EarthquakeInformationCityToJson(
     <String, dynamic>{
       'code': stringFromInt(instance.code),
       'name': instance.name,
-      'maxInt': _$JmaintensityEnumMap[instance.maxInt],
+      'maxInt': _$JmaIntensityEnumMap[instance.maxInt],
       'maxLgInt': _$JmaLgIntensityEnumMap[instance.maxLgInt],
       'revise': _$EarthquakeInformationReviseEnumMap[instance.revise],
       'condition': instance.condition,
@@ -177,7 +177,7 @@ EarthquakeInformationStation _$EarthquakeInformationStationFromJson(Map json) =>
     EarthquakeInformationStation(
       code: stringToInt(json['code'] as String),
       name: json['name'] as String,
-      intensity: $enumDecodeNullable(_$JmaintensityEnumMap, json['int']),
+      intensity: $enumDecodeNullable(_$JmaIntensityEnumMap, json['int']),
       lgIntensity: $enumDecodeNullable(_$JmaLgIntensityEnumMap, json['lgInt']),
       sva: json['sva'] == null
           ? null
@@ -197,7 +197,7 @@ Map<String, dynamic> _$EarthquakeInformationStationToJson(
     <String, dynamic>{
       'code': stringFromInt(instance.code),
       'name': instance.name,
-      'int': _$JmaintensityEnumMap[instance.intensity],
+      'int': _$JmaIntensityEnumMap[instance.intensity],
       'lgInt': _$JmaLgIntensityEnumMap[instance.lgIntensity],
       'sva': instance.sva?.toJson(),
       'prePeriods': instance.prePeriods?.map((e) => e.toJson()).toList(),

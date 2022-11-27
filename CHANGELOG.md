@@ -1,7 +1,12 @@
+## 0.0.9
+
+- `JmaIntensity`関連のエラー修正
+- `JmaIntensity`にデフォルトの色を追加
+
 ## 0.0.8
 
 - `toJson`が不足していた部分を実装
-- `Jmaintensity`を`JmaIntensity`に変更
+- `JmaIntensity`を`JmaIntensity`に変更
 
 ## 0.0.7
 

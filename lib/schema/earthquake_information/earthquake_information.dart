@@ -65,7 +65,7 @@ class EarthquakeInformationIntensity {
       _$EarthquakeInformationIntensityFromJson(json);
 
   /// 最大震度、1, 2, 3, 4, 5-, 5+, 6-, 6+, 7 で記載する
-  final Jmaintensity maxInt;
+  final JmaIntensity maxInt;
 
   /// 最大長周期地震動階級、0, 1, 2, 3, 4 で記載する
   /// VXSE62時に出現する
@@ -136,7 +136,7 @@ class EarthquakeInformationPrefecture {
 
   /// その都道府県における最大震度、1, 2, 3, 4, 5-, 5+, 6-, 6+, 7 で記載する
   /// 入電した震度がない場合は出現しない
-  final Jmaintensity? maxInt;
+  final JmaIntensity? maxInt;
 
   /// その都道府県における最大長周期地震動階級、0, 1, 2, 3, 4 で記載する
   /// VXSE62時のみ出現
@@ -174,7 +174,7 @@ class EarthquakeInformationRegion {
 
   /// その一次細分化地域における最大震度、1, 2, 3, 4, 5-, 5+, 6-, 6+, 7 で記載する
   /// 入電した震度がない場合は出現しない
-  final Jmaintensity? maxInt;
+  final JmaIntensity? maxInt;
 
   /// その一次細分化地域における最大長周期地震動階級、0, 1, 2, 3, 4 で記載する
   /// VXSE62時のみ出現
@@ -212,7 +212,7 @@ class EarthquakeInformationCity {
 
   /// その市区町村における最大震度、1, 2, 3, 4, 5-, 5+, 6-, 6+, 7 で記載する
   /// 入電した震度がない場合は出現しない
-  final Jmaintensity? maxInt;
+  final JmaIntensity? maxInt;
 
   /// その市区町村における最大長周期地震動階級、0, 1, 2, 3, 4 で記載する
   /// VXSE62時のみ出現
@@ -257,7 +257,7 @@ class EarthquakeInformationStation {
   /// その観測点における最大震度、1, 2, 3, 4, 5-, 5+, 6-, 6+, 7 で記載する
   /// 入電した震度がない場合は出現しない
   @JsonKey(name: 'int')
-  final Jmaintensity? intensity;
+  final JmaIntensity? intensity;
 
   /// その観測点における最大長周期地震動階級、0, 1, 2, 3, 4 で記載する
   /// VXSE62時のみ出現

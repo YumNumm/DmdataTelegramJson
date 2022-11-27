@@ -396,10 +396,10 @@ class EewIntensityForecastMaxInt {
       _$EewIntensityForecastMaxIntFromJson(json);
 
   /// 最大予測震度の下限、0, 1, 2, 3, 4, 5-, 5+, 6-, 6+, 7, 不明 で記載する
-  final Jmaintensity from;
+  final JmaIntensity from;
 
   /// 最大予測震度の上限、0, 1, 2, 3, 4, 5-, 5+, 6-, 6+, 7, over, 不明 で記載する
-  final Jmaintensity to;
+  final JmaIntensity to;
 
   Map<String, dynamic> toJson() => _$EewIntensityForecastMaxIntToJson(this);
 }

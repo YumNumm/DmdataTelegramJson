@@ -1,6 +1,6 @@
 name: dmdata_telegram_json
 description: Project DM-D.S.S Json Telegram Parser for Dart and Flutter projects
-version: 0.0.6
+version: 0.0.9
 repository: https://github.com/YumNumm/DmdataTelegramJson
 
 environment:
