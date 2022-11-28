@@ -203,8 +203,10 @@ EewIntensity _$EewIntensityFromJson(Map json) => EewIntensity(
           ? null
           : EewIntensityForecastMaxLgInt.fromJson(
               Map<String, dynamic>.from(json['forecastMaxLgInt'] as Map)),
-      appendix: EewIntensityAppendix.fromJson(
-          Map<String, dynamic>.from(json['appendix'] as Map)),
+      appendix: json['appendix'] == null
+          ? null
+          : EewIntensityAppendix.fromJson(
+              Map<String, dynamic>.from(json['appendix'] as Map)),
       regions: (json['regions'] as List<dynamic>)
           .map((e) =>
               EewIntensityRegion.fromJson(Map<String, dynamic>.from(e as Map)))
@@ -215,7 +217,7 @@ Map<String, dynamic> _$EewIntensityToJson(EewIntensity instance) =>
     <String, dynamic>{
       'forecastMaxInt': instance.forecastMaxInt.toJson(),
       'forecastMaxLgInt': instance.forecastMaxLgInt?.toJson(),
-      'appendix': instance.appendix.toJson(),
+      'appendix': instance.appendix?.toJson(),
       'regions': instance.regions.map((e) => e.toJson()).toList(),
     };
 

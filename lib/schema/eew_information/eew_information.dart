@@ -376,7 +376,7 @@ class EewIntensity {
   final EewIntensityForecastMaxLgInt? forecastMaxLgInt;
 
   /// 予測震度・予測長周期地震動階級付加要素
-  final EewIntensityAppendix appendix;
+  final EewIntensityAppendix? appendix;
 
   /// 細分化地域内における予想
   final List<EewIntensityRegion> regions;

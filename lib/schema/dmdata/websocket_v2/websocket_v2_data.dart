@@ -100,7 +100,7 @@ class WebSocketV2DataHead {
   final String author;
 
   /// 対象観測地点コード
-  final String target;
+  final String? target;
 
   /// 基点時刻（ISO8601拡張形式）
   final DateTime time;

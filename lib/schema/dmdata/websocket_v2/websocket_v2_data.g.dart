@@ -58,7 +58,7 @@ WebSocketV2DataHead _$WebSocketV2DataHeadFromJson(Map json) =>
     WebSocketV2DataHead(
       type: json['type'] as String,
       author: json['author'] as String,
-      target: json['target'] as String,
+      target: json['target'] as String?,
       time: DateTime.parse(json['time'] as String),
       designation: json['designation'] as String?,
       test: json['test'] as bool,

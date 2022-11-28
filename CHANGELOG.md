@@ -1,3 +1,13 @@
+## 0.0.13
+- `EewIntensityAppendix`がNullableでなかった点を修正
+
+## 0.0.12
+- `EewCommentsWarning`の`code`を`codes`に変更
+
+## 0.0.10
+- `WebSocketv2Data`の`head`>`target`の`type`を`string`から`string?`に変更
+
+
 ## 0.0.9
 
 - `JmaIntensity`関連のエラー修正
