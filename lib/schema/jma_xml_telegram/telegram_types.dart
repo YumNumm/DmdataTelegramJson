@@ -1,3 +1,5 @@
+// ignore_for_file: lines_longer_than_80_chars
+
 enum TelegramType {
   /// 緊急地震速報の配信テスト電文で、通信の疎通確認のための電文。
   /// 原則として、1日24回（毎正時）配信。必要に応じて随時配信あり。

@@ -1,3 +1,9 @@
+## 0.0.15
+- `EewAccuracy`の値をStringにするGetterを追加
+
+## 0.0.14
+- `EewCommentsWarning`の`codes`の処理を改善
+
 ## 0.0.13
 - `EewIntensityAppendix`がNullableでなかった点を修正
 

@@ -382,11 +382,11 @@ Map<String, dynamic> _$EewCommentsToJson(EewComments instance) =>
 
 EewCommentsWarning _$EewCommentsWarningFromJson(Map json) => EewCommentsWarning(
       text: json['text'] as String,
-      codes: (json['codes'] as List<dynamic>).map((e) => e as int).toList(),
+      codes: dynamicListToIntList(json['codes'] as List),
     );
 
 Map<String, dynamic> _$EewCommentsWarningToJson(EewCommentsWarning instance) =>
     <String, dynamic>{
       'text': instance.text,
-      'codes': instance.codes,
+      'codes': dynamicListFromIntList(instance.codes),
     };

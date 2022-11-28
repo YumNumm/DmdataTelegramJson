@@ -315,6 +315,121 @@ class EewAccuracy {
   final int numberOfMagnitudeCalculation;
 
   Map<String, dynamic> toJson() => _$EewAccuracyToJson(this);
+
+  /// 震央位置の精度値
+  String get epicenterAccuracy {
+    switch (epicenters[0]) {
+      case 0:
+        return '不明';
+      case 1:
+        return 'P波/S波レベル越え、IPF法(1点)、または「仮定震源要素」の場合（気象庁データ）';
+      case 2:
+        return 'IPF法(2点)（気象庁データ）';
+      case 3:
+        return 'IPF法(3点/4点)（気象庁データ）';
+      case 4:
+        return 'IPF法(5点以上)（気象庁データ）';
+      case 5:
+        return '防災科研システム(4点以下、または精度情報なし)';
+      case 6:
+        return '防災科研システム(5点以上)（Hi-netデータ）';
+      case 7:
+        return 'EPOS(海域[観測網外])';
+      case 8:
+        return 'EPOS(内陸[観測網内])';
+
+      default:
+        throw Exception('震央位置の精度が不正な値です');
+    }
+  }
+
+  /// 震源位置の精度値
+  String get hypocenterAccuracy {
+    switch (epicenters[1]) {
+      case 0:
+        return '不明';
+      case 1:
+        return 'P波/S波レベル越え、IPF法(1点)、または「仮定震源要素」の場合';
+      case 2:
+        return 'IPF法(2点)';
+      case 3:
+        return 'IPF法(3点/4点)';
+      case 4:
+        return 'IPF法(5点以上)';
+      case 9:
+        return '震源とマグニチュードに基づく震度予測手法での精度が最終報相当';
+      default:
+        throw Exception('震源位置の精度が不正な値です');
+    }
+  }
+
+  /// 深さの精度地
+  String get depthAccuracy {
+    switch (depth) {
+      case 0:
+        return '不明';
+      case 1:
+        return 'P波/S波レベル越え、IPF法(1点)、または「仮定震源要素」の場合';
+      case 2:
+        return 'IPF法(2点)';
+      case 3:
+        return 'IPF法(3点/4点)';
+      case 4:
+        return 'IPF法(5点以上)';
+      case 5:
+        return '防災科研システム(4点以下、または精度情報なし)';
+      case 6:
+        return '防災科研システム(5点以上)（Hi-netデータ）';
+      case 7:
+        return 'EPOS(海域[観測網外])';
+      case 8:
+        return 'EPOS(内陸[観測網内])';
+      default:
+        throw Exception('深さの精度が不正な値です');
+    }
+  }
+
+  /// マグニチュードの精度地
+  String get magnitudeAccuracy {
+    switch (magnitudeCalculation) {
+      case 0:
+        return '不明';
+      case 2:
+        return '防災科研システム（Hi-netデータ）';
+      case 3:
+        return '全相P相';
+      case 4:
+        return 'P相/全相混在';
+      case 5:
+        return '全点全相';
+      case 6:
+        return 'EPOS';
+      case 8:
+        return 'P波/S波レベル越え、または「仮定震源要素」の場合';
+      default:
+        throw Exception('マグニチュードの精度が不正な値です');
+    }
+  }
+
+  /// マグニチュード計算使用観測点数
+  String get numberOfMagnitudeCalculationAccuracy {
+    switch (numberOfMagnitudeCalculation) {
+      case 0:
+        return '不明';
+      case 1:
+        return '1点、P波/S波レベル越え、または「仮定震源要素」の場合';
+      case 2:
+        return '2点';
+      case 3:
+        return '3点';
+      case 4:
+        return '4点';
+      case 5:
+        return '5点以上';
+      default:
+        throw Exception('マグニチュード計算使用観測点数の精度が不正な値です');
+    }
+  }
 }
 
 //! EewMagnitude !//
@@ -629,6 +744,7 @@ class EewCommentsWarning {
   /// 固定付加文をのコードを記載する
   /// コードは、気象庁防災情報XMLフォーマット コード表 地震火山関連コード表 による
   /// additionalCommentEarthquakeのMap<String,String>を参照
+  @JsonKey(fromJson: dynamicListToIntList, toJson: dynamicListFromIntList)
   final List<int> codes;
 
   Map<String, dynamic> toJson() => _$EewCommentsWarningToJson(this);

@@ -1,3 +1,5 @@
+// ignore_for_file: lines_longer_than_80_chars
+
 import 'package:json_annotation/json_annotation.dart';
 
 part 'websocket_v2_data.g.dart';
@@ -47,10 +49,10 @@ class WebSocketV2Data {
   /// bodyフィールドの表現形式を示す。xml、a/n、binary は気象庁が定めたフォーマット、json は本サービスが独自に定めたフォーマット
   final String? format;
 
-  ///bodyフィールドの圧縮形式を示す。gzipまたはzip、非圧縮時はnullを格納する
+  ///bodyフィールドの圧縮形式を示す。`gzip`または`zip`、非圧縮時は`null`を格納する
   final String? compression;
 
-  /// bodyフィールドのエンコーディング形式を示す。base64または、utf-8を格納する
+  /// bodyフィールドのエンコーディング形式を示す。`base64`または、`utf-8`を格納する
   final String? encoding;
 
   /// 本文
