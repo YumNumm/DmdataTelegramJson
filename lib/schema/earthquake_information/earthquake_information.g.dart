@@ -8,8 +8,8 @@ part of 'earthquake_information.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-EarthquakeInformation _$EarthquakeInformationFromJson(Map json) =>
-    EarthquakeInformation(
+_$_EarthquakeInformation _$$_EarthquakeInformationFromJson(Map json) =>
+    _$_EarthquakeInformation(
       earthquake: json['earthquake'] == null
           ? null
           : EarthquakeComponent.fromJson(
@@ -25,8 +25,8 @@ EarthquakeInformation _$EarthquakeInformationFromJson(Map json) =>
               Map<String, dynamic>.from(json['comments'] as Map)),
     );
 
-Map<String, dynamic> _$EarthquakeInformationToJson(
-        EarthquakeInformation instance) =>
+Map<String, dynamic> _$$_EarthquakeInformationToJson(
+        _$_EarthquakeInformation instance) =>
     <String, dynamic>{
       'earthquake': instance.earthquake?.toJson(),
       'intensity': instance.intensity?.toJson(),
@@ -34,9 +34,9 @@ Map<String, dynamic> _$EarthquakeInformationToJson(
       'comments': instance.comments?.toJson(),
     };
 
-EarthquakeInformationIntensity _$EarthquakeInformationIntensityFromJson(
+_$_EarthquakeInformationIntensity _$$_EarthquakeInformationIntensityFromJson(
         Map json) =>
-    EarthquakeInformationIntensity(
+    _$_EarthquakeInformationIntensity(
       maxInt: $enumDecode(_$JmaIntensityEnumMap, json['maxInt']),
       maxLgInt: $enumDecodeNullable(_$JmaLgIntensityEnumMap, json['maxLgInt']),
       lgCategory: $enumDecodeNullable(
@@ -50,17 +50,19 @@ EarthquakeInformationIntensity _$EarthquakeInformationIntensityFromJson(
               Map<String, dynamic>.from(e as Map)))
           .toList(),
       cities: (json['cities'] as List<dynamic>?)
-          ?.map((e) => EarthquakeInformationCity.fromJson(
-              Map<String, dynamic>.from(e as Map)))
-          .toList(),
+              ?.map((e) => EarthquakeInformationCity.fromJson(
+                  Map<String, dynamic>.from(e as Map)))
+              .toList() ??
+          const [],
       stations: (json['stations'] as List<dynamic>?)
-          ?.map((e) => EarthquakeInformationStation.fromJson(
-              Map<String, dynamic>.from(e as Map)))
-          .toList(),
+              ?.map((e) => EarthquakeInformationStation.fromJson(
+                  Map<String, dynamic>.from(e as Map)))
+              .toList() ??
+          const [],
     );
 
-Map<String, dynamic> _$EarthquakeInformationIntensityToJson(
-        EarthquakeInformationIntensity instance) =>
+Map<String, dynamic> _$$_EarthquakeInformationIntensityToJson(
+        _$_EarthquakeInformationIntensity instance) =>
     <String, dynamic>{
       'maxInt': _$JmaIntensityEnumMap[instance.maxInt]!,
       'maxLgInt': _$JmaLgIntensityEnumMap[instance.maxLgInt],
@@ -105,10 +107,10 @@ const _$EarthquakeInformationLgCategoryEnumMap = {
   EarthquakeInformationLgCategory.category4: '4',
 };
 
-EarthquakeInformationPrefecture _$EarthquakeInformationPrefectureFromJson(
+_$_EarthquakeInformationPrefecture _$$_EarthquakeInformationPrefectureFromJson(
         Map json) =>
-    EarthquakeInformationPrefecture(
-      code: stringToInt(json['code'] as String),
+    _$_EarthquakeInformationPrefecture(
+      code: json['code'] as String,
       name: json['name'] as String,
       maxInt: $enumDecodeNullable(_$JmaIntensityEnumMap, json['maxInt']),
       maxLgInt: $enumDecodeNullable(_$JmaLgIntensityEnumMap, json['maxLgInt']),
@@ -116,10 +118,10 @@ EarthquakeInformationPrefecture _$EarthquakeInformationPrefectureFromJson(
           _$EarthquakeInformationReviseEnumMap, json['revise']),
     );
 
-Map<String, dynamic> _$EarthquakeInformationPrefectureToJson(
-        EarthquakeInformationPrefecture instance) =>
+Map<String, dynamic> _$$_EarthquakeInformationPrefectureToJson(
+        _$_EarthquakeInformationPrefecture instance) =>
     <String, dynamic>{
-      'code': stringFromInt(instance.code),
+      'code': instance.code,
       'name': instance.name,
       'maxInt': _$JmaIntensityEnumMap[instance.maxInt],
       'maxLgInt': _$JmaLgIntensityEnumMap[instance.maxLgInt],
@@ -131,9 +133,10 @@ const _$EarthquakeInformationReviseEnumMap = {
   EarthquakeInformationRevise.reviseAdd: '追加',
 };
 
-EarthquakeInformationRegion _$EarthquakeInformationRegionFromJson(Map json) =>
-    EarthquakeInformationRegion(
-      code: stringToInt(json['code'] as String),
+_$_EarthquakeInformationRegion _$$_EarthquakeInformationRegionFromJson(
+        Map json) =>
+    _$_EarthquakeInformationRegion(
+      code: json['code'] as String,
       name: json['name'] as String,
       maxInt: $enumDecodeNullable(_$JmaIntensityEnumMap, json['maxInt']),
       maxLgInt: $enumDecodeNullable(_$JmaLgIntensityEnumMap, json['maxLgInt']),
@@ -141,19 +144,19 @@ EarthquakeInformationRegion _$EarthquakeInformationRegionFromJson(Map json) =>
           _$EarthquakeInformationReviseEnumMap, json['revise']),
     );
 
-Map<String, dynamic> _$EarthquakeInformationRegionToJson(
-        EarthquakeInformationRegion instance) =>
+Map<String, dynamic> _$$_EarthquakeInformationRegionToJson(
+        _$_EarthquakeInformationRegion instance) =>
     <String, dynamic>{
-      'code': stringFromInt(instance.code),
+      'code': instance.code,
       'name': instance.name,
       'maxInt': _$JmaIntensityEnumMap[instance.maxInt],
       'maxLgInt': _$JmaLgIntensityEnumMap[instance.maxLgInt],
       'revise': _$EarthquakeInformationReviseEnumMap[instance.revise],
     };
 
-EarthquakeInformationCity _$EarthquakeInformationCityFromJson(Map json) =>
-    EarthquakeInformationCity(
-      code: stringToInt(json['code'] as String),
+_$_EarthquakeInformationCity _$$_EarthquakeInformationCityFromJson(Map json) =>
+    _$_EarthquakeInformationCity(
+      code: json['code'] as String,
       name: json['name'] as String,
       maxInt: $enumDecodeNullable(_$JmaIntensityEnumMap, json['maxInt']),
       maxLgInt: $enumDecodeNullable(_$JmaLgIntensityEnumMap, json['maxLgInt']),
@@ -162,10 +165,10 @@ EarthquakeInformationCity _$EarthquakeInformationCityFromJson(Map json) =>
       condition: json['condition'] as String?,
     );
 
-Map<String, dynamic> _$EarthquakeInformationCityToJson(
-        EarthquakeInformationCity instance) =>
+Map<String, dynamic> _$$_EarthquakeInformationCityToJson(
+        _$_EarthquakeInformationCity instance) =>
     <String, dynamic>{
-      'code': stringFromInt(instance.code),
+      'code': instance.code,
       'name': instance.name,
       'maxInt': _$JmaIntensityEnumMap[instance.maxInt],
       'maxLgInt': _$JmaLgIntensityEnumMap[instance.maxLgInt],
@@ -173,9 +176,10 @@ Map<String, dynamic> _$EarthquakeInformationCityToJson(
       'condition': instance.condition,
     };
 
-EarthquakeInformationStation _$EarthquakeInformationStationFromJson(Map json) =>
-    EarthquakeInformationStation(
-      code: stringToInt(json['code'] as String),
+_$_EarthquakeInformationStation _$$_EarthquakeInformationStationFromJson(
+        Map json) =>
+    _$_EarthquakeInformationStation(
+      code: json['code'] as String,
       name: json['name'] as String,
       intensity: $enumDecodeNullable(_$JmaIntensityEnumMap, json['int']),
       lgIntensity: $enumDecodeNullable(_$JmaLgIntensityEnumMap, json['lgInt']),
@@ -192,10 +196,10 @@ EarthquakeInformationStation _$EarthquakeInformationStationFromJson(Map json) =>
       condition: json['condition'] as String?,
     );
 
-Map<String, dynamic> _$EarthquakeInformationStationToJson(
-        EarthquakeInformationStation instance) =>
+Map<String, dynamic> _$$_EarthquakeInformationStationToJson(
+        _$_EarthquakeInformationStation instance) =>
     <String, dynamic>{
-      'code': stringFromInt(instance.code),
+      'code': instance.code,
       'name': instance.name,
       'int': _$JmaIntensityEnumMap[instance.intensity],
       'lgInt': _$JmaLgIntensityEnumMap[instance.lgIntensity],
@@ -205,23 +209,23 @@ Map<String, dynamic> _$EarthquakeInformationStationToJson(
       'condition': instance.condition,
     };
 
-EarthquakeInformationStationSva _$EarthquakeInformationStationSvaFromJson(
+_$_EarthquakeInformationStationSva _$$_EarthquakeInformationStationSvaFromJson(
         Map json) =>
-    EarthquakeInformationStationSva(
+    _$_EarthquakeInformationStationSva(
       unit: json['unit'] as String,
       value: stringToDouble(json['value'] as String),
     );
 
-Map<String, dynamic> _$EarthquakeInformationStationSvaToJson(
-        EarthquakeInformationStationSva instance) =>
+Map<String, dynamic> _$$_EarthquakeInformationStationSvaToJson(
+        _$_EarthquakeInformationStationSva instance) =>
     <String, dynamic>{
       'unit': instance.unit,
       'value': stringFromDouble(instance.value),
     };
 
-EarthquakeInformationStationPrePeriod
-    _$EarthquakeInformationStationPrePeriodFromJson(Map json) =>
-        EarthquakeInformationStationPrePeriod(
+_$_EarthquakeInformationStationPrePeriod
+    _$$_EarthquakeInformationStationPrePeriodFromJson(Map json) =>
+        _$_EarthquakeInformationStationPrePeriod(
           periodicBand:
               EarthquakeInformationStationPrePeriodPeriodicBand.fromJson(
                   Map<String, dynamic>.from(json['periodicBand'] as Map)),
@@ -231,31 +235,32 @@ EarthquakeInformationStationPrePeriod
               Map<String, dynamic>.from(json['sva'] as Map)),
         );
 
-Map<String, dynamic> _$EarthquakeInformationStationPrePeriodToJson(
-        EarthquakeInformationStationPrePeriod instance) =>
+Map<String, dynamic> _$$_EarthquakeInformationStationPrePeriodToJson(
+        _$_EarthquakeInformationStationPrePeriod instance) =>
     <String, dynamic>{
       'periodicBand': instance.periodicBand.toJson(),
       'lgInt': _$JmaLgIntensityEnumMap[instance.lgIntensity],
       'sva': instance.sva.toJson(),
     };
 
-EarthquakeInformationStationPrePeriodPeriodicBand
-    _$EarthquakeInformationStationPrePeriodPeriodicBandFromJson(Map json) =>
-        EarthquakeInformationStationPrePeriodPeriodicBand(
+_$_EarthquakeInformationStationPrePeriodPeriodicBand
+    _$$_EarthquakeInformationStationPrePeriodPeriodicBandFromJson(Map json) =>
+        _$_EarthquakeInformationStationPrePeriodPeriodicBand(
           unit: json['unit'] as String,
           value: stringToInt(json['value'] as String),
         );
 
-Map<String, dynamic> _$EarthquakeInformationStationPrePeriodPeriodicBandToJson(
-        EarthquakeInformationStationPrePeriodPeriodicBand instance) =>
-    <String, dynamic>{
-      'unit': instance.unit,
-      'value': stringFromInt(instance.value),
-    };
+Map<String, dynamic>
+    _$$_EarthquakeInformationStationPrePeriodPeriodicBandToJson(
+            _$_EarthquakeInformationStationPrePeriodPeriodicBand instance) =>
+        <String, dynamic>{
+          'unit': instance.unit,
+          'value': stringFromInt(instance.value),
+        };
 
-EarthquakeInformationComments _$EarthquakeInformationCommentsFromJson(
+_$_EarthquakeInformationComments _$$_EarthquakeInformationCommentsFromJson(
         Map json) =>
-    EarthquakeInformationComments(
+    _$_EarthquakeInformationComments(
       free: json['free'] as String?,
       forecast: json['forecast'] == null
           ? null
@@ -268,8 +273,8 @@ EarthquakeInformationComments _$EarthquakeInformationCommentsFromJson(
       uri: json['uri'] as String?,
     );
 
-Map<String, dynamic> _$EarthquakeInformationCommentsToJson(
-        EarthquakeInformationComments instance) =>
+Map<String, dynamic> _$$_EarthquakeInformationCommentsToJson(
+        _$_EarthquakeInformationComments instance) =>
     <String, dynamic>{
       'free': instance.free,
       'forecast': instance.forecast?.toJson(),
@@ -277,29 +282,29 @@ Map<String, dynamic> _$EarthquakeInformationCommentsToJson(
       'uri': instance.uri,
     };
 
-EarthquakeInformationForecast _$EarthquakeInformationForecastFromJson(
+_$_EarthquakeInformationForecast _$$_EarthquakeInformationForecastFromJson(
         Map json) =>
-    EarthquakeInformationForecast(
+    _$_EarthquakeInformationForecast(
       text: json['text'] as String,
-      codes: dynamicListToIntList(json['codes'] as List),
+      codes: (json['codes'] as List<dynamic>).map((e) => e as String).toList(),
     );
 
-Map<String, dynamic> _$EarthquakeInformationForecastToJson(
-        EarthquakeInformationForecast instance) =>
+Map<String, dynamic> _$$_EarthquakeInformationForecastToJson(
+        _$_EarthquakeInformationForecast instance) =>
     <String, dynamic>{
       'text': instance.text,
-      'codes': dynamicListFromIntList(instance.codes),
+      'codes': instance.codes,
     };
 
-EarthquakeInformationVar _$EarthquakeInformationVarFromJson(Map json) =>
-    EarthquakeInformationVar(
+_$_EarthquakeInformationVar _$$_EarthquakeInformationVarFromJson(Map json) =>
+    _$_EarthquakeInformationVar(
       text: json['text'] as String,
-      codes: dynamicListToIntList(json['codes'] as List),
+      codes: (json['codes'] as List<dynamic>).map((e) => e as String).toList(),
     );
 
-Map<String, dynamic> _$EarthquakeInformationVarToJson(
-        EarthquakeInformationVar instance) =>
+Map<String, dynamic> _$$_EarthquakeInformationVarToJson(
+        _$_EarthquakeInformationVar instance) =>
     <String, dynamic>{
       'text': instance.text,
-      'codes': dynamicListFromIntList(instance.codes),
+      'codes': instance.codes,
     };

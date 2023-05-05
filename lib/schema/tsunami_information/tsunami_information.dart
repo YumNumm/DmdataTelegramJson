@@ -820,8 +820,7 @@ class TsunamiCommentsWarning {
 
   /// 固定付加文をのコードを記載する
   /// コードは、気象庁防災情報XMLフォーマット コード表 地震火山関連コード表 による
-  @JsonKey(fromJson: dynamicListToIntList, toJson: dynamicListFromIntList)
-  final List<int> codes;
+  final List<String> codes;
 
   Map<String, dynamic> toJson() => _$TsunamiCommentsWarningToJson(this);
 }

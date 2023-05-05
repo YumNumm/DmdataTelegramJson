@@ -482,12 +482,12 @@ Map<String, dynamic> _$TsunamiCommentsToJson(TsunamiComments instance) =>
 TsunamiCommentsWarning _$TsunamiCommentsWarningFromJson(Map json) =>
     TsunamiCommentsWarning(
       text: json['text'] as String,
-      codes: dynamicListToIntList(json['codes'] as List),
+      codes: (json['codes'] as List<dynamic>).map((e) => e as String).toList(),
     );
 
 Map<String, dynamic> _$TsunamiCommentsWarningToJson(
         TsunamiCommentsWarning instance) =>
     <String, dynamic>{
       'text': instance.text,
-      'codes': dynamicListFromIntList(instance.codes),
+      'codes': instance.codes,
     };

@@ -17,3 +17,10 @@ List<int> dynamicListToIntList(List<dynamic> numbers) =>
     numbers.map((dynamic e) => int.parse(e.toString())).toList();
 List<dynamic> dynamicListFromIntList(List<int> numbers) =>
     numbers.map((e) => e.toString()).toList();
+
+// List<dynamic> & List<String>
+List<String> dynamicListToStringList(List<dynamic> strings) =>
+    strings.map((dynamic e) => e.toString()).toList();
+
+List<dynamic> dynamicListFromStringList(List<String> strings) =>
+    strings;
