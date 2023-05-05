@@ -1420,6 +1420,7 @@ abstract class $EewHypocenterCopyWith<$Res> {
       String? landOrSea,
       EewAccuracy accuracy});
 
+  $EarthquakeComponentCoordinateCopyWith<$Res> get coordinate;
   $EewDepthCopyWith<$Res> get depth;
   $EewReduceCopyWith<$Res> get reduce;
   $EewAccuracyCopyWith<$Res> get accuracy;
@@ -1480,6 +1481,15 @@ class _$EewHypocenterCopyWithImpl<$Res, $Val extends EewHypocenter>
 
   @override
   @pragma('vm:prefer-inline')
+  $EarthquakeComponentCoordinateCopyWith<$Res> get coordinate {
+    return $EarthquakeComponentCoordinateCopyWith<$Res>(_value.coordinate,
+        (value) {
+      return _then(_value.copyWith(coordinate: value) as $Val);
+    });
+  }
+
+  @override
+  @pragma('vm:prefer-inline')
   $EewDepthCopyWith<$Res> get depth {
     return $EewDepthCopyWith<$Res>(_value.depth, (value) {
       return _then(_value.copyWith(depth: value) as $Val);
@@ -1520,6 +1530,8 @@ abstract class _$$_EewHypocenterCopyWith<$Res>
       String? landOrSea,
       EewAccuracy accuracy});
 
+  @override
+  $EarthquakeComponentCoordinateCopyWith<$Res> get coordinate;
   @override
   $EewDepthCopyWith<$Res> get depth;
   @override

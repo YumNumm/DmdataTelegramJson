@@ -57,6 +57,7 @@ abstract class $EarthquakeInformationCopyWith<$Res> {
       String? text,
       EarthquakeInformationComments? comments});
 
+  $EarthquakeComponentCopyWith<$Res>? get earthquake;
   $EarthquakeInformationIntensityCopyWith<$Res>? get intensity;
   $EarthquakeInformationCommentsCopyWith<$Res>? get comments;
 }
@@ -102,6 +103,18 @@ class _$EarthquakeInformationCopyWithImpl<$Res,
 
   @override
   @pragma('vm:prefer-inline')
+  $EarthquakeComponentCopyWith<$Res>? get earthquake {
+    if (_value.earthquake == null) {
+      return null;
+    }
+
+    return $EarthquakeComponentCopyWith<$Res>(_value.earthquake!, (value) {
+      return _then(_value.copyWith(earthquake: value) as $Val);
+    });
+  }
+
+  @override
+  @pragma('vm:prefer-inline')
   $EarthquakeInformationIntensityCopyWith<$Res>? get intensity {
     if (_value.intensity == null) {
       return null;
@@ -141,6 +154,8 @@ abstract class _$$_EarthquakeInformationCopyWith<$Res>
       String? text,
       EarthquakeInformationComments? comments});
 
+  @override
+  $EarthquakeComponentCopyWith<$Res>? get earthquake;
   @override
   $EarthquakeInformationIntensityCopyWith<$Res>? get intensity;
   @override
